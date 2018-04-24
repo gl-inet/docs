@@ -29,8 +29,8 @@ pages:
     - 'GL-B1300' : 'hardware/b1300spec.md'
 - 'Setup':
   - 'First-time Setup' : 'mini/index.md'
-  - 'Internet Settings, MAC Clone, DNS' : 'setup/internet.md'
-  - 'Repeater Manager' : 'setup/repeater_manager.md'
+  - 'Internet Settings, MAC Clone, DNS' : 'mini/internet.md'
+  - 'Repeater Manager' : 'mini/repeater_manager.md'
   - '3G/4G Modem and Smartphone Tethering' : 'setup/3g4g.md'
   - 'LAN IP' : 'setup/lan.md'
   - 'Wi-Fi Settings (AP)': 'setup/wifi.md'
