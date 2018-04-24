@@ -1,8 +1,8 @@
-site_name: GLI Docs
+site_name: GL.iNet Docs
 repo_url: https://github.com/domino-team/docs/
-site_description: This is the docs for GLI mini router, OpenWrt, OpenVPN
+site_description: This is the documentation site for GL.iNet Wi-Fi products
 site_favicon: favicon.png
-copyright: <a href='https://gl-inet.com/'> GL Innovations</a> 2016
+copyright: <a href='https://gl-inet.com/'> GL Technologies</a> 2018
 google_analytics: null
 site_dir: '/var/www/newdocs'
 #site_dir: 'site'
