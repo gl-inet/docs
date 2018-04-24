@@ -27,7 +27,7 @@ pages:
     - 'GL-MiFi Series' : 'hardware/mifispec.md'
     - 'GL-USB150 Series' : 'hardware/usb150spec.md'
     - 'GL-B1300' : 'hardware/b1300spec.md'
-- 'Setup' :
+- 'Setup':
   - 'First-time Setup' : 'mini/index.md'
   - 'Internet Settings, MAC Clone, DNS' : 'setup/internet.md'
   - 'Repeater Manager' : 'setup/repeater_manager.md'
