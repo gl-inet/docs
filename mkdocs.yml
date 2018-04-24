@@ -27,6 +27,16 @@ pages:
     - 'GL-MiFi Series' : 'hardware/mifispec.md'
     - 'GL-USB150 Series' : 'hardware/usb150spec.md'
     - 'GL-B1300' : 'hardware/b1300spec.md'
+- 'Setup' :
+  - 'First-time Setup' : 'mini/index.md'
+  - 'Internet Settings, MAC Clone, DNS' : 'setup/internet.md'
+  - 'Repeater Manager' : 'setup/repeater_manager.md'
+  - '3G/4G Modem and Smartphone Tethering' : 'setup/3g4g.md'
+  - 'LAN IP' : 'setup/lan.md'
+  - 'Wi-Fi Settings (AP)': 'setup/wifi.md'
+  - 'Firmware Upgrading' : 'mini/firmware.md'
+  - 'Momdem Manager' : 'setup/mifi.md'
+  - 'Firewall' : 'setup/firewall.md'
 - DIY:
     - 'Working with UART serial' : 'diy/serial.md'
     - 'working with uboot' : 'diy/uboot.md'
@@ -59,14 +69,4 @@ pages:
   - 'Qi: Using NodeJS and LininoIO': 'domino/qi/nodejs.md'
   - 'Qi: Using Serial': 'domino/qi/serial.md'
 
-- 'Mini routers' :
-  - 'Quick Start' : 'mini/index.md'
-  - 'Internet Settings, MAC clone, DNS' : 'mini/internet.md'
-  - 'Repeater Manager' : 'mini/repeater_manager.md'
-  - '3G/4G modem and smartphone tethering' : 'mini/3g4g.md'
-  - 'LAN IP' : 'mini/lan.md'
-  - 'Wifi Settings (AP)': 'mini/wifi.md'
-  - 'Firmware upgrading' : 'mini/firmware.md'
-  - 'GL-AR300M' : 'mini/ar300m.md'
-  - 'GL-MiFi' : 'mini/mifi.md'
-  - 'RTC for AR150' : 'mini/ar150rtc.md'
+
