@@ -1,0 +1,61 @@
+site_name: GLI Docs
+repo_url: https://github.com/domino-team/docs/
+site_description: This is the docs for GLI mini router, OpenWrt, OpenVPN
+site_favicon: favicon.png
+copyright: <a href='https://gl-inet.com/'> GL Innovations</a> 2016
+google_analytics: null
+site_dir: '/var/www/newdocs'
+#site_dir: 'site'
+docs_dir: 'docs'
+theme_dir: 'gl_theme'
+#theme: 'mkdocs'
+include_next_prev: false
+
+pages:
+- Home: 
+    - 'Home' : 'index.md'
+    - 'About Us' : 'about.md'
+    - 'Services' : 'service.md'
+- DIY:
+    - 'Working with UART serial' : 'diy/serial.md'
+    - 'working with uboot' : 'diy/uboot.md'
+- OpenWrt:
+    - 'OpenVPN' : 'openwrt/openvpn.md'
+    - 'Tor' : 'openwrt/tor.md'
+    - 'EasyTether' : 'openwrt/tether.md'
+
+- 'Domino Kit' :
+  - 'Getting Started' : 'domino/index.md'
+  - 'Domore Core' : 'domino/hardware/core.md'
+  - 'Domino Pi Baseboard': 'domino/pi/pi.md'
+  - 'Domino Pi - Single Eth board': 'domino/pi/single_eth.md'
+  - 'Domino Pi - Due Eth board': 'domino/pi/dual_eth.md'
+  - 'Domino Pi - Signle USB board': 'domino/pi/single_usb.md'
+  - 'Domino Pi - 3xUSB+MicroSD combo': 'domino/pi/usb_combo.md'
+  - 'Domino Pi - I2S board': 'domino/pi/i2s.md'
+  - 'Domino Pi - SPI/JTAG': 'domino/pi/spi_jtag.md'
+  - 'Domino Pi - LED': 'domino/pi/led.md'
+  - 'Domino Qi Mini' : 'domino/qi/mini.md'
+  - 'Domino Qi baseboard': 'domino/qi/base.md'
+  - 'Pi: Using the firmware': 'domino/pi/using.md'
+  - 'Pi: Compile firmware': 'domino/pi/compile.md'
+  - 'Pi: Flashing and debricking': 'domino/pi/flashing.md'
+  - 'Pi: Playing Music': 'domino/pi/audio.md'
+  - 'Pi: Working with Serial': 'domino/pi/serial.md'
+  - 'Pi: Debricking using SPI/JTAG board': 'domino/pi/spi.md'
+  - 'Qi: Getting Started': 'domino/qi/index.md'
+  - 'Qi: Using Arduino or Linino Firmware': 'domino/qi/arduino-yun.md'
+  - 'Qi: Using NodeJS and LininoIO': 'domino/qi/nodejs.md'
+  - 'Qi: Using Serial': 'domino/qi/serial.md'
+
+- 'Mini routers' :
+  - 'Quick Start' : 'mini/index.md'
+  - 'Internet Settings, MAC clone, DNS' : 'mini/internet.md'
+  - 'Repeater Manager' : 'mini/repeater_manager.md'
+  - '3G/4G modem and smartphone tethering' : 'mini/3g4g.md'
+  - 'LAN IP' : 'mini/lan.md'
+  - 'Wifi Settings (AP)': 'mini/wifi.md'
+  - 'Firmware upgrading' : 'mini/firmware.md'
+  - 'GL-AR300M' : 'mini/ar300m.md'
+  - 'GL-MiFi' : 'mini/mifi.md'
+  - 'RTC for AR150' : 'mini/ar150rtc.md'
