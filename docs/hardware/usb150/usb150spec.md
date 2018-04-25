@@ -1,13 +1,31 @@
-About Us
-=========
+# 	GL-USB150
 
-GL Innovations
+## 1. Hardware Specification
 
-GLi has offices in Shenzhen and Hong Kong. 
+|       Model       |        GL-USB150        |
+| :---------------: | :---------------------: |
+|        CPU        |    QCA 9331, 400MHz     |
+|      Memory       |       DDRII 64Mb        |
+|      Storage      |     16Mb Nor Flash      |
+|     Frequency     |         2.4GHz          |
+| Transmission Rate |         150Mbps         |
+|   Max. Tx Power   |          20dBm          |
+|     Protocol      |      802.11 b/g/n       |
+|    Power Input    | 5V/1A, USB Power Supply |
+| Power Consumption |           <1W           |
+| Dimension, Weight |   84mmX24mmX11mm, 10g   |
 
-At GLi, our vision is to make the life simpler and easier. We are the world-class smart home solution provider, offering quality products and services empowered with the state-of-the-art AI algorithms.
 
-Founded in 2014 by an international team of senior scientists and engineers, GLi starts its business on smart routers and modules – the kernel of the smart home solution. Our routers convert your local devices such as cameras, storages, 3G adaptors into personal clouds for easier sharing or remote control. Equipped with advanced AI algorithms, our routers ensure everything works with its best performance.
 
-Domino is GLi's Opensource-open hardware project.
+##2. PCB Pinout
+
+![](src\GL-USB150-PINOUT-1.jpg) 
+
+   
+
+
+
+
+
+
 
