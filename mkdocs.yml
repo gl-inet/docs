@@ -36,9 +36,9 @@ pages:
   - '3G/4G Modem and Smartphone Tethering' : 'setup/3g4g.md'
   - 'LAN IP' : 'setup/lan.md'
   - 'Wi-Fi Settings (AP)': 'setup/wifi.md'
-  - 'Firmware Upgrading' : 'mini/firmware.md'
+  - 'Firmware Upgrading' :  'tba.md'  
   - 'Momdem Manager' : 'setup/mifi.md'
-  - 'Firewall' : 'setup/firewall.md'
+  - 'Firewall' :  'tba.md'   
 - Development:
     - 'SDK' :  'tba.md'   
     - 'Cloud API' :  'tba.md'   
