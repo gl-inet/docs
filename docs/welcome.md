@@ -13,17 +13,37 @@ All changes to the docs can be contributed on [GitHub](https://github.com/gl-ine
 Thanks,
 GL.iNet Team
 
+
+
+
+### Official Support
+
+We try our best to solve your every technical problem when you use our products. We have built a community for you to share your ideas with other users on our [Discourse](https://forum.gl-inet.com/) forum. Also, we can also offer helps on our [Facebook](https://www.facebook.com/gl.inet.wifi/) page and our [Twitter](https://twitter.com/GLiNetWiFi) platform. If you have some really in-depth technical questions you want we to work on, please email them to [support@gl-inet.com](mailto:support@gl-inet.com) 
+
+
+
 ### Wikidevi.com
 
 GL-B1300 Gigabit AC Router: https://wikidevi.com/wiki/GL.iNet_GL-B1300
 
 GL-AR750 Travel AC Router: https://wikidevi.com/wiki/GL.iNet_GL-AR750
 
+GL-USB150 Microuter: https://wikidevi.com/wiki/GL.iNet_GL-USB150
+
 GL-AR300M Mini Smart Router: https://wikidevi.com/wiki/GL.iNet_GL-AR300M
 
 GL-AR150 Mini Smart Router: https://wikidevi.com/wiki/GL.iNet_GL-AR150
 
-GL-USB150 Microuter: https://wikidevi.com/wiki/GL.iNet_GL-USB150
+GL-MiFi 4G Smart Router: TBA
+
+GL-MT300A Mini Smart Router: TBA
+
+GL-MT300N-V2 Mini Smart Router: TBA
+
+GL-MT300N Mini Smart Router: TBA
+
+GL.iNet 4616 Mini Smart Router: TBA
+
 
 
 
