@@ -51,6 +51,11 @@ pages:
     - 'Tutorial' : 'video/tutor.md'
     - 'Customer Review' : 'video/review.md'
     - 'Case Study' : 'video/case.md'   
+- Troubleshooting:
+    - 'LED Indicator' : 'diy/serial.md'
+    - 'Factory Reset' : 'diy/serial.md'
+    - 'UART Serial' : 'diy/serial.md'
+    - 'Debrick via Uboot' : 'diy/uboot.md'
 - Terminology:
     - 'Software' : 'term/software.md' 
     - 'Hardware' : 'term/hardware.md'     
