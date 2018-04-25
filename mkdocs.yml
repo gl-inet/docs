@@ -14,7 +14,7 @@ include_next_prev: false
 pages:
 - Home: 
     - 'Home' : 'index.md'
-    - 'About Us' : 'about.md'
+    - 'Quick Links' : 'index2.md'
     - 'Services' : 'service.md'
 - Hardware:
 

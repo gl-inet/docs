@@ -22,7 +22,7 @@ Thanks,
 GL.iNet Team
 
 
-## Wikidevi.com
+## Wikidevi
 
 GL-B1300 Gigabit AC Router: https://wikidevi.com/wiki/GL.iNet_GL-B1300
 
