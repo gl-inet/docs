@@ -96,6 +96,9 @@ For more details on how to use the Qi, please check the below sections:
 -  [Qi Mini section](qi/mini.md) 
 
 
+
+
+
 Where to get help
 ------------------
 
