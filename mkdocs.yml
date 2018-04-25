@@ -27,6 +27,7 @@ pages:
     - 'GL-MiFi Series' : 'hardware/mifispec.md'
     - 'GL-USB150 Series' : 'hardware/usb150spec.md'
     - 'GL-B1300' : 'hardware/b1300spec.md'
+    - 'Domino Kit' : 'domino/index.md'    
 - 'Setup':
   - 'First-time Setup' : 'mini/index.md'
   - 'Internet Settings, MAC Clone, DNS' : 'mini/internet.md'
@@ -56,9 +57,6 @@ pages:
     - 'Factory Reset' : 'diy/serial.md'
     - 'UART Serial' : 'diy/serial.md'
     - 'Debrick via Uboot' : 'diy/uboot.md'
-- Terminology:
-    - 'Software' : 'term/software.md' 
-    - 'Hardware' : 'term/hardware.md'     
 
 - 'Domino Kit' :
   - 'Getting Started' : 'domino/index.md'

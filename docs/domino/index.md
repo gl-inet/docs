@@ -56,6 +56,9 @@ Domino Core is the heart of Domino.IO. It is designed for makers to easily build
 Go to the [Domino Core hardware](#!domino/hardware/core.md) for more details of the hardware.
 
 
+
+
+
 Domino Pi
 ---------------
 
@@ -65,8 +68,18 @@ Domino Pi is with newest `OpenWrt` BB1407 and CC1505 firmware.
 
 ![Domino Pi](src/domino-pi.png)
 
+For more details on how to use the Pi, please check the below sections:
+-  [Domino Pi Baseboard Section](pi/pi.md) 
+-  [Single Ethernet board Section](pi/single_eth.md) 
+-  [Dual Ethernet board Section](pi/dual_eth.md) 
+-  [3xUSB+MicroSD Combo Section](pi/usb_combo.md) 
+-  [I2S board Section](pi/i2s.md) 
+-  [SPI/JTAG Section](pi/spi_jtag.md) 
+-  [LED Section](pi/led.md) 
 
-Go to the [Domino Pi section](pi/pi.md) for more details for how to use the Pi.
+
+
+
 
 
 
@@ -77,8 +90,10 @@ Plug the Domino Qi Mini board onto the Domino Qi baseboard to turn it into a boa
 
 ![Domino Pi](src/domino-qi.png)
 
-
-Go to the [Domino Qi section](#!domino/qi/index.md) for more details for how to use the Qi.
+For more details on how to use the Qi, please check the below sections:
+-  [Domino Qi section](#!domino/qi/index.md) 
+-  [Qi Baseboard section](qi/base.md) 
+-  [Qi Mini section](qi/mini.md) 
 
 
 Where to get help
