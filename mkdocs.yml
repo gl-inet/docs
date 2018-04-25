@@ -30,7 +30,7 @@ pages:
     - 'GL.iNet6416' : 'hardware/6416/6416spec.md'
     - 'Gl-AR300' : 'hardware/ar300/ar300spec.md'
 - 'Setup':
-  - 'First-time Setup' : 'setup/tba.md'
+  - 'First-time Setup' : 'tba.md'   
   - 'Internet Settings, MAC Clone, DNS' : 'setup/internet.md'
   - 'Repeater Manager' : 'setup/repeater_manager.md'
   - '3G/4G Modem and Smartphone Tethering' : 'setup/3g4g.md'
@@ -40,10 +40,10 @@ pages:
   - 'Momdem Manager' : 'setup/mifi.md'
   - 'Firewall' : 'setup/firewall.md'
 - Development:
-    - 'SDK' : 'dev/tba.md'
-    - 'Cloud API' : 'dev/tba.md'
-    - 'Firmware Development' : 'dev/tba.md'
-    - 'Hardware Development' : 'dev/tba.md'
+    - 'SDK' :  'tba.md'   
+    - 'Cloud API' :  'tba.md'   
+    - 'Firmware Development' :  'tba.md'   
+    - 'Hardware Development' :  'tba.md'   
     - 'Domino Kit' : 'domino/index.md'    
 - Application:
     - 'OpenVPN' : 'app/openvpn.md'
@@ -51,13 +51,13 @@ pages:
     - 'EasyTether' : 'app/tether.md'
     - 'Shadowsocks' : 'app/shadowsocks.md'    
 - Video:
-    - 'Product Intro' : 'video/tba.md'   
-    - 'Tutorial' : 'video/tba.md'   
-    - 'Customer Review' : 'video/tba.md'   
-    - 'Case Study' :'video/tba.md'     
+    - 'Product Intro' :  'tba.md'    
+    - 'Tutorial' : 'tba.md'     
+    - 'Customer Review' : 'tba.md'   
+    - 'Case Study' : 'tba.md'       
 - Troubleshooting:
-    - 'LED Indicator' :  'toubleshooting/tba.md'
-    - 'Factory Reset' : 'toubleshooting/tba.md'
+    - 'LED Indicator' :   'tba.md'   
+    - 'Factory Reset' :  'tba.md'   
     - 'UART Serial' : 'toubleshooting/serial.md'
     - 'Debrick via Uboot' : 'toubleshooting/uboot.md'
 
