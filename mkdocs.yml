@@ -18,7 +18,7 @@ pages:
     - 'Services' : 'service.md'
 - Hardware:
     - 'GL.iNet6416' : 'hardware/6416spec.md'
-    - 'GL-AR150 Series' : 'hardware/index.md'
+    - 'GL-AR150 Series' : 'hardware/ar150spec.md'
     - 'GL-AR300M Series' : 'hardware/ar300spec.md'
     - 'GL-MT300A' : 'hardware/mt300aspec.md'
     - 'GL-MT300N' : 'hardware/mt300nspec.md'
