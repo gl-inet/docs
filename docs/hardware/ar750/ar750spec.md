@@ -1,13 +1,35 @@
-About Us
-=========
+# 	GL-AR750
 
-GL Innovations
+## 1. Hardware Specification
 
-GLi has offices in Shenzhen and Hong Kong. 
+|             Model             |                           GL-AR750                           |
+| :---------------------------: | :----------------------------------------------------------: |
+|              CPU              |                        QCA9531 650MHz                        |
+|            Memory             |                         DDRII 128Mb                          |
+|            Storage            |                        16Mb Nor Flash                        |
+|          Interfaces           | 1 WAN (100Mbps), 2 LANs (100Mbps), 1 USB2.0, 1 Micro USB (power), 1 Reset Button, UART, TF Card Slot (128Gb Max.) |
+|           Frequency           |                         2.4GHz, 5GHz                         |
+|       Transmission Rate       |              300Mbps (2.4GHz) + 433Mbps (5GHz)               |
+|         Max. Tx Power         |                  20dBm (2.4GHz)/20dBm(5GHz)                  |
+|           Protocol            |                       802.11 b/g/n/ac                        |
+| External Drive Format Support |               FAT32/NTFS/exFAT/EXT4/EXT3/EXT2                |
+|        Webcam Support         |                          MJPEG, YUV                          |
+|         DIY Features          |               UART, GPIO, 3.3V & 5V power port               |
+|   External Antenna Support    |                              No                              |
+|      PoE Module Support       |                             Yes                              |
+|          Power Input          |                            5V/2A                             |
+|       Power Consumption       |                             <6W                              |
+|       Dimension, Weight       |                     88mmX68mmX24mm, 66g                      |
 
-At GLi, our vision is to make the life simpler and easier. We are the world-class smart home solution provider, offering quality products and services empowered with the state-of-the-art AI algorithms.
 
-Founded in 2014 by an international team of senior scientists and engineers, GLi starts its business on smart routers and modules – the kernel of the smart home solution. Our routers convert your local devices such as cameras, storages, 3G adaptors into personal clouds for easier sharing or remote control. Equipped with advanced AI algorithms, our routers ensure everything works with its best performance.
 
-Domino is GLi's Opensource-open hardware project.
+##2. PCB Pinout
+
+![](images\AR750-V1.0-PINOUT-1.jpg) 
+
+
+
+
+
+
 
