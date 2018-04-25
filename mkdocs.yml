@@ -44,6 +44,7 @@ pages:
     - 'OpenVPN' : 'openwrt/openvpn.md'
     - 'Tor' : 'openwrt/tor.md'
     - 'EasyTether' : 'openwrt/tether.md'
+    - 'Shadowsocks' : 'app/shadowsocks.md'    
 
 - 'Domino Kit' :
   - 'Getting Started' : 'domino/index.md'
