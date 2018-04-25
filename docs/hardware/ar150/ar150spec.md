@@ -1,4 +1,4 @@
-About Us
+GL-AR150 Mini Router
 =========
 
 GL Innovations
