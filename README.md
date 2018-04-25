@@ -1,42 +1,56 @@
-#GLI documentation
-
-
-This is the docs of all GLI products. You can view on http://www.gl-inet.com/docs/ 
+Welcome! GL.iNet is devoted to make hardware working easily with open-sourced software. This docs site is intended to advise newcomers to how open sourced software works on our hardware. As the product evolves, this docs site will be updated from time to time.
 
 
 
+## Contributing to GL.iNet Open Source Community
 
-Contents available
-===================
+### Thank You
 
-[Mini Router Quick Setup](docs/mini/index.md)
+GL.iNet OpenWrt routers are brought to you by the GL.iNet Team based in Hong Kong and Shenzhen, and many other open source community members. As a community driven resource, the people who use and edit the wiki would be very grateful if you followed the guidelines below. This page also has tips and tricks for making your article, which would also be fabulous.
 
-[Mini Router Internet Setup](docs/mini/internet.md)
+All changes to the docs can be contributed on [GitHub](https://github.com/gl-inet/docs/) 
 
-[Mini Router 3G, 4G](docs/mini/3g4g.md)
+Thanks,
+GL.iNet Team
 
-[Mini Router AR300M](docs/mini/ar300m.md)
 
-[Mini Router MiFi](docs/mini/mifi.md)
 
-[Mini Router LAN IP](docs/mini/lan.md)
 
-[Mini Router WiFi Settings](docs/mini/wifi.md)
+### Official Support
 
-[Mini Router Reset WISP Repeater](docs/mini/repeater.md)
+We try our best to solve your every technical problem when you use our products. We have built a community for you to share your ideas with other users on our [Discourse](https://forum.gl-inet.com/) forum. Also, we can also offer helps on our [Facebook](https://www.facebook.com/gl.inet.wifi/) page and our [Twitter](https://twitter.com/GLiNetWiFi) platform. If you have some really in-depth technical questions you want we to work on, please email them to [support@gl-inet.com](mailto:support@gl-inet.com) 
 
-[Mini Router firmware upgrade](docs/mini/firmware.md)
 
-[Using RTC on GL-AR150](docs/mini/ar150rtc.md)
 
-[Using **OpenVPN** on Mini routers](docs/openwrt/openvpn.md)
+### Wikidevi.com
 
-[Using **Tor** on Mini routers](docs/openwrt/tor.md)
+GL-B1300 Gigabit AC Router: https://wikidevi.com/wiki/GL.iNet_GL-B1300
 
-[Using **EasyTether** on Mini routers](docs/openwrt/tether.md)
+GL-AR750 Travel AC Router: https://wikidevi.com/wiki/GL.iNet_GL-AR750
 
-[Working with UART & serial](docs/diy/serial.md)
+GL-USB150 Microuter: https://wikidevi.com/wiki/GL.iNet_GL-USB150
 
-[Working with Uboot](docs/diy/uboot.md)
+GL-AR300M Mini Smart Router: https://wikidevi.com/wiki/GL.iNet_GL-AR300M
 
-[Domino Hardware and instructions](docs/domino/index.md)
+GL-AR150 Mini Smart Router: https://wikidevi.com/wiki/GL.iNet_GL-AR150
+
+GL-MiFi 4G Smart Router: TBA
+
+GL-MT300A Mini Smart Router: TBA
+
+GL-MT300N-V2 Mini Smart Router: TBA
+
+GL-MT300N Mini Smart Router: TBA
+
+GL.iNet 4616 Mini Smart Router: TBA
+
+
+
+
+### Markdown
+
+Markdown Basics: [https://help.github.com/articles/markdown-basics/](https://help.github.com/articles/markdown-basics/)
+
+Markdown Syntax: [http://daringfireball.net/projects/markdown/syntax](http://daringfireball.net/projects/markdown/syntax)
+
+Table Generator: [http://www.tablesgenerator.com/markdown_tables](http://www.tablesgenerator.com/markdown_tables)
