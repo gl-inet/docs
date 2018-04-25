@@ -19,7 +19,7 @@ pages:
 - Hardware:
     - 'GL.iNet6416' : 'hardware/6416spec.md'
     - 'GL-AR150 Series' : 'hardware/ar150spec.md'
-    - 'GL-AR300M Series' : 'hardware/ar300spec.md'
+    - 'GL-AR300M Series' : 'hardware/ar300mspec.md'
     - 'GL-MT300A' : 'hardware/mt300aspec.md'
     - 'GL-MT300N' : 'hardware/mt300nspec.md'
     - 'GL-MT300N-V2' : 'hardware/mt300n-v2spec.md'
