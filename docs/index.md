@@ -4,27 +4,25 @@ GL.iNet is devoted to make hardware working easily with open-sourced software. T
 
 
 
-## Contributing to GL.iNet Open Source Community
-
-### Thank You
-
-GL.iNet OpenWrt routers are brought to you by the GL.iNet Team based in Hong Kong and Shenzhen, and many other open source community members. As a community driven resource, the people who use and edit the wiki would be very grateful if you followed the guidelines below. This page also has tips and tricks for making your article, which would also be fabulous.
-
-All changes to the docs can be contributed on [GitHub](https://github.com/gl-inet/docs/) 
-
-Thanks,
-GL.iNet Team
-
-
-
-
-### Official Support
+##Official Support
 
 We try our best to solve your every technical problem when you use our products. We have built a community for you to share your ideas with other users on our [Discourse](https://forum.gl-inet.com/) forum. Also, we can also offer helps on our [Facebook](https://www.facebook.com/gl.inet.wifi/) page and our [Twitter](https://twitter.com/GLiNetWiFi) platform. If you have some really in-depth technical questions you want we to work on, please email them to [support@gl-inet.com](mailto:support@gl-inet.com) 
 
 
 
-### Wikidevi.com
+# Contribution
+
+## Thank You
+
+GL.iNet OpenWrt routers are brought to you by the GL.iNet Team based in Hong Kong and Shenzhen, and many other open source community members. As a community driven resource, the people who use and edit the docs would be very grateful if you followed the guidelines below. This page also has tips and tricks for making your article, which would also be fabulous.
+
+
+
+Thanks,
+GL.iNet Team
+
+
+## Wikidevi.com
 
 GL-B1300 Gigabit AC Router: https://wikidevi.com/wiki/GL.iNet_GL-B1300
 
