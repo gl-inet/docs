@@ -17,7 +17,7 @@ pages:
     - 'About Us' : 'about.md'
     - 'Services' : 'service.md'
 - Hardware:
-    - 'GL.iNet6416' : 'hardware/6416/6416spec.md'
+
     - 'GL-AR150 Series' : 'hardware/ar150/ar150spec.md'
     - 'GL-AR300M Series' : 'hardware/ar300m/ar300mspec.md'
     - 'GL-MT300A' : 'hardware/mt300a/mt300aspec.md'
@@ -28,6 +28,8 @@ pages:
     - 'GL-USB150 Series' : 'hardware/usb150/usb150spec.md'
     - 'GL-B1300' : 'hardware/b1300/b1300spec.md'
     - 'Domino Kit' : 'domino/index.md'    
+    - 'GL.iNet6416' : 'hardware/6416/6416spec.md'
+    - 'Gl-AR300' : 'hardware/ar300/ar300spec.md'
 - 'Setup':
   - 'First-time Setup' : 'mini/index.md'
   - 'Internet Settings, MAC Clone, DNS' : 'mini/internet.md'
