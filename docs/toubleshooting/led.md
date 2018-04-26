@@ -1,5 +1,7 @@
 # LED Status Indication
 
+
+
 ## Mini Router
 
 ![mini LED](src/LED/mini_LED.jpg)
@@ -9,12 +11,18 @@
 - **Configurable**: Can be customized by the user.
 
 
+
+
+
+
 ## GL-USB150 Microuter
 
 ![mini LED](src/LED/microuter.jpg)
 
 - **Power**: Solid green LED that indicates the router is powered up.
 - **Hotspot**:  Solid green LED that indicates the router is broadcasting Wi-Fi. It will flash when there is wireless data transfer.
+
+
 
 
 
@@ -31,6 +39,10 @@
 - **3G/4G**:
 
 
+
+
+
+
   ## GL-AR750
 
   ![mini LED](src/LED/ar750.jpg)
@@ -40,6 +52,10 @@
 - **5GHz Wi-Fi**: Solid white LED that indicates the router is broadcasting 5GHz Wi-Fi. It will flash when there is wireless data transfer
 
 
+
+
+
+
   ## GL-B1300
 
   ![B1300](src/LED/b1300.jpg)
@@ -47,6 +63,10 @@
 - **Power**: Solid green LED that indicates the router is powered up.
 - **Mesh**: Flash green LED indicates that the router is pairing with another router. It will turn solid green when the Mesh network has been created.
 - **Wireless**: Solid green LED that indicates the router is broadcasting Wi-Fi. It will flash when there is wireless data transfer.
+
+
+
+
 
 
 
