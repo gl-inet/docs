@@ -9,28 +9,28 @@ If you can neither access the web-based setup page nor the router, you can press
 
 ## Mini Router
 
-   ![](src/factory_reset/mini_router.jpg)
+   ![](src/factoryreset/mini_router.jpg)
 
 
 
 ## GL-USB150 Microuter
 
-   ![](src/factory_reset/microuter.jpg)
+   ![](src/factoryreset/microuter.jpg)
 
 
 
 ##GL-MiFi 4G Smart Router
 
-   ![](src/factory_reset/mifi.jpg)
+   ![](src/factoryreset/mifi.jpg)
 
 
 
 ## GL-AR750 Travel AC Router
 
-   ![](src/factory_reset/ar750.jpg)
+   ![](src/factoryreset/ar750.jpg)
 
 
 
 ## GL-B1300 Home AC Router
 
-   ![](src/factory_reset/b1300.jpg)
+   ![](src/factoryreset/b1300.jpg)

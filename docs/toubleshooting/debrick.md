@@ -31,13 +31,13 @@ Release your finger when you see the LEDs flashing:
 ## 5. Set IP
 Set your computer’s IP address to **192.168.1.2** (see the cap-screen of Win 7 below)
 
-   ![](src/uboot/set_ip.jpg)
+   ![](src/debrick/set_ip.jpg)
 
 
 ## 6. Enter Web UI
 User Firefox or Chrome to visit **http://192.168.1.1.** Then you will enter Uboot Web UI.
 
-   ![](src/uboot/ui.jpg)
+   ![](src/debrick/ui.jpg)
 
 
 ## 7. Update
