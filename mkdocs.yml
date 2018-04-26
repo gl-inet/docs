@@ -28,7 +28,7 @@ pages:
     - 'GL-USB150 Series' : 'hardware/usb150/usb150spec.md'
     - 'GL-B1300' : 'hardware/b1300/b1300spec.md'
     - 'GL.iNet6416' : 'hardware/6416/6416spec.md'
-    - 'Gl-AR300' : 'hardware/ar300/ar300spec.md'
+    - 'GL-AR300' : 'hardware/ar300/ar300spec.md'
 - 'Setup':
   - 'First-time Setup' : 'tba.md'   
   - 'Internet Settings, MAC Clone, DNS' : 'setup/internet.md'
@@ -42,8 +42,9 @@ pages:
 - Development:
     - 'SDK' :  'tba.md'   
     - 'Cloud API' :  'tba.md'   
-    - 'Firmware Development' :  'tba.md'   
+    - 'Firmware Development' :  'dev/serial.md'   
     - 'Hardware Development' :  'tba.md'   
+    - 'Advanced Uboot' :  'dev/uboot.md'   
     - 'Domino Kit' : 'domino/index.md'    
 - Application:
     - 'OpenVPN' : 'app/openvpn.md'
@@ -56,10 +57,10 @@ pages:
     - 'Customer Review' : 'tba.md'   
     - 'Case Study' : 'tba.md'       
 - Troubleshooting:
-    - 'LED Indicator' :   'tba.md'   
-    - 'Factory Reset' :  'tba.md'   
+    - 'LED Indicator' :   'toubleshooting/led.md'   
+    - 'Factory Reset' :  'toubleshooting/reset.md'   
     - 'UART Serial' : 'toubleshooting/serial.md'
-    - 'Debrick via Uboot' : 'toubleshooting/uboot.md'
+    - 'Debrick via Uboot' : 'toubleshooting/debrick.md'
 
 - 'Domino Kit' :
   - 'Getting Started' : 'domino/index.md'

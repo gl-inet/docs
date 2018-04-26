@@ -1,4 +1,4 @@
-Working with uboot
+Advance Usage of uboot
 =================
 
 Familiarity with uboot is a skill that you should master in order to play with the routers.
@@ -120,7 +120,7 @@ Compiling uboot
 
 Each device has a different uboot because it is hardware related.
 
-### GL-AR150, GL.iNet646, GL-AR300, GL-AR300M
+### GL-AR150, GL.iNet6416, GL-AR300, GL-AR300M
 
 For these models you can use [Pepe2k's](https://github.com/pepe2k/u-boot_mod) uboot, you can download the source from github.
 ```

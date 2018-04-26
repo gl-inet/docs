@@ -1,1 +1,0 @@
-This catalog will contain the DIY skills based on OpenWrt boards and routers.
