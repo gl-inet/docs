@@ -42,7 +42,7 @@ pages:
 - Development:
     - 'SDK' :  'tba.md'   
     - 'Cloud API' :  'tba.md'   
-    - 'Firmware Development' :  'dev/serial.md'   
+    - 'UART Serial' :  'dev/serial.md'   
     - 'Hardware Development' :  'tba.md'   
     - 'Advanced Uboot' :  'dev/uboot.md'   
     - 'Domino Kit' : 'domino/index.md'    
@@ -59,7 +59,6 @@ pages:
 - Troubleshooting:
     - 'LED Indicator' :   'toubleshooting/led.md'   
     - 'Factory Reset' :  'toubleshooting/reset.md'   
-    - 'UART Serial' : 'toubleshooting/serial.md'
     - 'Debrick via Uboot' : 'toubleshooting/debrick.md'
 
 - 'Domino Kit' :
