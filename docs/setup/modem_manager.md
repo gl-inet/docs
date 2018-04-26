@@ -1,8 +1,8 @@
-# Modem Manager for GL-MiFi
+# Modem Manager 
 
 If you are using GL-MiFi, Please insert Micro SIM card before you turn on the device.
 
-![SIM](/images/modem_manager/insert.jpg)
+![SIM](/src/modem_manager/insert.jpg)
 
 
 
@@ -16,19 +16,19 @@ You can find the following information in `Modem Connection`:
 
 **Carrier**: The service provider of your SIM card.
 
-![Modem Connection](/images/modem_manager/modem_connection.jpg)
+![Modem Connection](/src/modem_manager/modem_connection.jpg)
 
 
 
-## Modem Tools
+#Modem Tools
 
 We have developed a modem tools for you to configure your 3G/4G modem in GL-MiFi easily. Please click `Modem Tools`.
 
-![Modem Tools](/images/modem_manager/modem_connection.jpg)
+![Modem Tools](/src/modem_manager/modem_connection.jpg)
 
 
 
-### Data
+## Data
 
 Input the correct information in order to activate the 3/4G modem.
 
@@ -38,31 +38,31 @@ Input the correct information in order to activate the 3/4G modem.
 - **Dial Number**: Generally, it is a default value and you don't need to set it by yourself. However, if you have this info, please input it.
 - **Pin, Username and Password:** Generally, these informations are not necessary for a unlocked SIM card. However, if you have a locked SIM card, please find these informations from your carrier.
 
-![Modem Tools](/images/modem_manager/modem_tool1.jpg)
+![Modem Tools](/src/modem_manager/modem_tool1.jpg)
 
 
 
-### Send SMS
+## Send SMS
 
 Once the Data session above has been configured correctly. You will be able to use the SIM card in GL-MiFi and you can send message to others.
 
-![Modem Tools](/images/modem_manager/send_message.jpg)
+![Modem Tools](/src/modem_manager/send_message.jpg)
 
 
 
-###Read SMS
+## Read SMS
 
 Once the Data session above has been configured correctly. You will be able to use the SIM card in GL-MiFi. Therefore, if someone send a message to the phone number of your SIM card, you can read it in `Read SMS`.
 
-![Modem Tools](/images/modem_manager/read_message.jpg)
+![Modem Tools](/src/modem_manager/read_message.jpg)
 
 
 
-### AT Tools
+## AT Tools
 
 You can configure the 3G/4G modem by sending AT command to the router via `AT Tools`. You have to use the port **/dev/ttyUSB2** for all 3G/4G modules. We have pre-configured several AT commands that you can use directly in `Shortcut`.
 
-![Modem Tools](/images/modem_manager/at.jpg)
+![Modem Tools](/src/modem_manager/at.jpg)
 
 
 
@@ -96,7 +96,7 @@ Wrong result:
 AT+CCIDI ERROR
 ```
 
-### 
+
 
 **Request IMSI**: Request the International Mobile Subscriber Identity associated with your cellular network.
 
@@ -112,7 +112,7 @@ Wrong result:
 AT+CIMI ERROR
 ```
 
-### 
+
 
 **Check Signal Quality**:
 
@@ -130,7 +130,7 @@ Wrong result:
 AT+CSQ ERROR
 ```
 
-### 
+
 
 **Reset Modem**: Reset the modem to its default state and erase all Data.
 
@@ -148,7 +148,7 @@ Wrong result:
 AT+COPS? ERROR
 ```
 
-### 
+
 
 There are other AT commands that you can input manually, please refer to Quectel_EC25&EC21_AT_Commands_Manual_V1.0.
 

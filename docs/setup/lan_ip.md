@@ -6,7 +6,7 @@ Most of the routers use IP `192.168.0.1`, `192.168.1,1`, `192.168.1.254`, `10.10
 
 Click the wireless icon and then `LAN IP` to change the LAN IP.
 
-![LAN IP](images/lan_ip/lan.jpg)
+![LAN IP](src/lan_ip/lan.jpg)
 
 
 

@@ -4,7 +4,7 @@ You can set up custom DNS server for the router in order to prevent DNS leak or 
 
 Click Internet icon and you will see the Internet Status.
 
-![LAN IP](images/dns/interneticon.jpg)
+![LAN IP](src/dns/interneticon.jpg)
 
 Click `DNS Settings` to input custom DNS server IP address. You can input maximum two DNS servers.
 
@@ -14,7 +14,7 @@ If you are connecting to a network which requires authentication in Captive Port
 
 *Note: You may need to reconnect the network in order to activate your DNS settings.*
 
-![LAN IP](images/dns/dns.jpg)
+![LAN IP](src/dns/dns.jpg)
 
 
 

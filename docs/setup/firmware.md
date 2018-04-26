@@ -6,7 +6,7 @@ A ***new*** message will be shown when there is a new firmware available. Click 
 
 *Note: **Don't turn off** the power during upgrade. Otherwise, the router will be bricked*
 
-![firmware](images/firmware/firmware.jpg)
+![firmware](src/firmware/firmware.jpg)
 
 
 
@@ -16,7 +16,7 @@ Click `Download` to download the firmware. The downloaded file will be verified 
 
 *Note: It is suggested to uncheck the `Keep setting`. If you keep its settings and encounter problems after the upgrade, please reset the device.*
 
-![firmware](images/firmware/firmware1.jpg)
+![firmware](src/firmware/firmware1.jpg)
 
 
 
@@ -24,7 +24,7 @@ Click `Download` to download the firmware. The downloaded file will be verified 
 
 You can use the `Upload Firmware` button to upload the firmware file. Simply drag and drop your firmware file to the area indicated in the web admin page.
 
-![firmware](images/firmware/firmware2.jpg)
+![firmware](src/firmware/firmware2.jpg)
 
 
 
