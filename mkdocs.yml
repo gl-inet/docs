@@ -1,5 +1,5 @@
 site_name: GL.iNet Docs
-repo_url: https://github.com/domino-team/docs/
+repo_url: https://github.com/gl-inet/docs/
 site_description: This is the documentation site for GL.iNet OpenWrt Wi-Fi products
 site_favicon: favicon.png
 copyright: <a href='https://gl-inet.com/'> GL Technologies</a> 2018
@@ -30,15 +30,15 @@ pages:
     - 'GL.iNet6416' : 'hardware/6416/6416spec.md'
     - 'GL-AR300' : 'hardware/ar300/ar300spec.md'
 - 'Setup':
-  - 'First-time Setup' : 'tba.md'   
-  - 'Internet Settings, MAC Clone, DNS' : 'setup/internet.md'
-  - 'Repeater Manager' : 'setup/repeater_manager.md'
-  - '3G/4G Modem and Smartphone Tethering' : 'setup/3g4g.md'
-  - 'LAN IP' : 'setup/lan.md'
-  - 'Wi-Fi Settings (AP)': 'setup/wifi.md'
-  - 'Firmware Upgrading' :  'tba.md'  
-  - 'Momdem Manager' : 'setup/mifi.md'
-  - 'Firewall' :  'tba.md'   
+    - 'First-time Setup' : 'tba.md'   
+    - 'Internet Settings, MAC Clone, DNS' : 'setup/internet.md'
+    - 'Repeater Manager' : 'setup/repeater_manager.md'
+    - '3G/4G Modem and Smartphone Tethering' : 'setup/3g4g.md'
+    - 'LAN IP' : 'setup/lan.md'
+    - 'Wi-Fi Settings (AP)': 'setup/wifi.md'
+    - 'Firmware Upgrading' :  'tba.md'  
+    - 'Momdem Manager' : 'setup/mifi.md'
+    - 'Firewall' :  'tba.md'   
 - Development:
     - 'SDK' :  'tba.md'   
     - 'Cloud API' :  'tba.md'   

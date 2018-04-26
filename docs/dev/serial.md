@@ -6,7 +6,7 @@ Connections
 
 Serial pins are the most used pins for DIY users. You can connect to a <a href="http://www.ebay.com/itm/PL-2303-USB-to-UART-TTL-adapter-/321407483336">USB UART</a> adapter as in the picture.
 
-![UART](src/serial.jpg)
+![UART](src/uart_serial.jpg)
 
 Linux (ubuntu)/MAC
 ------------
