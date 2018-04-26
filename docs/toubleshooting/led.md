@@ -4,7 +4,7 @@
 
 ## Mini Router
 
-![mini LED](src/LED/mini_LED.jpg)
+![mini LED](src/LED/mini_led.jpg)
 
 - **Power**: Solid green LED that indicates the router is powered up.
 - **Wireless**:  Solid Red LED that indicates the router is broadcasting Wi-Fi. It will flash when there is wireless data transfer.
@@ -43,7 +43,7 @@
 
 
 
-  ## GL-AR750
+  ## GL-AR750 
 
   ![mini LED](src/LED/ar750.jpg)
 
