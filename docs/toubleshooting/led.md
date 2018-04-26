@@ -9,18 +9,6 @@
 - **Configurable**: Can be customized by the user.
 
 
-### LED Customization
-
-To configure the LED of mini router, please login to Luci by clicking **Advanced settings** at the top-right corner of the web admin page. 
-
-![mini LED](src/LED/advanced_settings.jpg)
-
-​
-
-Then please choose **System** > **LED Configuration**.
-
-
-
 ## GL-USB150 Microuter
 
 ![mini LED](src/LED/microuter.jpg)
@@ -61,9 +49,16 @@ Then please choose **System** > **LED Configuration**.
 - **Wireless**: Solid green LED that indicates the router is broadcasting Wi-Fi. It will flash when there is wireless data transfer.
 
 
-  ​
 
-  ​
 
+##LED Customization
+
+To configure the LED of mini router, please login to Luci by clicking **Advanced settings** at the top-right corner of the web admin page. 
+
+![mini LED](src/LED/advanced_settings.jpg)
+
+​
+
+Then please choose **System** > **LED Configuration**.
 
 
