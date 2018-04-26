@@ -23,9 +23,9 @@ The LEDs will start blinking.
 
 ## 4. Release
 Release your finger when you see the LEDs flashing:
-   - 5 times for AR150 and AR300M16
+- 5 times for GL-AR150 and GL-AR300M16
 
-   - 3 times for MT300N, MT300A, B1300
+- 3 times for GL-MT300N, GL-MT300A, and GL-B1300
 
 
 ## 5. Set IP

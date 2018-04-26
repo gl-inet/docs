@@ -77,7 +77,7 @@ To configure the LED of mini router, please login to Luci by clicking **Advanced
 
 ![](src/led/advanced_settings.jpg)
 
-​
+
 
 Then please choose **System** > **LED Configuration**.
 
