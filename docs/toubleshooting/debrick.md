@@ -31,13 +31,13 @@ Please follow the procedures below to access the Uboot Web UI and re-install the
 
 5. Set your computer’s IP address to **192.168.1.2** (see the cap-screen of Win 7 below)
 
-   ![Set IP](src/uboot/set_ip.jpg)
+   ![](src/uboot/set_ip.jpg)
 
 
 
 6. User Firefox or Chrome to visit **http://192.168.1.1.** Then you will enter Uboot Web UI.
 
-   ![UI](src/uboot/ui.jpg)
+   ![](src/uboot/ui.jpg)
 
 
 
