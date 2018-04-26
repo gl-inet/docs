@@ -50,7 +50,9 @@ pages:
     - 'OpenVPN' : 'app/openvpn.md'
     - 'Tor' : 'app/tor.md'
     - 'EasyTether' : 'app/tether.md'
-    - 'Shadowsocks' : 'app/shadowsocks.md'    
+    - 'Shadowsocks' : 'app/shadowsocks.md'
+    - 'WireGuard' : 'app/wireguard.md'
+   
 - Video:
     - 'Product Intro' :  'tba.md'    
     - 'Tutorial' : 'tba.md'     
