@@ -22,7 +22,7 @@ You can click `New Connection` to create an Internet connection.
 
 DHCP is the default and most common method to connect to the Internet. You just need to choose `DHCP` and click `Submit`.
 
-![DHCP](/images/internet/DHCP.jpg)
+![DHCP](/src/internet/DHCP.jpg)
 
 
 
