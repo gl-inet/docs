@@ -1,21 +1,24 @@
+#WireGuard Setting
 
-# Prerequisite  
+## Prerequisite  
 
 ```bash  
 # opkg update
 # opkg install wireguard
 ```
 
-# Server Configuration  
 
-## Generate Key  
+
+## Server Configuration  
+
+### 1. Generate Key  
 
 ```  
 # wg genkey > privatekey
 # wg pubkey < privatekey > publickey
 ```
 
-## Network Configuration  
+### 2. Network Configuration  
 
 Appending the following stuff to network uci configuration.  
 
@@ -37,7 +40,7 @@ root@GL-B1300:~# ip link set wg0 up
 
 ```
 
-## Firewall Configuration  
+### 3. Firewall Configuration  
 
 Appending the following stuff to firewall uci configuration.  
 
@@ -71,22 +74,22 @@ config forwarding
     option dest 'wg-client'
 ```
 
-## Restart Network  
+### 4. Restart Network  
 
 ```  
 /etc/init.d/network restart
 ```
 
-# Client Configuration  
+## Client Configuration  
 
-## Generate Key  
+### 1. Generate Key  
 
 ```  
 # wg genkey > privatekey
 # wg pubkey < privatekey > publickey
 ```
 
-## Network Configuration  
+### 2. Network Configuration  
 
 Appending the following stuff to network uci configuration.  
 
@@ -106,7 +109,7 @@ config wireguard_wg0
 	option persistent_keepalive '25'
 ```
 
-## Firewall Configuration  
+### 3. Firewall Configuration  
 
 Appending the following stuff to firewall uci configuration.  
 
@@ -140,7 +143,7 @@ config forwarding
     option dest 'wg-client'
 ```
 
-## Restart Network  
+### 4. Restart Network  
 
 ```  
 /etc/init.d/network restart
