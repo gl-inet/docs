@@ -1,4 +1,4 @@
-# Getting start with GL.iNet Router
+# Getting Start with GL.iNet Router
 
 ###1. Power on the router
 
@@ -10,7 +10,7 @@ For GL-MiFi, GL-AR750, B1300, you have to use a standard 5V/2A power adapter in 
 
 ### 2. Connect to the router
 
-You can connect your device to the router via Ethernet cable or Wi-Fi
+You can connect your device to the router via Ethernet cable or Wi-Fi,
 
 - Wired connection: Connect your device to the LAN port of the router via Ethernet cable.
 
@@ -37,7 +37,7 @@ You can connect your device to the router via Ethernet cable or Wi-Fi
 
 Open a browser (we recommend Chrome, firefox) and visit [http://192.168.8.1](http://192.168.8.1)
 
-You will see the welcome page. First you need to select your language. Currently, the web admin page of all our routers only provide **Chinese** and **English**.![Welcome](images/first-time_setup/welcome.jpg)
+You will see the welcome page. First you need to select your language. Currently, the web admin page of all our routers only provide **Chinese** and **English**.![Welcome](src/first-time_setup/welcome.jpg)
 
 *Note: If your browser always redirect to Luci (http://192.168.8.1/cgi-bin/luci), you can visit: [http://192.168.8.1/index.html](http://192.168.8.1/index.html)*
 
@@ -45,13 +45,13 @@ You will see the welcome page. First you need to select your language. Currently
 
 Second, you need to select your region. You can click on the map or select from the drop-down menu.
 
-![Welcome](images/first-time_setup/region.jpg)
+![Welcome](src/first-time_setup/region.jpg)
 
   
 
 Third, you have to set your own password for this web admin page and click `Finish`. There is no default password. The password should not less than 8 characters.
 
-![Welcome](images/first-time_setup/password.jpg)
+![Welcome](src/first-time_setup/password.jpg)
 
 *Note: This password is for this web admin page and the embedded Linux system. It doesn't change your Wi-Fi password.*
 
@@ -59,7 +59,7 @@ Third, you have to set your own password for this web admin page and click `Fini
 
 Finally, you will be directed to the index of the web admin page.
 
-![Welcome](images/first-time_setup/main_ui.jpg)
+![Welcome](src/first-time_setup/main_ui.jpg)
 
 
 
