@@ -1,32 +1,32 @@
-# Connect GL.iNet router to the Internet
+# Internet Setting
 
 There are total 4 different connection methods that you can use to access the Internet:
 
-1. Cable
+1)  Cable
 
-2. Wi-Fi Repeater
+2)   Wireless / Wi-Fi Repeater
 
-3. 3G/4G Modem
+3)   3G/4G Modem
 
-4. USB Tethering
+4)   USB Tethering
 
-  ​
+![DHCP](/src/internet/4ways.jpg)
 
 You can click `New Connection` to create an Internet connection.
 
   
 
-## 1. Cable
+# Cable
 
-###DHCP
+## DHCP
 
 DHCP is the default and most common method to connect to the Internet. You just need to choose `DHCP` and click `Submit`.
 
-![DHCP](/src/internet/DHCP.jpg)
+![DHCP](/src/internet/dhcp_page.jpg)
 
 
 
-### Static
+## Static
 
 Static is required if you want your router have a fixed IP address given by your ISP or in the same subnet of your main router.
 
@@ -36,23 +36,23 @@ The current settings will be automatically filled. Change it according to your n
 
 
 
-###PPPoE
+## PPPoE
 
 PPPoE is required by many Internet service providers (ISP). Generally, your ISP will give you a modem and provide you a username and password that you are required to enter so as to access the Internet.
 
 Enter your username and password then click `Submit`.
 
-![PPPoE](/src/internet/PPPoE.jpg)
+![PPPoE](/src/internet/pppoe_page.jpg)
 
 
 
-## 2. Repeater
+# Repeater
 
 You can connect to an existing wireless network by setting it as a repeater. However, there are 2 different modes that you can choose. 
 
-###WISP (Wireless Internet Service Provider)
+## WISP 
 
-In WISP mode, the router will create its own subnet and act as a firewall which protect you from the public network. Therefore, we highly suggest you to chose WISP if you want to connect to a  public wifi.
+In WISP (Wireless Internet Service Provider) mode, the router will create its own subnet and act as a firewall which protect you from the public network. Therefore, we highly suggest you to chose WISP if you want to connect to a  public wifi.
 
 In the following diagram, your main router has an IP 192.168.1.1. Suppose its netmask is 255.255.255.0, GL.iNet router will have two IP address:
 
@@ -62,25 +62,25 @@ In the following diagram, your main router has an IP 192.168.1.1. Suppose its ne
 
 So all your devices connected to GL.iNet router will be protected by its firewall.
 
-![WISP1](/src/internet/WISP1.png)
+![WISP1](/src/internet/wisp1.png)
 
 
 
 To set up repeater in WISP mode, first Click `Repeater` tab in `Internet Settings`, the router will search for the available Wi-Fi networks automatically. Then, choose a SSID and enter its password. Choose `WISP` in mode and click `Submit`.
 
-![WISP1](/src/internet/WISP2.jpg)
+![WISP1](/src/internet/wisp2.jpg)
 
 
 
-###WDS (Wireless Distribution System)
+##WDS 
 
-In WDS, you can connect to an existing wireless network without creating a new subnet. Therefore, the router only act as a device to extend the wireless signal coverage of your main router. There is no firewall between the mini router and the main router.
+In WDS (Wireless Distribution System), you can connect to an existing wireless network without creating a new subnet. Therefore, the router only act as a device to extend the wireless signal coverage of your main router. There is no firewall between the mini router and the main router.
 
 However, to use this mode, **your main router has to support WDS. Since WDS has different implementation, you'd be better to use the same GL.iNet router**. Check your main router's manual to see if it supports this function.
 
 *Note: OpenVPN client function of the mini router will not work in bridge mode.*
 
-![WDS](/src/internet/WDS.png)
+![WDS](/src/internet/wds.png)
 
 
 
@@ -100,11 +100,11 @@ Here is the [detailed instructions](src/relayd.pdf).
 
 
 
-## 3. 3G/4G Modem
+# 3G/4G Modem
 
 You can connect to the Internet using 3G or 4G modem. Plug in your modem and click the `3G/4G` tab in `Internet Settings` to enter the 3G/4G setting page. 
 
-To set up 3G/4G modem in **GL-MiFi**, you should follow the instructions in [Modem Manager]().
+To set up 3G/4G modem in **GL-MiFi**, you should follow the instructions in [Modem Manager](modem_manager.md).
 
 ![modem](/src/internet/mifi_connection.jpg)
 
@@ -122,18 +122,20 @@ To make the correct settings:
 
 
 
-###Example (US Verizon)
+## Example (US Verizon)
 
 ![modem](/src/internet/verizon_apn.jpg)
 
 
 
-### Compatible Modems
+## Compatible Modems
 
 Here is a list of supported modems that we tested before. 
 
-- QMI: this modem supports QMI mode. Please choose `/dev/cdc-wdm0` in `3/4G` settings.
-- Hostless: this modem supports tethering mode, please set up by using tethering but not 3/4G.
+### QMI
+This modem supports QMI mode. Please choose `/dev/cdc-wdm0` in `3/4G` settings.
+### Hostless 
+This modem supports tethering mode, please set up by using tethering but not 3/4G.
 
 | Model                                  | 3G/4G | Tested | Tested by       | Comments |
 | -------------------------------------- | ----- | ------ | --------------- | -------- |
@@ -157,7 +159,7 @@ You can also refer to [http://ofmodemsandmen.com/supported.html](http://ofmodems
 
 
 
-## 4. Tethering
+# Tethering
 
 If your modem works in host-less mode or you want to share the data of your smartphone, you can use `Tethering`. 
 
@@ -171,7 +173,7 @@ For smartphone tethering, connect it to the USB port of GL.iNet router and click
 
 
 
-### EasyTether
+## EasyTether
 
 Some carriers prohibit the sharing of the data and you may not able to use tethering. However, you can try [easytethering](/docs/openwrt/tether/). 
 
