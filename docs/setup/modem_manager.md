@@ -2,7 +2,7 @@
 
 If you are using GL-MiFi, Please insert Micro SIM card before you turn on the device.
 
-![SIM](/src/modem_manager/insert.jpg)
+![SIM](src/modem_manager/insert.jpg)
 
 
 
@@ -16,7 +16,7 @@ You can find the following information in `Modem Connection`:
 
 **Carrier**: The service provider of your SIM card.
 
-![Modem Connection](/src/modem_manager/modem_connection.jpg)
+![Modem Connection](src/modem_manager/modem_connection.jpg)
 
 
 
@@ -24,7 +24,7 @@ You can find the following information in `Modem Connection`:
 
 We have developed a modem tools for you to configure your 3G/4G modem in GL-MiFi easily. Please click `Modem Tools`.
 
-![Modem Tools](/src/modem_manager/modem_connection.jpg)
+![Modem Tools](src/modem_manager/modem_connection.jpg)
 
 
 
@@ -38,7 +38,7 @@ Input the correct information in order to activate the 3/4G modem.
 - **Dial Number**: Generally, it is a default value and you don't need to set it by yourself. However, if you have this info, please input it.
 - **Pin, Username and Password:** Generally, these informations are not necessary for a unlocked SIM card. However, if you have a locked SIM card, please find these informations from your carrier.
 
-![Modem Tools](/src/modem_manager/modem_tool1.jpg)
+![Modem Tools](src/modem_manager/modem_tool1.jpg)
 
 
 
@@ -46,7 +46,7 @@ Input the correct information in order to activate the 3/4G modem.
 
 Once the Data session above has been configured correctly. You will be able to use the SIM card in GL-MiFi and you can send message to others.
 
-![Modem Tools](/src/modem_manager/send_message.jpg)
+![Modem Tools](src/modem_manager/send_message.jpg)
 
 
 
@@ -54,7 +54,7 @@ Once the Data session above has been configured correctly. You will be able to u
 
 Once the Data session above has been configured correctly. You will be able to use the SIM card in GL-MiFi. Therefore, if someone send a message to the phone number of your SIM card, you can read it in `Read SMS`.
 
-![Modem Tools](/src/modem_manager/read_message.jpg)
+![Modem Tools](src/modem_manager/read_message.jpg)
 
 
 
@@ -62,7 +62,7 @@ Once the Data session above has been configured correctly. You will be able to u
 
 You can configure the 3G/4G modem by sending AT command to the router via `AT Tools`. You have to use the port **/dev/ttyUSB2** for all 3G/4G modules. We have pre-configured several AT commands that you can use directly in `Shortcut`.
 
-![Modem Tools](/src/modem_manager/at.jpg)
+![Modem Tools](src/modem_manager/at.jpg)
 
 
 
