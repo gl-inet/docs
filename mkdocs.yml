@@ -7,7 +7,7 @@ google_analytics: null
 site_dir: '/var/www/newdocs'
 #site_dir: 'site'
 docs_dir: 'docs'
-theme_dir: 'gl_theme'
+theme_dir: 'material'
 #theme: 'mkdocs'
 include_next_prev: false
 
