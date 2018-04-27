@@ -1,31 +1,31 @@
-# 	GL-AR300
+# GL-AR300 Router
 
-## 1. Hardware Specification
+## Hardware Specification
 
-|             Model             |                 GL-AR300                 |
-| :---------------------------: | :--------------------------------------: |
-|              CPU              |           Atheros 9344 560MHz            |
-|            Memory             |               DDRII 128Mb                |
-|            Storage            |              16Mb Nor Flash              |
-|          Interfaces           | 1 WAN, 4 LANs 2 USB2.0, 1 Micro SD Slot (128Gb Max.), 1 Reset Button |
-|           Frequency           |                  2.4GHz                  |
-|       Transmission Rate       |                 300Mbps                  |
-|         Max. Tx Power         |                  21dBm                   |
-|           Protocol            |               802.11 b/g/n               |
-| External Drive Format Support |     FAT32/NTFS/exFAT/EXT4/EXT3/EXT2      |
-|        Webcam Support         |                MJPEG, YUV                |
-|         DIY Features          |          SPI, JTAG, UART, GPIOs          |
-|   External Antenna Support    |             2 X 5dBi Antenna             |
-|      PoE Module Support       |                   Yes                    |
-|          Power Input          |                  12V/2A                  |
-|       Power Consumption       |                   <6W                    |
-|       Dimension, Weight       |          170mmX130mmX35mm, 105g          |
+|                         Model | GL-AR300                                 |
+| ----------------------------: | :--------------------------------------- |
+|                           CPU | Atheros 9344 560MHz                      |
+|                        Memory | DDRII 128Mb                              |
+|                       Storage | 16Mb Nor Flash                           |
+|                    Interfaces | 1 WAN, 4 LANs 2 USB2.0, 1 Micro SD Slot (128Gb Max.), 1 Reset Button |
+|                     Frequency | 2.4GHz                                   |
+|             Transmission Rate | 300Mbps                                  |
+|                 Max. Tx Power | 21dBm                                    |
+|                      Protocol | 802.11 b/g/n                             |
+| External Drive Format Support | FAT32/NTFS/exFAT/EXT4/EXT3/EXT2          |
+|                Webcam Support | MJPEG, YUV                               |
+|                  DIY Features | SPI, JTAG, UART, GPIOs                   |
+|      External Antenna Support | 2 X 5dBi Antenna                         |
+|            PoE Module Support | Yes                                      |
+|                   Power Input | 12V/2A                                   |
+|             Power Consumption | <6W                                      |
+|             Dimension, Weight | 170mmX130mmX35mm, 105g                   |
 
 
 
-##2. PCB Pinout
+## PCB Pinout
 
-![](src\ar300_marks-01_1000x1000.jpg) 
+![](src/ar300_marks-01_1000x1000.jpg) 
 
    
 

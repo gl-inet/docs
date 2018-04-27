@@ -5,24 +5,24 @@
 
 ## Hardware Specification
 
-|             Model             |                 GL-AR150                 |
-| :---------------------------: | :--------------------------------------: |
-|              CPU              |           Atheros 9331 400MHz            |
-|            Memory             |                DDRII 64Mb                |
-|            Storage            |                16Mb flash                |
-|          Interfaces           | 1 WAN, 1 LAN, 1 USB2.0, 1 Micro USB (power), 1 Reset Button, UART |
-|           Frequency           |                  2.4GHz                  |
-|       Transmission Rate       |                 150Mbps                  |
-|         Max. Tx Power         |                  18dBm                   |
-|           Protocol            |               802.11 b/g/n               |
-| External Drive Format Support |     FAT32/NTFS/exFAT/EXT4/EXT3/EXT2      |
-|        Webcam Support         |                MJPEG, YUV                |
-|         DIY Features          |    UART, GPIO,  3.3V & 5V power port     |
-|   External Antenna Support    |                   Yes                    |
-|      PoE Module Support       |                   Yes                    |
-|          Power Input          |                  5V/1A                   |
-|       Power Consumption       |                  <1.5W                   |
-|       Dimension, Weight       |           58mmX58mmX25mm, 39g            |
+|                         Model | GL-AR150                                 |
+| ----------------------------: | :--------------------------------------- |
+|                           CPU | Atheros 9331 400MHz                      |
+|                        Memory | DDRII 64Mb                               |
+|                       Storage | 16Mb flash                               |
+|                    Interfaces | 1 WAN, 1 LAN, 1 USB2.0, 1 Micro USB (power), 1 Reset Button, UART |
+|                     Frequency | 2.4GHz                                   |
+|             Transmission Rate | 150Mbps                                  |
+|                 Max. Tx Power | 18dBm                                    |
+|                      Protocol | 802.11 b/g/n                             |
+| External Drive Format Support | FAT32/NTFS/exFAT/EXT4/EXT3/EXT2          |
+|                Webcam Support | MJPEG, YUV                               |
+|                  DIY Features | UART, GPIO,  3.3V & 5V power port        |
+|      External Antenna Support | Yes                                      |
+|            PoE Module Support | Yes                                      |
+|                   Power Input | 5V/1A                                    |
+|             Power Consumption | <1.5W                                    |
+|             Dimension, Weight | 58mmX58mmX25mm, 39g                      |
 
 
 
@@ -30,7 +30,9 @@
 
 ![](src\AR150-V4.4-PINOUT.jpg)
 
-## Using RTC (Realtime control) in GL-AR150
+## RTC Setting
+
+You can use a RTC (Real-time control) module in GL-AR150 mini router.
 
 ![](src\rtc_1200x1200.jpg)
 
@@ -89,7 +91,9 @@ hwclock -w
 
 ## PoE Setting
 
-You can only apply one power supply method at one time, either via PoE(Power over Ethernet) or micro USB Power. The compatible passive or active PoE injector should be 48V 802.3af 
+We have a built-in PoE module for GL-AR150 mini routers. You can find it in the PoE version of AR150 router.
+
+You can only apply one power supply method at one time, either via PoE(Power over Ethernet) or micro USB Power. The compatible passive or active PoE injector should be 48V 802.3af/at
 
 PoE only works on the ***WAN Port***
 

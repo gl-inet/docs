@@ -1,31 +1,31 @@
-# 	GL-AR300M Series
+#  GL-AR300M Series
 
-## 1. Hardware Specification
+##  Hardware Specification
 
-|             Model             |             GL-AR300M Series             |
-| :---------------------------: | :--------------------------------------: |
-|              CPU              |              QCA9531 650MHz              |
-|            Memory             |               DDRII 128Mb                |
-|            Storage            | 16Mb Nor + 128 Mb Nand Dual Flash/16Mb Nor Flash |
-|          Interfaces           | 1 WAN, 1 LAN, 1 USB2.0, 1 Micro USB (power), 1 Reset Button, PCIe, UART |
-|           Frequency           |                  2.4GHz                  |
-|       Transmission Rate       |                 300Mbps                  |
-|         Max. Tx Power         |                  20dBm                   |
-|           Protocol            |               802.11 b/g/n               |
-| External Drive Format Support |     FAT32/NTFS/exFAT/EXT4/EXT3/EXT2      |
-|        Webcam Support         |                MJPEG, YUV                |
-|         DIY Features          |  UART, GPIO, PCIe, 3.3V & 5V power port  |
-|   External Antenna Support    |                   Yes                    |
-|      PoE Module Support       |                    No                    |
-|          Power Input          |                  5V/1A                   |
-|       Power Consumption       |                   <2W                    |
-|       Dimension, Weight       |           58mmX58mmX25mm, 39g            |
+|                         Model | GL-AR300M Series                         |
+| ----------------------------: | :--------------------------------------- |
+|                           CPU | QCA9531 650MHz                           |
+|                        Memory | DDRII 128Mb                              |
+|                       Storage | 16Mb Nor + 128 Mb Nand Dual Flash/16Mb Nor Flash |
+|                    Interfaces | 1 WAN, 1 LAN, 1 USB2.0, 1 Micro USB (power), 1 Reset Button, PCIe, UART |
+|                     Frequency | 2.4GHz                                   |
+|             Transmission Rate | 300Mbps                                  |
+|                 Max. Tx Power | 20dBm                                    |
+|                      Protocol | 802.11 b/g/n                             |
+| External Drive Format Support | FAT32/NTFS/exFAT/EXT4/EXT3/EXT2          |
+|                Webcam Support | MJPEG, YUV                               |
+|                  DIY Features | UART, GPIO, PCIe, 3.3V & 5V power port   |
+|      External Antenna Support | Yes                                      |
+|            PoE Module Support | No                                       |
+|                   Power Input | 5V/1A                                    |
+|             Power Consumption | <2W                                      |
+|             Dimension, Weight | 58mmX58mmX25mm, 39g                      |
 
 
 
-##2. PCB Pinout
+## PCB Pinout
 
-![](src\GL-AR300M-PINOUT-1.jpg) 
+![](src/GL-AR300M-PINOUT-1.jpg) 
 
 
 **Note: I2C is not working in the router.**
@@ -46,9 +46,9 @@ The performance comparision between AR300M (nand) with AR150 is below:
 It only takes 6 seconds to upload and process 250 ovpn files. When installing packages to the router, it takes no more than 20% for the time spent than using nor flash, including the time to download resource from the Internet. So everything just happends in seconds.
 
 
-## Building  Firmware
+## Building Firmware
 
-The router has two flash so we have two firmware. One firmware is installed on the Nor flash and one is installed on the nand flash. The two firmware is independent from each other. The router will always try to boot from the nand flash. If it fails for 3 times it will boot from the Nor flash.
+The router has two flash so we have two firmwares. One firmware is installed on the Nor flash and one is installed on the nand flash. The two firmware is independent from each other. The router will always try to boot from the nand flash. If it fails for 3 times it will boot from the Nor flash.
 
 By using two firmwares, businesses can have dual boot options to ensure the system can backup, upgrade and boot without problems.
 
@@ -90,7 +90,7 @@ The make process will takes around 1 hour for the first time because it needs to
 
 There is two file for nand firmware. The `xxx-ubi.img` is used for first time writing to the nand flash. If you are using uboot to upgrade the firmware, please use this one. The `xxx-sysupgrade.tar` is used for upgrading from openwrt. So if you use our stock firmware or already using an openwrt firmware, choose this one.
 
-## Using the firmware
+## Using Firmware
 
 The firmware has exactly the same UI as our other mini routers. To determine you are using nor flash or nand flash, please check the available space from the UI.
 
