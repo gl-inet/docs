@@ -1,5 +1,7 @@
 # 	GL-AR150 Series
 
+AR150 Series includes AR150, AR150-Ext, AR150-PoE and AR150-Ext-PoE.
+
 
 
 
@@ -16,10 +18,10 @@
 |                 Max. Tx Power | 18dBm                                    |
 |                      Protocol | 802.11 b/g/n                             |
 | External Drive Format Support | FAT32/NTFS/exFAT/EXT4/EXT3/EXT2          |
-|                Webcam Support | MJPEG, YUV                               |
+|                Webcam Support | MJPEG, YUV (web cam not support any more from firmware v2.27) |
 |                  DIY Features | UART, GPIO,  3.3V & 5V power port        |
-|      External Antenna Support | Yes                                      |
-|            PoE Module Support | Yes                                      |
+|      External Antenna Support | Yes (optional)                           |
+|            PoE Module Support | Yes (optional)                           |
 |                   Power Input | 5V/1A                                    |
 |             Power Consumption | <1.5W                                    |
 |             Dimension, Weight | 58mmX58mmX25mm, 39g                      |
@@ -89,17 +91,25 @@ hwclock -w
 
 
 
-## PoE Setting
+## PoE Connection
 
-We have a built-in PoE module for GL-AR150 mini routers. You can find it in the PoE version of AR150 router.
+We have a specific PoE module for GL-AR150 mini routers. You can find it in the PoE version of AR150 router.
 
-You can only apply one power supply method at one time, either via PoE(Power over Ethernet) or micro USB Power. The compatible passive or active PoE injector should be 48V 802.3af/at
+You can only apply one power supply method at one time, either via PoE (Power over Ethernet) or micro USB Power. The compatible passive or active PoE injector should be 48V 802.3af/at.
 
-PoE only works on the ***WAN Port***
+PoE only works on the ***WAN Port only***
 
-![](src\AR150-PoE_setup.png)
+
+
+![AR150 PoE Connection](src\AR150-PoE_setup.png)
+
+
 
 PoE Setup Sample: 
+
+The following PoE injector is widely availabe in the market and it is very affordable. You can put you Ineternet cable in the `Data In` port then connect the `Data & Power Out` port to AR150-PoE's `WAN` port.
+
+***For PoE Version Only***
 
 ![](src\white_1000x1000_PoE_2.jpg) 
 
