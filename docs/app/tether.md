@@ -1,5 +1,5 @@
-# How to tether your phone to your router by using EasyTether.
-
+# EasyTether
+This article is about how to tether your phone to your router by using EasyTether.
 
 
 There is several reasons you need to share your smartphone's data  to your router:
