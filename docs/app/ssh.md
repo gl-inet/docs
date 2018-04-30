@@ -1,7 +1,7 @@
-Edit files and execute command
+Using SSH
 ===
 
-Sometime you need to have basic tools to ssh to the server (e.g. When you need to set up Shadowsocks server ). This guide is how to SSH login to the GL.iNet routers.
+Secure Shell (SSH) is a cryptographic network protocol for operating network services securely over an unsecured network. The best known example application is for remote login to computer systems by users. Sometime you need to have basic tools to ssh to the server (e.g. When you need to set up Shadowsocks server ). This guide is how to SSH login to the GL.iNet routers.
 
 # Windows User:
 
