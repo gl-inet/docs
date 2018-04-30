@@ -45,10 +45,11 @@ pages:
     - 'Advanced Uboot' :  'dev/uboot.md'   
     - 'Domino Kit' : 'domino/index.md'    
 - Application:
+    - 'SSH to the router' : 'app/ssh.md'
     - 'OpenVPN' : 'app/openvpn.md'
     - 'Tor' : 'app/tor.md'
     - 'EasyTether' : 'app/tether.md'
-    - 'Shadowsocks' : 'app/shadowsocks.md'
+    - 'Shadowsocks' : 'app/ss.md'
     - 'WireGuard' : 'app/wireguard.md'
    
 - Video:
