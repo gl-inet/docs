@@ -1,11 +1,9 @@
-GL Router Shadowsocks (SS) Setup Manual
+# Shadowsocks (SS) Setting
 ===
 
-You will learn how to set up shadowsocks server and client on the mini router in this guide. This guide is for DIY purpose and provided as is. 
+You will learn how to set up shadowsocks server and client on the mini router in this guide. This guide is for DIY purpose and provided as is. To do the following steps, you have to learn how to use SSH and WinSCP to connect to the router first.
 
-To do the following steps, you have to learn how to use SSH and WinSCP to connect to the router first.
-
-# Setup Shadowsocks Server
+# Setup SS Server
 
 Note: If you want to use your router as Shadowsocks server, you have to have Internet IP address that it can be access everywhere. Your ISP should also allow you to use as servers otherwise it is not accessible worldwide.
 
@@ -27,7 +25,7 @@ switch to edit mode by press `i` on your keyboard, then you can change parameter
 3. password:  ***your password*** This is the only thing that you have to set up by yourself.
 4. method: `rc4-md5` is default encrypt method, rc4-md5 is the fastest encryption method. 
 
-when you finish all above modification, you can click `Esc` to exit edit mode, then click `:`, type`wq` to ***write*** the modification into the configuration files and ***quit***. 
+when you finish all above modification, you can click `Esc` to exit edit mode, then click `:`, type`wq` to `write` the modification into the configuration files and `quit`. 
 
 ![](src/ss/ssh-wq.png) 
 
@@ -45,7 +43,7 @@ When you open ss-server configure file, you can see the following configuration
 
 Press `i` to switch to edit mode, remove the "**#**" before `/usr/bin/ss-server - C /etc/shadowsocks-server.json -u &`, then click "**Esc**", to exit edit mode, and type `:`, type`wq` to ***write*** and ***quit*** the configuration file.
 
-## 3. Start SS-Server services
+## 3. Start SS Server services
 
 Input `/etc/init.d/ss-server start` , then the ss-serer services start on your router. 
 
@@ -116,7 +114,7 @@ Open any IP address checking website, the following websites are for your option
 
 The webpage will detect and show your public IP address, **record** it. 
 
-## 7. Now your configuration is ready
+## 7. Configuration is ready
 
 Now your ss server info is ready. Please write this down so that you can use to connect to your server.
 * Server IP: Your public server IP
@@ -124,9 +122,9 @@ Now your ss server info is ready. Please write this down so that you can use to 
 * Password: your password
 
 
-# Using Shadowsocks on PCs or Smartphones
+# Using SS on PCs or Smartphones
 
-## 1. Find and Download the clients of your OS platform: 
+## 1. Download the clients of your OS platform: 
 
 https://shadowsocks.org/en/download/clients.html
 
