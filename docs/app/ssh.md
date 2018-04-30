@@ -1,18 +1,17 @@
 Edit files and execute command
 ===
 
-In order to set up ss server, you need to have basic tools to ssh to the server.
-This guide is how to SSH login to the GL routers.
+Sometime you need to have basic tools to ssh to the server (e.g. When you need to set up Shadowsocks server ). This guide is how to SSH login to the GL.iNet routers.
 
 # Windows User:
 
-## 1. Download and install a PuTTY for windows user:
+## 1. Download and install a PuTTY
 
 Go to the following webpage to download the latest PuTTY version：  
 
 https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
 
-## 2. Install PuTTY for windows step by step
+## 2. Install PuTTY
 
 ![](src/ssh/PuTTY-Install-1.png) 
 
@@ -28,7 +27,7 @@ https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
 
 ![](src/ssh/PuTTY-Install-4.png) 
 
-## 3. Launch PuTTY in Windows
+## 3. Launch PuTTY 
 
 Click **PuTTY** in Start Menu 
 
@@ -40,35 +39,35 @@ You will see the following Configuration Window:
 
 ![](src/ssh/Setup-PuTTY-1.png) 
 
-**Input** Host Name (or IP address) "**192.168.8.1**", Keep Port as default "**22**", select connection type: "**SSH**",
+Input Host Name (or IP address) `192.168.8.1`, Keep Port as default `22`, select connection type: `SSH`,
 
-**Input** "**your session**" in saved sessions, click **<u>S</u>ave** at right side.
+Input `Your Session` in saved sessions, and `Save` your content.
 
 ![](src/ssh/Setup-PuTTY-2.png)  
 
-**Click "<u>O</u>pen"** at the bottom
+Click `Open` at the bottom
 
 ![](src/ssh/Setup-PuTTY-3.png) 
 
-A security alert will pop-up, click "**Yes**".
+A security alert will pop-up, click `Yes`.
 
 login as：`root`
 
-Then input your password as following: 
+Then input your admin password 
 
-root@192.168.8.1‘s password: **You need to use your password which you set up the router at the first time**
+*Note: You need to use your password which you set up the router at the first time*
 
 ![](src/ssh/SSH-in-2.png)  
 
 When you see above picture, that means you are now ssh login the router successfully.  
 
-# Ubuntu User:
+# Ubuntu / Mac User:
 
 ![](src/ssh/Ubuntu-Login.png) 
 
-Click "**Terminal**"
+## 1. Launch Terminal
 
-Input the following command: 
+Click the `Terminal` icon to launch Terminal. Then, input the following command: 
 
 `SSH root@192.168.8.1` 
 
@@ -76,7 +75,8 @@ If you have ever connected to another router, host key verification failed may d
 
 ![](src/ssh/remove-ssh-keygen.png) 
 
-input the red highlight command:
+## 2. Log In Router
+Input the red highlight command:
 
 `ssh-keygen -f "/home/username/.ssh/known_hosts" -R "192.168.8.1"`
 
