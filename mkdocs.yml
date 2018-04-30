@@ -39,7 +39,7 @@ pages:
     - 'Wi-Fi Settings (AP)': 'setup/wifi_setting.md'
     - 'Firmware Upgrading' :  'setup/firmware.md'  
     - 'Momdem Manager' : 'setup/modem_manager.md'
-    - 'Firewall' :  'setup/firewall.md'   
+
 - Development:
     - 'UART Serial' :  'dev/serial.md'   
     - 'Advanced Uboot' :  'dev/uboot.md'   
