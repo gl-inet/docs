@@ -6,17 +6,17 @@ Available documentations
 
 
 
-[Mini Router Internet Setup](/setup/internet)
+[4 ways of Internet Setup](/setup/internet)
 
-[Mini Router 3G/4G modem setup](/setup/3g4g)
+[Mini Router 3G/4G USB modem setup](/setup/3g4g)
 
-[Mini Router LAN IP](/setup/lan)
+[ LAN IP Setting](/setup/lan)
 
-[Mini Router WiFi Settings](/setup/wifi)
+[WiFi Settings](/setup/wifi)
 
-[Mini Router **Repeater Manager**](/setup/repeater_manager)
+[Repeater Manager](/setup/repeater_manager)
 
-[Mini Router firmware upgrade](/mini/firmware)
+[ firmware upgrade](/setupi/firmware)
 
 [Using RTC on GL-AR150](/hardware/ar150/ar150spec)
 
@@ -24,13 +24,13 @@ Available documentations
 
 [GL-MiFi](/hardware/mifi/mifispec)
 
-[Using **OpenVPN** on Mini routers](/app/openvpn)
+[Using **OpenVPN** on GL.iNet routers](/app/openvpn)
 
-[Shadowsocks(SS) Setup Manual](/app/shadowsocks)
+[Using **Shadowsocks(SS)** on GL.iNet routers](/app/shadowsocks)
 
-[Using **Tor** on Mini routers](/app/tor)
+[Using **Tor** on  GL.iNet  routers](/app/tor)
 
-[Using **EasyTether** on Mini routers](/app/tether)
+[Using **EasyTether** on GL.iNet routers](/app/tether)
 
 [Working with UART & serial](/toubleshooting/serial)
 
