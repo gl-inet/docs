@@ -14,7 +14,7 @@ This guide assumes that you have set up the router properly.
 
 
 
-# 1. Create an OpenVPN connection
+## 1. Create an OpenVPN connection
 
 ### 1) Go to OpenVPN page
 
@@ -67,7 +67,7 @@ The router will show the connection progress. Once it is connected, you will be 
 
 
 
-# 2. Manage ovpn files
+## 2. Manage ovpn files
 
 From firmware `v2.20`, there is a simple ovpn manager where you can check the current list of ovpn files. You can purge all the files and start to use another vpn service.
 
@@ -82,13 +82,17 @@ We would like to add more functions in the ovpn manager, you can send us a wish 
 
 
 
-# 3. Get the config File
+## 3. Get the config File
 
 We have tested different VPN service providers. Therefore, if you don't know how to get the configuration file, you can follow the instruction below according to your service provider. However, you have to contact your service provider for the configuration file if they haven't been listed  below. 
 
 If you use other service providers and have problem of setting up the OpenVPN, please contact [support@gl-inet.com](mailto:support@gl-inet.com)
 
-## AirVPN
+Service providers are list according to their names as below,
+
+##A - D 
+
+###AirVPN
 
 https://airvpn.org/?referred_by=402389
 
@@ -158,8 +162,9 @@ Download directly from: https://www.cactusvpn.com/downloads/
 
 
 ---
+##E - H
 
-## ExpressVPN
+### ExpressVPN
 
 https://www.expressvpn.com/
 
@@ -190,7 +195,7 @@ https://www.expressvpn.com/support/vpn-setup/manual-config-for-linux-with-openvp
 
 ---
 
-## FinchVPN 
+### FinchVPN 
 
 https://www.finchvpn.com/
 
@@ -227,7 +232,7 @@ https://www.finchvpn.com/
 
 ---
 
-## Free VPN Software
+### Free VPN Software
 
 <http://freevpnsoftware.net/>
 
@@ -239,7 +244,7 @@ UK Server: http://freevpnsoftware.net/downloads/UK.freevpnsoftware.net.ovpn
 
 ---
 
-## HideMyAss
+### HideMyAss
 
 https://www.hidemyass.com/
 
@@ -248,8 +253,9 @@ Download directly from: http://hidemyass.com/vpn-config/vpn-configs.zip
 
 
 ---
+##I - P
 
-## Ivacy
+### Ivacy
 
 https://billing.ivacy.com/page/22852
 
@@ -259,7 +265,7 @@ Download directly from: https://s3.amazonaws.com/ivacy-apps/openvpn-files/OpenVP
 
 ---
 
-## NordVPN
+### NordVPN
 
 https://go.nordvpn.net/aff_c?offer_id=15&aff_id=12016&url_id=902
 
@@ -269,7 +275,7 @@ Download directly from: <https://downloads.nordcdn.com/configs/archives/servers/
 
 ---
 
-## PIA
+### PIA
 
 https://www.privateinternetaccess.com/pages/buy-vpn/glinet
 
@@ -279,7 +285,7 @@ Download directly from: <https://www.privateinternetaccess.com/openvpn/openvpn.z
 
 ---
 
-## Proxy.sh
+### Proxy.sh
 
 <https://proxy.sh/panel/aff.php?aff=1458>
 
@@ -297,7 +303,7 @@ For $20 customers:https://proxy.sh/p/openvpn
 
 ---
 
-## Proxpn
+### Proxpn
 
 https://secure.proxpn.com/?a_aid=5ac450e27df6f
 
@@ -332,7 +338,7 @@ https://secure.proxpn.com/?a_aid=5ac450e27df6f
 
 ---
 
-##PureVPN
+###PureVPN
 
 https://billing.purevpn.com/aff.php?aff=35535
 
@@ -341,8 +347,8 @@ Download directly from: <https://s3-us-west-1.amazonaws.com/heartbleed/linux/lin
 
 
 ---
-
-##SaferVPN
+##S - T
+###SaferVPN
 
 https://safervpn.com/?a_aid=563
 
@@ -355,7 +361,7 @@ https://www.safervpn.com/support/articles/214036025-What-are-SaferVPN-s-OpenVPN-
 
 ---
 
-##StrongVPN
+###StrongVPN
 
 <https://strongvpn.com/>
 
@@ -392,7 +398,7 @@ https://www.safervpn.com/support/articles/214036025-What-are-SaferVPN-s-OpenVPN-
 
 ---
 
-##TCPVPN
+###TCPVPN
 
 <https://www.tcpvpn.com/home>
 
@@ -416,7 +422,7 @@ https://www.safervpn.com/support/articles/214036025-What-are-SaferVPN-s-OpenVPN-
 
 ---
 
-##TorGuard
+###TorGuard
 
 https://torguard.net/
 
@@ -429,7 +435,7 @@ https://torguard.net/
 
 ---
 
-##TotalVPN
+###TotalVPN
 
 https://www.totalvpn.com
 
@@ -438,8 +444,8 @@ Download directly from: https://pseudio.freshdesk.com/helpdesk/attachments/80058
 
 
 ---
-
-##VPN.AC
+##V - W
+###VPN.AC
 
 https://vpn.ac/aff.php?aff=1424
 
@@ -451,7 +457,7 @@ Download directly from: https://vpn.ac/ovpn/
 
 ---
 
-##VPNBook
+###VPNBook
 
 https://www.vpnbook.com/
 
@@ -464,7 +470,7 @@ The username and password are listed below the download link.
 
 ---
 
-##VPNGate
+###VPNGate
 
 http://www.vpngate.net/en/
 
@@ -485,7 +491,7 @@ according to the server location.
 
 ---
 
-##VPN Unlimited
+###VPN Unlimited
 
 https://www.vpnunlimitedapp.com/en
 
@@ -525,7 +531,7 @@ Start out by logging in to your User Office, press Manage for the VPN Unlimited 
 
 
 
-#VPN Compatibilities
+#OpenVPN Compatibilities
 
 We have checked a number of public vpn service providers and tested the compatibilities. What you need to do is purchase a subscription from them and download the ovpn files.
 
@@ -547,7 +553,7 @@ __Note: For service issues, please contact the service provider directly.__
 12. Strong VPN, http://strongvpn.com/
 13. HideMyAss, https://www.hidemyass.com
 14. Proxy.sh, [https://proxy.sh](https://proxy.sh/panel/aff.php?aff=1458)
-15. TCPVPN.com, https://www.tcpvpn.com
+15. TCPVPN, https://www.tcpvpn.com
 16. Vpn.AC, [https://vpn.ac](https://vpn.ac/aff.php?aff=1424)
 17. Proxpn, [https://secure.proxpn.com](https://secure.proxpn.com/?a_aid=5ac450e27df6f)
 18. ExpressVPN, https://www.expressvpn.com/
