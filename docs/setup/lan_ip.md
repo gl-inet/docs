@@ -1,5 +1,9 @@
 # LAN IP Setting
 
+LAN IP is the IP address you will use to connect to this router. If it conflicts with your main router, you can change it in the UI.
+
+
+
 ## Default LAN IP
 The default IP address of GL.iNet router is 192.168.8.1. 
 
