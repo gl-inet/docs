@@ -126,11 +126,11 @@ Now your ss server info is ready. Please write this down so that you can use to 
 
 # Using Shadowsocks on PCs or Smartphones
 
-## Find and Download the clients of your OS platform: 
+## 1. Find and Download the clients of your OS platform: 
 
 https://shadowsocks.org/en/download/clients.html
 
-## 1. Setup your client on different devices
+## 2. Setup your client on different devices
 
 Install the Shadowsocks Client on your device (iOS, Android or Windows devices), then setup the following information:
 
@@ -142,7 +142,7 @@ Password: **your password** (same as you setup in ss-server)
 
 Encryption: `rc4-md5` (same as you select in ss-server)
 
-##2. Start using Private Shadowsocks Services
+## 3. Start using Private Shadowsocks Services
 
 After setup, you just start your shadowsocks on your devices, enjoy it. 
 
