@@ -31,12 +31,12 @@
 
   ![mini LED](src/ledlight/mifi.jpg)
 
-- **Battery**: Indicate the battery, it will flash when the device is charging until fully charged.
+- **Battery**: Indicate the battery, it will blink when the device is charging until fully charged.
 - **Power**: This router is powered on
-- **WAN**: 
+- **WAN**: This router is connected to the Internet via Ethernet port.  It will blink when the device has data transmission from Ethernet port
 - **LAN**: This router is connected to client through LAN cable
 - **WI-Fi**: Solid LED that indicates the router is broadcasting Wi-Fi. It will flash when there is wireless data transfer.
-- **3G/4G**:
+- **3G/4G**: This router is connected to the 3G/4G LTE network. It will blink when the device has data transmission from 3G/4G LTE network
 
 
 
@@ -73,7 +73,7 @@
 
 ##LED Customization
 
-To configure the LED of mini router, please login to Luci by clicking **Advanced settings** at the top-right corner of the web admin page. 
+To configure the LED of GL.iNet routers, please login to Luci by clicking **Advanced settings** at the top-right corner of the web admin page. 
 
 ![](src/ledlight/advanced_settings.jpg)
 
