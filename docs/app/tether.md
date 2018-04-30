@@ -1,6 +1,7 @@
-# EasyTether
+# EasyTether 
 This article is about how to tether your phone to your router by using EasyTether.
 
+#Intro
 
 There is several reasons you need to share your smartphone's data  to your router:
 
@@ -14,9 +15,9 @@ We will use Android OS and GL mini router to demonstrate the procedure.
 
 
 
-## Stuff you need
+# Stuff you need
 
-### A) Equipment
+## A) Equipment
 
 1)     Samsung Galaxy S6 with Android OS
 
@@ -24,7 +25,7 @@ We will use Android OS and GL mini router to demonstrate the procedure.
 
 3)     4G sim card
 
-### B) Software
+## B) Software
 
 1)     WinSCP ([https://winscp.net/eng/download.php](https://winscp.net/eng/download.php))
 
@@ -46,15 +47,15 @@ We will use Android OS and GL mini router to demonstrate the procedure.
 
 
 
-## Procedure
+# Procedure
 
-### A) Preparing your router
+## A) Preparing your router
 
-#### *1) Set up the router*
+### *1) Set up the router*
 
 Enter 192.168.8.1 in your browser and get into the router web interface. Set the password which will be used for OpenWRT later. Next, update your router to the latest firmware.
 
-#### *2) Transfer IPK driver package to the router*
+### *2) Transfer IPK driver package to the router*
 
 ***i.*** Find out the chip of your model (for example Atheros 9531, MediaTek MT7620N, etc) from the website. It is because you have to choose the IPK driver package in the EasyTether driver file base on the chip of your router. (For GL router, you can find the information on our website: www.gl-inet.com, and we will also indicate the position of the IPK driver file for our mini router in section iv.):
 
@@ -84,7 +85,7 @@ You will see the directory tree of the router:
 
 ![Upload1](http://www.gl-inet.com/wordpress/wp-content/uploads/2017/06/Q11.png)
 
-#### *3) Use SSH to install EasyTether driver*
+### *3) Use SSH to install EasyTether driver*
 
 ***i.*** Open PuTTY, enter the IP of your router and other information as the figure shown below, then click Open:
 
@@ -133,9 +134,9 @@ EOF
 
 
 
-### B) Preparing your smart phone
+## B) Preparing your smart phone
 
-#### *1) Enable the Developer Options*
+### *1) Enable the Developer Options*
 
 ***i.*** Go to Setting -> About Device -> Software info. Hitting the build number several times and it will announce that you have turn on the Developer Options.
 
@@ -145,7 +146,7 @@ EOF
 
 ![Developer Options](http://www.gl-inet.com/wordpress/wp-content/uploads/2017/06/XXXX.jpg)
 
-#### *2) Start tethering*
+### *2) Start tethering*
 
 ***i.*** Open EasyTether App, tick the USB button, it will show “waiting for connection from the host”. 
 
