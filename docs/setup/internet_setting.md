@@ -22,7 +22,7 @@ You can click `New Connection` to create an Internet connection.
 
 DHCP is the default and most common method to connect to the Internet. You just need to choose `DHCP` and click `Submit`.
 
-![](/src/internet/dhcp_page.jpg)
+![](src/internet/dhcp_page.jpg)
 
 
 
@@ -124,7 +124,7 @@ To make the correct settings:
 
 ## Example (US Verizon)
 
-![modem](/src/internet/verizon_apn.jpg)
+![modem](src/internet/verizon_apn.jpg)
 
 
 
