@@ -1,4 +1,5 @@
 GL Router Shadowsocks (SS) Setup Manual
+===
 
 You will learn how to set up shadowsocks server and client on the mini router in this guide. This guide is for DIY purpose and provided as is. 
 
