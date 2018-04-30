@@ -10,8 +10,7 @@ To do the following steps, you have to learn how to use SSH and WinSCP to connec
 Note: If you want to use your router as Shadowsocks server, you have to have Internet IP address that it can be access everywhere. Your ISP should also allow you to use as servers otherwise it is not accessible worldwide.
 
 
-
-## Edit Shadowsocks-server.json file
+## 1. Edit Shadowsocks-server.json file
 
 Input the following command to edit the configuration file "**shadowsocks-server.json**“ 
 
@@ -34,7 +33,7 @@ when you finish all above modification, you can click `Esc` to exit edit mode, t
 
  
 
-## Edit ss-server init file
+## 2. Edit ss-server init file
 
 Type `vi /etc/init.d/ss-server` in the command line
 
@@ -46,7 +45,7 @@ When you open ss-server configure file, you can see the following configuration
 
 Press `i` to switch to edit mode, remove the "**#**" before `/usr/bin/ss-server - C /etc/shadowsocks-server.json -u &`, then click "**Esc**", to exit edit mode, and type `:`, type`wq` to ***write*** and ***quit*** the configuration file.
 
-## Start SS-Server services
+## 3. Start SS-Server services
 
 Input `/etc/init.d/ss-server start` , then the ss-serer services start on your router. 
 
@@ -56,7 +55,7 @@ After you start ss-server, the above information will display.
 
 You can also restart the router so that the server is started automatically.
 
-## Open Port on the mini Router
+## 4. Open Port on the mini Router
 
 The port is not opened automatically so you can do this manually.
 
@@ -95,7 +94,7 @@ Click "**Add**" after filling relate information and scroll down to the bottom, 
 
 Now the port forwarding shall be activated and also the Shadowsocks Server is ready to use. 
 
-##Port forward
+## 5. Port forward
 
 You don't need to setup port forward if you are using the GL router as the main router. 
 
@@ -103,7 +102,7 @@ But if connect the mini router to your main router as a client, you need to setu
 
 Todo: port forward in other brand of router.
 
-## Check your public IP address
+## 6. Check your public IP address
 
 You can use any of your PC, laptop, tablet or smartphone to connect your Wi-Fi, then open a web browser (IE, Chrome, Safari, Firefox etc.)
 
@@ -117,7 +116,7 @@ Open any IP address checking website, the following websites are for your option
 
 The webpage will detect and show your public IP address, **record** it. 
 
-## Now your configuration is ready
+## 7. Now your configuration is ready
 
 Now your ss server info is ready. Please write this down so that you can use to connect to your server.
 * Server IP: Your public server IP
@@ -131,7 +130,7 @@ Now your ss server info is ready. Please write this down so that you can use to 
 
 https://shadowsocks.org/en/download/clients.html
 
-## Setup your client on different devices
+## 1. Setup your client on different devices
 
 Install the Shadowsocks Client on your device (iOS, Android or Windows devices), then setup the following information:
 
@@ -143,7 +142,7 @@ Password: **your password** (same as you setup in ss-server)
 
 Encryption: `rc4-md5` (same as you select in ss-server)
 
-## Start using Private Shadowsocks Services
+##2. Start using Private Shadowsocks Services
 
 After setup, you just start your shadowsocks on your devices, enjoy it. 
 
@@ -152,7 +151,7 @@ You can test or check whether it's workable by open a web browser on your smartp
 
 # Shadowsocks Client Setup on the router
 
-## Setup SS-Server in Luci
+## 1. Setup SS-Server in Luci
 
 ![](src/ss/1522905053283.png)  
 
@@ -186,7 +185,7 @@ The following window will displayed, then click "***Save & Apply***"
 
 ![](src/ss/1523609971201.png) 
 
-## Active SS-Server Client in GL-Router
+## 2. Active SS-Server Client in GL-Router
 
 Then switch to General Settings tab, select "**You defined Alias**" as **Main Server** in the Transparent Proxy 
 
