@@ -1,17 +1,33 @@
 #WireGuard Setting
 
-## Prerequisite  
+The future of VPN technology
+
+
+
+WireGuard is an extremely simple yet fast and modern VPN that utilizes **state-of-the-art cryptography**. It aims to be [faster](https://www.wireguard.com/performance/), [simpler](https://www.wireguard.com/quickstart/), leaner, and more useful than IPSec, while avoiding the massive headache. It intends to be considerably more performant than OpenVPN. 
+
+From firmware V2.27, you can install wireguard easily using `opkg`.
+
+You need to ssh to the router and do the following.
+
+## Install Wireguard  
 
 ```bash  
 # opkg update
 # opkg install wireguard
 ```
 
+You can install Wireguard either as Server or client.
+
 
 
 ## Server Configuration  
 
+To configure the mini router as Wireguard server, you need to do the following.
+
 ### 1. Generate Key  
+
+First you need to generate the privatekey and publickey. 
 
 ```  
 # wg genkey > privatekey
@@ -37,7 +53,6 @@ root@GL-B1300:~# ip link add dev wg0 type wireguard
 root@GL-B1300:~# ip addr add 10.0.0.2/32 dev wg0
 root@GL-B1300:~# wg set wg0 private-key privatekey peer "zuhMagT5JhQqyr0ShDxGwEV5oAWpxiljinnJmkvRTm0=" allowed-ips "0.0.0.0/0" endpoint "192.168.8.1:55555" persistent-keepalive 25  
 root@GL-B1300:~# ip link set wg0 up
-
 ```
 
 ### 3. Firewall Configuration  

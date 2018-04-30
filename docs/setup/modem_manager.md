@@ -1,6 +1,12 @@
 # Modem Manager 
 
-If you are using GL-MiFi, Please insert Micro SIM card before you turn on the device.
+Modem manager for MiFi
+
+Modem manager is the UI to control the modem on MiFi from firmware v2.27. The modem manager can be used to configure modem automatically, read/send SMS or issue AT commands.
+
+
+
+Please insert Micro SIM card before you turn on the device.
 
 ![SIM](src/modem_manager/insert.jpg)
 
@@ -30,6 +36,8 @@ We have developed a modem tools for you to configure your 3G/4G modem in GL-MiFi
 
 ## Data
 
+The configuration of Mobile Data should be auto detected by the modem manager. You can also change these settings manaually.
+
 Input the correct information in order to activate the 3/4G modem.
 
 - **Modem device**: Please choose `/dev/cdc-wdm0` if this modem support QMI, otherwise you need to choose `ttyUSB*`. There may be several `ttyUSB` from 1 to 3. You need to choose the correct one based on modem spec.
@@ -44,7 +52,9 @@ Input the correct information in order to activate the 3/4G modem.
 
 ## Send SMS
 
-Once the Data session above has been configured correctly. You will be able to use the SIM card in GL-MiFi and you can send message to others.
+You will be able to use the SIM card in GL-MiFi to send message to others. 
+
+**Note: only support English at this moment. ** 
 
 ![Modem Tools](src/modem_manager/send_message.jpg)
 
@@ -52,7 +62,7 @@ Once the Data session above has been configured correctly. You will be able to u
 
 ## Read SMS
 
-Once the Data session above has been configured correctly. You will be able to use the SIM card in GL-MiFi. Therefore, if someone send a message to the phone number of your SIM card, you can read it in `Read SMS`.
+You will be able to use the SIM card in GL-MiFi. Therefore, if someone send a message to the phone number of your SIM card, you can read it in `Read SMS`.
 
 ![Modem Tools](src/modem_manager/read_message.jpg)
 

@@ -1,5 +1,12 @@
+
 Getting started with Domino Kits
 ===================
+
+
+
+**Note: The Domino Project is depreciated. Only Domino Core is still under production** 
+
+
 
 FAQ
 -------------------
@@ -54,6 +61,7 @@ Domino Core is the heart of Domino.IO. It is designed for makers to easily build
 ![Domino Core](src/core.png)
 
 Go to the [Domino Core hardware](#!domino/hardware/core.md) for more details of the hardware.
+
 
 
 
