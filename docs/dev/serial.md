@@ -52,7 +52,7 @@ Windows
 ---------
 When connecting the USB UART adapter to your computer, you may need to install drivers for them. The drivers can be download here: somewhere.
 
-Now you will be able to find the serial COM port (in this example: `COM4`) in device manger.
+Now you will be able to find the serial COM port (in this example: `COM3`) in device manger.
 
 ![Com](src/find-serial-port.png)
 
