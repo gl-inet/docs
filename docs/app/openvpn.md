@@ -1,9 +1,7 @@
-# Using OpenVPN in GL.iNet routers
-
+# OpenVPN Client Setting
 This docs is only related to OpenVPN client.
 
----
-
+# OpenVPN Client Intro 
 OpenVPN client is pre-installed in GL.iNet routers GL-AR150, GL-AR300M, GL-MT300N, GL-MT300A, GL-USB150, GL-AR750, GL-B1300 from firmware v2.19.
 
 Download the firmware for each devices: http://www.gl-inet.com/firmware/
@@ -11,15 +9,15 @@ Download the firmware for each devices: http://www.gl-inet.com/firmware/
 The newest firmware maybe put in testing folder: http://www.gl-inet.com/firmware/testing/
 
 
-Note: You need to subscribe your own VPN service and get an OpenVPN configuration file (.ovpn) from your service provider. If you have subscribed but don't know how to download the configuration file, please read the section "How to get the configuration file".
+*Note: You need to subscribe your own VPN service and get an OpenVPN configuration file (.ovpn) from your service provider. If you have subscribed but don't know how to download the configuration file, please read the section "How to get the configuration file".*
 
 This guide assumes that you have set up the router properly.
 
 
 
-## Create an OpenVPN connection
+# Create an OpenVPN connection
 
-### 1. Go to OpenVPN page
+## 1. Go to OpenVPN page
 
 Click the OpenVPN icon on the toolbar. It will ask you to upload the configuration files. This file can be a single .ovpn file or a zip/tar.gz file which contains multiple .ovpn files.
 
@@ -29,7 +27,7 @@ Be careful that some .ovpn files use separated ca, cert, crl files. These files 
 
 
 
-### 2. Upload your configuration file
+## 2. Upload your configuration file
 
 Simply Drap and drop your file to the area indicated so that it will be uploaded to the router automatically. Next, the router will start to check the file. Refresh the page when you see the file has been successfully uploaded and the .ovpn file has been imported.
 
@@ -49,7 +47,7 @@ In some cases, it will ask you to enter your username and password. This usually
 
 
 
-### 3. Connect to the OpenVPN server
+## 3. Connect to the OpenVPN server
 
 After refreshing the page, you will be able to configure the OpenVPN connection.
 
@@ -70,7 +68,7 @@ The router will show the connection progress. Once it is connected, you will be 
 
 
 
-## Manage ovpn files
+# Manage ovpn files
 
 From firmware `v2.20`, there is a simple ovpn manager where you can check the current list of ovpn files. You can purge all the files and start to use another vpn service.
 
@@ -85,7 +83,7 @@ We would like to add more functions in the ovpn manager, you can send us a wish 
 
 
 
-## How to get the configuration File
+# Get the configuration File
 
 We have tested different VPN service providers. Therefore, if you don't know how to get the configuration file, you can follow the instruction below according to your service provider. However, you have to contact your service provider for the configuration file if they haven't been listed  below. 
 
@@ -93,7 +91,7 @@ If you use other service providers and have problem of setting up the OpenVPN, p
 
 
 
-### 1. AirVPN
+## AirVPN
 
 https://airvpn.org/?referred_by=402389
 
@@ -117,7 +115,7 @@ https://airvpn.org/?referred_by=402389
 
 ---
 
-### 2. Astrill
+## Astrill
 
 <https://www.astrill.com/>
 
@@ -152,7 +150,7 @@ https://airvpn.org/?referred_by=402389
 
 ---
 
-### 3. CactusVPN
+## CactusVPN
 
 https://www.cactusvpn.com/
 
@@ -164,7 +162,7 @@ Download directly from: https://www.cactusvpn.com/downloads/
 
 ---
 
-### 4. ExpressVPN
+## ExpressVPN
 
 https://www.expressvpn.com/
 
@@ -195,7 +193,7 @@ https://www.expressvpn.com/support/vpn-setup/manual-config-for-linux-with-openvp
 
 ---
 
-### 5. FinchVPN 
+## FinchVPN 
 
 https://www.finchvpn.com/
 
@@ -232,7 +230,7 @@ https://www.finchvpn.com/
 
 ---
 
-### 6. Free VPN Software
+## Free VPN Software
 
 <http://freevpnsoftware.net/>
 
@@ -244,7 +242,7 @@ UK Server: http://freevpnsoftware.net/downloads/UK.freevpnsoftware.net.ovpn
 
 ---
 
-### 7. HideMyAss
+## HideMyAss
 
 https://www.hidemyass.com/
 
@@ -254,7 +252,7 @@ Download directly from: http://hidemyass.com/vpn-config/vpn-configs.zip
 
 ---
 
-### 8. Ivacy
+## Ivacy
 
 https://billing.ivacy.com/page/22852
 
@@ -264,7 +262,7 @@ Download directly from: https://s3.amazonaws.com/ivacy-apps/openvpn-files/OpenVP
 
 ---
 
-### 9. NordVPN
+## NordVPN
 
 https://go.nordvpn.net/aff_c?offer_id=15&aff_id=12016&url_id=902
 
@@ -274,7 +272,7 @@ Download directly from: <https://downloads.nordcdn.com/configs/archives/servers/
 
 ---
 
-### 10. PIA
+## PIA
 
 https://www.privateinternetaccess.com/pages/buy-vpn/glinet
 
@@ -284,7 +282,7 @@ Download directly from: <https://www.privateinternetaccess.com/openvpn/openvpn.z
 
 ---
 
-### 11. Proxy.sh
+## Proxy.sh
 
 <https://proxy.sh/panel/aff.php?aff=1458>
 
@@ -302,7 +300,7 @@ For $20 customers:https://proxy.sh/p/openvpn
 
 ---
 
-### 12. Proxpn
+## Proxpn
 
 https://secure.proxpn.com/?a_aid=5ac450e27df6f
 
@@ -312,13 +310,12 @@ https://secure.proxpn.com/?a_aid=5ac450e27df6f
 
    ![ovpn manager](src/openvpn/ProXPN1.jpg)
 
-   ​
 
 2. Open “proxpn.ovpn” with text editor and delete the “#” in line 4.
 
    ![ovpn manager](src/openvpn/ProXPN2.jpg)
 
-   ​
+
 
    You can also change to other services, including:
 
@@ -330,17 +327,15 @@ https://secure.proxpn.com/?a_aid=5ac450e27df6f
    miami.proxpn.com - Miami
 
    ```
-   ​
 
 3. Zip them into one file and upload to the router.
 
    ![ovpn manager](src/openvpn/ProXPN3.jpg)
 
-   ​
 
 ---
 
-### 13. PureVPN
+##PureVPN
 
 https://billing.purevpn.com/aff.php?aff=35535
 
@@ -350,7 +345,7 @@ Download directly from: <https://s3-us-west-1.amazonaws.com/heartbleed/linux/lin
 
 ---
 
-### 14. SaferVPN
+##SaferVPN
 
 https://safervpn.com/?a_aid=563
 
@@ -363,7 +358,7 @@ https://www.safervpn.com/support/articles/214036025-What-are-SaferVPN-s-OpenVPN-
 
 ---
 
-### 15. StrongVPN
+##StrongVPN
 
 <https://strongvpn.com/>
 
@@ -400,7 +395,7 @@ https://www.safervpn.com/support/articles/214036025-What-are-SaferVPN-s-OpenVPN-
 
 ---
 
-### 16. TCPVPN
+##TCPVPN
 
 <https://www.tcpvpn.com/home>
 
@@ -424,7 +419,7 @@ https://www.safervpn.com/support/articles/214036025-What-are-SaferVPN-s-OpenVPN-
 
 ---
 
-### 17. TorGuard
+##TorGuard
 
 https://torguard.net/
 
@@ -437,7 +432,7 @@ https://torguard.net/
 
 ---
 
-### 18. TotalVPN
+##TotalVPN
 
 https://www.totalvpn.com
 
@@ -447,7 +442,7 @@ Download directly from: https://pseudio.freshdesk.com/helpdesk/attachments/80058
 
 ---
 
-### 19. VPN.AC
+##VPN.AC
 
 https://vpn.ac/aff.php?aff=1424
 
@@ -459,7 +454,7 @@ Download directly from: https://vpn.ac/ovpn/
 
 ---
 
-### 20. VPNBook
+##VPNBook
 
 https://www.vpnbook.com/
 
@@ -472,7 +467,7 @@ The username and password are listed below the download link.
 
 ---
 
-### 21. VPNGate
+##VPNGate
 
 http://www.vpngate.net/en/
 
@@ -493,7 +488,7 @@ according to the server location.
 
 ---
 
-### 22. VPN Unlimited
+##VPN Unlimited
 
 https://www.vpnunlimitedapp.com/en
 
@@ -533,7 +528,7 @@ Start out by logging in to your User Office, press Manage for the VPN Unlimited 
 
 
 
-## VPN Compatibilities
+#VPN Compatibilities
 
 We have checked a number of public vpn service providers and tested the compatibilities. What you need to do is purchase a subscription from them and download the ovpn files.
 
@@ -541,28 +536,28 @@ Here is a list of compatible services (v2.20).
 
 __Note: For service issues, please contact the service provider directly.__
 
-1. TorGuard, [https://torguard.net/](https://torguard.net/aff.php?aff=3040)
+1. TorGuard,[https://torguard.net/](https://torguard.net/aff.php?aff=3040)
 2. Astrill, https://www.astrill.com
 3. FinchVPN, https://www.finchvpn.com/
 4. Free Vpn Software, http://freevpnsoftware.net/
 5. VPNBook, http://www.vpnbook.com/
 6. VPNGate, http://www.vpngate.net/
 7. VPN Area, https://vpnarea.com
-8. NordVPN, https://go.nordvpn.net/aff_c?offer_id=15&aff_id=12016&url_id=902
-9. PIA, https://www.privateinternetaccess.com/pages/buy-vpn/glinet
+8. NordVPN, [https://go.nordvpn.net](https://go.nordvpn.net/aff_c?offer_id=15&aff_id=12016&url_id=902)
+9. PIA, [https://www.privateinternetaccess.com](https://www.privateinternetaccess.com/pages/buy-vpn/glinet)
 10. PureVPN, https://www.purevpn.com/
 11. TotalVPN, https://www.totalvpn.com
 12. Strong VPN, http://strongvpn.com/
 13. HideMyAss, https://www.hidemyass.com
-14. Proxy.sh, https://proxy.sh/panel/aff.php?aff=1458
+14. Proxy.sh, [https://proxy.sh](https://proxy.sh/panel/aff.php?aff=1458)
 15. TCPVPN.com, https://www.tcpvpn.com
-16. Vpn.AC, https://vpn.ac/aff.php?aff=1424
-17. Proxpn, https://secure.proxpn.com/?a_aid=5ac450e27df6f
+16. Vpn.AC, [https://vpn.ac](https://vpn.ac/aff.php?aff=1424)
+17. Proxpn, [https://secure.proxpn.com](https://secure.proxpn.com/?a_aid=5ac450e27df6f)
 18. ExpressVPN, https://www.expressvpn.com/
-19. Airvpn, <https://airvpn.org/?referred_by=402389>
+19. Airvpn, [https://airvpn.org](https://airvpn.org/?referred_by=402389)
 20. CactusVpn, https://www.cactusvpn.com/
-21. SaferVPN, https://safervpn.com/?a_aid=563
-22. Ivacy, https://billing.ivacy.com/page/22852
+21. SaferVPN, [https://safervpn.com](https://safervpn.com/?a_aid=563)
+22. Ivacy, [https://billing.ivacy.com](https://billing.ivacy.com/page/22852)
 
 
 
