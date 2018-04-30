@@ -1,7 +1,6 @@
 # OpenVPN Client Setting
 This docs is only related to OpenVPN client.
 
-# OpenVPN Client Intro 
 OpenVPN client is pre-installed in GL.iNet routers GL-AR150, GL-AR300M, GL-MT300N, GL-MT300A, GL-USB150, GL-AR750, GL-B1300 from firmware v2.19.
 
 Download the firmware for each devices: http://www.gl-inet.com/firmware/
@@ -15,9 +14,9 @@ This guide assumes that you have set up the router properly.
 
 
 
-# Create an OpenVPN connection
+# 1. Create an OpenVPN connection
 
-## 1. Go to OpenVPN page
+### 1) Go to OpenVPN page
 
 Click the OpenVPN icon on the toolbar. It will ask you to upload the configuration files. This file can be a single .ovpn file or a zip/tar.gz file which contains multiple .ovpn files.
 
@@ -27,7 +26,7 @@ Be careful that some .ovpn files use separated ca, cert, crl files. These files 
 
 
 
-## 2. Upload your configuration file
+### 2) Upload your configuration file
 
 Simply Drap and drop your file to the area indicated so that it will be uploaded to the router automatically. Next, the router will start to check the file. Refresh the page when you see the file has been successfully uploaded and the .ovpn file has been imported.
 
@@ -47,7 +46,7 @@ In some cases, it will ask you to enter your username and password. This usually
 
 
 
-## 3. Connect to the OpenVPN server
+### 3) Connect to the OpenVPN server
 
 After refreshing the page, you will be able to configure the OpenVPN connection.
 
@@ -68,7 +67,7 @@ The router will show the connection progress. Once it is connected, you will be 
 
 
 
-# Manage ovpn files
+# 2. Manage ovpn files
 
 From firmware `v2.20`, there is a simple ovpn manager where you can check the current list of ovpn files. You can purge all the files and start to use another vpn service.
 
@@ -83,13 +82,11 @@ We would like to add more functions in the ovpn manager, you can send us a wish 
 
 
 
-# Get the configuration File
+# 3. Get the config File
 
 We have tested different VPN service providers. Therefore, if you don't know how to get the configuration file, you can follow the instruction below according to your service provider. However, you have to contact your service provider for the configuration file if they haven't been listed  below. 
 
-If you use other service providers and have problem of setting up the OpenVPN, please contact support@gl-inet.com
-
-
+If you use other service providers and have problem of setting up the OpenVPN, please contact [support@gl-inet.com](mailto:support@gl-inet.com)
 
 ## AirVPN
 
