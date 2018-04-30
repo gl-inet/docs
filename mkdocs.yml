@@ -46,7 +46,7 @@ pages:
     - 'Domino Kit' : 'domino/index.md'    
 - Application:
     - 'SSH to the router' : 'app/ssh.md'
-    - 'OpenVPN' : 'app/openvpn.md'
+    - 'OpenVPN Client' : 'app/openvpn.md'
     - 'Tor' : 'app/tor.md'
     - 'EasyTether' : 'app/tether.md'
     - 'Shadowsocks' : 'app/ss.md'
