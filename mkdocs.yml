@@ -59,7 +59,7 @@ pages:
     
 - Troubleshooting:
     - 'LED Indicator' :   'toubleshooting/led.md'   
-    - 'Factory Reset' :  'toubleshooting/reset.md'   
+    - 'Repair or Reset' :  'toubleshooting/reset.md'   
     - 'Debrick via Uboot' : 'toubleshooting/debrick.md'
 
 - 'Domino Kit' :
