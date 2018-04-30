@@ -52,10 +52,10 @@ pages:
     - 'WireGuard' : 'app/wireguard.md'
    
 - Video:
-    - 'Product Intro' :  'tba.md'    
-    - 'Tutorial' : 'tba.md'     
-    - 'Customer Review' : 'tba.md'   
-    - 'Case Study' : 'tba.md'       
+    - 'Product Intro' :  'video/product_intro.md'    
+    - 'Tutorial' : 'video/tutor.md'     
+    - 'Customer Review' : 'video/review.md'   
+    
 - Troubleshooting:
     - 'LED Indicator' :   'toubleshooting/led.md'   
     - 'Factory Reset' :  'toubleshooting/reset.md'   
