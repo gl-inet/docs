@@ -42,7 +42,6 @@ pages:
     - 'Firewall' :  'setup/firewall.md'   
 - Development:
     - 'UART Serial' :  'dev/serial.md'   
-    - 'Hardware Development' :  'tba.md'   
     - 'Advanced Uboot' :  'dev/uboot.md'   
     - 'Domino Kit' : 'domino/index.md'    
 - Application:
