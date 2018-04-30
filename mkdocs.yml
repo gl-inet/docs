@@ -25,7 +25,7 @@ pages:
     - 'GL-MT300N-V2' : 'hardware/mt300n-v2/mt300n-v2spec.md'
     - 'GL-AR750 Series' : 'hardware/ar750/ar750spec.md'
     - 'GL-MiFi Series' : 'hardware/mifi/mifispec.md'
-    - 'GL-USB150 Series' : 'hardware/usb150/usb150spec.md'
+    - 'GL-USB150 (Microuter)' : 'hardware/usb150/usb150spec.md'
     - 'GL-B1300' : 'hardware/b1300/b1300spec.md'
     - 'GL.iNet6416' : 'hardware/6416/6416spec.md'
     - 'GL-AR300' : 'hardware/ar300/ar300spec.md'

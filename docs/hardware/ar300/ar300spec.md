@@ -1,5 +1,15 @@
 # GL-AR300 Router
 
+Business grade home router.
+
+
+
+AR300 is our first business grade home router. It has signal amplifier which provide the best coverage.
+
+Due to is high cost we discontinued this model. Firmware is not updated anymore. 
+
+
+
 ## Hardware Specification
 
 |                         Model | GL-AR300                                 |

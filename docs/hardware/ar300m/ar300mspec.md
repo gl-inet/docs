@@ -1,25 +1,47 @@
 #  GL-AR300M Series
 
+Best Mini Router Ever
+
+
+
+AR300M is the our best mini router. It is small and powerful.
+
+It has several sub-models:
+
+| Sub-model    | Nor flash | Nand flash | Antenna  | 5G wifi | USB power control |
+| ------------ | --------- | ---------- | -------- | ------- | ----------------- |
+| AR300M       | 16MB      | 128MB      | Internal | No      | Yes               |
+| AR300M-Ext   | 16MB      | 128MB      | External | No      | Yes               |
+| AR300M16     | 16MB      | No         | Internal | No      | Yes               |
+| AR300M16-Ext | 16MB      | No         | External | No      | Yes               |
+| AR300M-Lite  | 16MB      | No         | Internal | No      | No                |
+| AR300MD*     | 16MB      | 128MB      | Internal | Yes     | Yes               |
+
+*AR300MD 5Gwifi is suggested only to work at monitoring mode because of power consumption. 
+
+
+
 ##  Hardware Specification
 
 |                         Model | GL-AR300M Series                         |
 | ----------------------------: | :--------------------------------------- |
 |                           CPU | QCA9531 650MHz                           |
 |                        Memory | DDRII 128Mb                              |
-|                       Storage | 16Mb Nor + 128 Mb Nand Dual Flash/16Mb Nor Flash |
+|                       Storage | 16MB Nor, 128 Mb Nand (Optional)         |
 |                    Interfaces | 1 WAN, 1 LAN, 1 USB2.0, 1 Micro USB (power), 1 Reset Button, PCIe, UART |
 |                     Frequency | 2.4GHz                                   |
 |             Transmission Rate | 300Mbps                                  |
 |                 Max. Tx Power | 20dBm                                    |
 |                      Protocol | 802.11 b/g/n                             |
 | External Drive Format Support | FAT32/NTFS/exFAT/EXT4/EXT3/EXT2          |
-|                Webcam Support | MJPEG, YUV                               |
+|                Webcam Support | MJPEG, YUV (not support from firmware v2.27) |
 |                  DIY Features | UART, GPIO, PCIe, 3.3V & 5V power port   |
-|      External Antenna Support | Yes                                      |
+|      External Antenna Support | Yes (optional)                           |
 |            PoE Module Support | No                                       |
 |                   Power Input | 5V/1A                                    |
 |             Power Consumption | <2W                                      |
 |             Dimension, Weight | 58mmX58mmX25mm, 39g                      |
+|                  PCIe headers | Yes                                      |
 
 
 
@@ -28,7 +50,7 @@
 ![](src/GL-AR300M-PINOUT-1.jpg) 
 
 
-**Note: I2C is not working in the router.**
+**Note: I2C is not working in some early version of the router.**
 
 By using 128MB Nand flash, space is not a problem and the writing speed is improved greatly. You can compile a firmware with tons of features and writing data is almost instant.
 
@@ -54,7 +76,7 @@ By using two firmwares, businesses can have dual boot options to ensure the syst
 
 ### Building the generic firmware for nor flash
 
-The simple instructions of building the firmware can be found here: https://github.com/domino-team/openwrt-cc
+The simple instructions of building the firmware can be found here: https://github.com/gl-inet/lede-17.01
 You need to have a Linux machine. In this example we use Ubuntu.
 
 ```
@@ -112,7 +134,7 @@ $ reboot
 
 ####Method 2: using the switch
 
-**This is only valid in the new uboot.**
+**This is only valid in the new uboot (from Mar 2017).**
 
 First ssh to the router and set uboot env `boot_dev`
 ```

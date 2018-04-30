@@ -1,5 +1,9 @@
 #  GL-MT300A Mini Smart Router
 
+MT300A is a mini router which has a MicroSD card slot inside. Its wifi performance and computation power is higher than MT300N.
+
+
+
 ##  Hardware Specification
 
 |                         Model | GL-MT300A                                |
@@ -13,7 +17,7 @@
 |                 Max. Tx Power | 20dBm                                    |
 |                      Protocol | 802.11 b/g/n                             |
 | External Drive Format Support | FAT32/NTFS/exFAT/EXT4/EXT3/EXT2          |
-|                Webcam Support | MJPEG, YUV                               |
+|                Webcam Support | MJPEG, YUV (not support from firmware v2.27) |
 |                  DIY Features | UART, 3.3V & 5V power port               |
 |      External Antenna Support | Yes                                      |
 |            PoE Module Support | No                                       |
@@ -25,11 +29,13 @@
 
 ## PCB Pinout
 
+MT300A has headers for EMMC microSD card connector and 5V power pins. 
+
 ![](src/pinout_mt300A.jpg) 
 
 
 ## MicroSD Card Slot
-GL-MT300A Router has a SD card slot inside, but you need to open the case:
+GL-MT300A Router has a SD card slot inside. You need to open the case and insert the MicroSD card. 
 ![](src/mt300A_1000x1000_41.jpg)    
 
 
