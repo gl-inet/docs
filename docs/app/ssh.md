@@ -1,17 +1,18 @@
-# SSH Login to GL router
+Edit files and execute command
+===
 
 In order to set up ss server, you need to have basic tools to ssh to the server.
 This guide is how to SSH login to the GL routers.
 
-## 1 Windows User:
+# Windows User:
 
-#### 1.1 Download and install a PuTTY for windows user:
+## 1. Download and install a PuTTY for windows user:
 
 Go to the following webpage to download the latest PuTTY version：  
 
 https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
 
-#### 1.2 Install PuTTY for windows step by step
+## 2. Install PuTTY for windows step by step
 
 ![](src/ssh/PuTTY-Install-1.png) 
 
@@ -27,7 +28,7 @@ https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
 
 ![](src/ssh/PuTTY-Install-4.png) 
 
-#### 1.3 Launch PuTTY in Windows
+## 3. Launch PuTTY in Windows
 
 Click **PuTTY** in Start Menu 
 
@@ -61,7 +62,7 @@ root@192.168.8.1‘s password: **You need to use your password which you set up 
 
 When you see above picture, that means you are now ssh login the router successfully.  
 
-### 2 Ubuntu User:
+# Ubuntu User:
 
 ![](src/ssh/Ubuntu-Login.png) 
 
