@@ -17,7 +17,7 @@ We will use Android OS and GL mini router to demonstrate the procedure.
 
 # Stuff you need
 
-## A) Equipment
+## Equipment
 
 1)     Samsung Galaxy S6 with Android OS
 
@@ -25,7 +25,7 @@ We will use Android OS and GL mini router to demonstrate the procedure.
 
 3)     4G sim card
 
-## B) Software
+## Software
 
 1)     WinSCP ([https://winscp.net/eng/download.php](https://winscp.net/eng/download.php))
 
@@ -49,7 +49,7 @@ We will use Android OS and GL mini router to demonstrate the procedure.
 
 # Procedure
 
-## A) Preparing your router
+## Preparing your router
 
 ### *1) Set up the router*
 
@@ -134,7 +134,7 @@ EOF
 
 
 
-## B) Preparing your smart phone
+## Preparing your smart phone
 
 ### *1) Enable the Developer Options*
 
