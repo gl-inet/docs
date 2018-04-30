@@ -88,6 +88,8 @@ We have tested different VPN service providers. Therefore, if you don't know how
 
 If you use other service providers and have problem of setting up the OpenVPN, please contact [support@gl-inet.com](mailto:support@gl-inet.com)
 
+#OpenVPN Service providers:
+
 Service providers are list according to their names as below,
 
 ##A - D 
@@ -116,7 +118,7 @@ https://airvpn.org/?referred_by=402389
 
 ---
 
-## Astrill
+### Astrill
 
 <https://www.astrill.com/>
 
@@ -151,7 +153,7 @@ https://airvpn.org/?referred_by=402389
 
 ---
 
-## CactusVPN
+### CactusVPN
 
 https://www.cactusvpn.com/
 
