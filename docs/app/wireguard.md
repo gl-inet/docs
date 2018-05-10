@@ -25,7 +25,7 @@ To configure the mini router as Wireguard server or client, you need to do the f
 
 ### 1. Generate Key  
 
-First you need to generate the privatekey and publickey. 
+First you need to generate the privatekey and publickey. The following commands will generate two files for the key.
 
 ```  
 # wg genkey > privatekey
@@ -34,12 +34,17 @@ First you need to generate the privatekey and publickey.
 
 ### 2. Network Configuration  
 
-Appending the following stuff to network uci configuration.  
+You need to edit `/etc/config/network` to configure client or server. Please use `vi` or "winscp" to edit these files.
+
+**You need to generate private key and public key in both Server side and Client side.**
+
+
+
+To configure Wireguard Server, add the following content to the end of `/etc/config/network`.
+
+Note: Be sure to replace the private_key and public_key using the real content.
 
 ```  
-
-For Server ==>
-
 config interface 'wg0'                 
     option proto 'wireguard'                                                
     option listen_port '55555'                                              
@@ -50,9 +55,9 @@ config wireguard_wg0
     option public_key '......' # Client's public key
     option route_allowed_ips '1'
     list allowed_ips '10.0.0.0/24'
-
-For Client ==>
-
+```
+To configure Wireguard Client, apply the following content to `/etc/config/network`.
+```
 config interface 'wg0'                 
     option proto 'wireguard'                                                
     option listen_port '55555'                                              
@@ -70,7 +75,7 @@ config wireguard_wg0
 
 ### 3. Firewall Configuration  
 
-Appending the following stuff to firewall uci configuration.  
+Appending the following stuff to firewall configuration `/etc/config/firewall`.  
 
 ```  
 config rule                 
@@ -104,6 +109,9 @@ config forwarding
 
 ### 4. Restart Network  
 
+Finally, restart network and firewall, or just reboot your router.
+
 ```  
 /etc/init.d/network restart
+/etc/init.d/firewall restart
 ```
