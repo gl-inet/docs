@@ -45,14 +45,14 @@ If you use our stock firmware, you can just install using `opkg`
 ```
 opkg update
 opkg install kmod-i2c-gpio-custom
-opkg install kmod-rtc-ds1307
+opkg install kmod-rtc-sd2068
 ```
 
 If you want to compile your own firmware, choose these packages:
 
 ```
 Kernel modules  --->  I2C support  --->  kmod-i2c-gpio-custom
-Device Drivers  --->  Real Time Clock  --->  Dallas/Maxim DS1307/37/38/39/40, ST M41T00, EPSON RX-8025
+Kernel modules  --->  Other modules  --->  kmod-rtc-sd2068
 ```
 
 ### Software
@@ -65,8 +65,8 @@ The GPIO used for RTC is below:
 Now you need in insert kernel modules and connect to the module
 
 ```
-insmod /lib/modules/3.18.29/i2c-gpio-custom.ko bus0=0,1,17
-echo ds1307 0x68 > /sys/bus/i2c/devices/i2c-0/new_device
+insmod i2c-gpio-custom.ko bus0=0,1,17
+echo sd2068 0x68 > /sys/bus/i2c/devices/i2c-0/new_device
 ```
 
 To read the time from RTC module
