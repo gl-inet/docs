@@ -66,7 +66,7 @@ Now you need in insert kernel modules and connect to the module
 
 ```
 insmod i2c-gpio-custom.ko bus0=0,1,17
-echo sd2068 0x68 > /sys/bus/i2c/devices/i2c-0/new_device
+echo sd2068 0x32 > /sys/bus/i2c/devices/i2c-0/new_device
 ```
 
 To read the time from RTC module
