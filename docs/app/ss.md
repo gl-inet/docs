@@ -12,7 +12,7 @@ Note: If you want to use your router as Shadowsocks server, you have to have Int
 
 Input the following command to edit the configuration file "**shadowsocks-server.json**“ 
 
-`root@GL-AR750:~# vi /etc/shadowsocks-sever.json` 
+`root@GL-AR750:~# vi /etc/shadowsocks-server.json` 
 
 Then the following file content will display. 
 
