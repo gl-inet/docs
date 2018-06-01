@@ -39,6 +39,7 @@ pages:
     - 'Wi-Fi Settings (AP)': 'setup/wifi_setting.md'
     - 'Firmware Upgrading' :  'setup/firmware.md'  
     - 'Momdem Manager' : 'setup/modem_manager.md'
+    - 'RTC Setting' : 'setup/rtc_setting.md'
 
 - Development:
     - 'UART Serial' :  'dev/serial.md'   
