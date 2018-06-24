@@ -40,7 +40,7 @@ MT300N-V2 is an upgraded version of MT300N. The differences include:
 
 The pins on the left side can be actually used for Ethernet port or EMMC. They cannot be used as GPIO.
 
-![gl-mt300n-v2 pcb pinout](ttps://static.gl-inet.com/docs/en/2.x/hardware/mt300n-v2/src/GL-MT300N-V2_PINOUT-1.jpg)
+![gl-mt300n-v2 pcb pinout](https://static.gl-inet.com/docs/en/2.x/hardware/mt300n-v2/src/GL-MT300N-V2_PINOUT-1.jpg)
 
    
 
