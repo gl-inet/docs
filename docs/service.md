@@ -4,7 +4,7 @@ Services
 
 We provide hardware services. The ideas is illustrated here:
 
-![Service for Makers](src/services)
+![Service for Makers](src/services.jpg)
 
 Due to limited resources, we now only provide such service based on Domino and Mini routers.
 
