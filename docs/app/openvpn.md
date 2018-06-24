@@ -528,7 +528,7 @@ Start out by logging in to your User Office, press Manage for the VPN Unlimited 
 
    Press Generate and you will get all the data required to set up a VPN connection.
 
-   ![ovpn manager](https://static.gl-inet.com/docs/en/2.x/src/openvpn/KeepSolid3.png)
+   ![ovpn manager](https://static.gl-inet.com/docs/en/2.x/app/src/openvpn/KeepSolid3.png)
 
 
 
