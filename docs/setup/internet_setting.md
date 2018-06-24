@@ -10,7 +10,7 @@ There are total 4 different connection methods that you can use to access the In
 
 4)   USB Tethering
 
-![](src/internet/4ways.jpg)
+![4 methods access Internet](https://static.gl-inet.com/docs/en/2.x/setup/src/internet/4ways.jpg)
 
 You can click `New Connection` to create an Internet connection.
 
@@ -22,7 +22,7 @@ You can click `New Connection` to create an Internet connection.
 
 DHCP is the default and most common method to connect to the Internet. You just need to choose `DHCP` and click `Submit`.
 
-![](src/internet/dhcp_page.jpg)
+![DHCP](https://static.gl-inet.com/docs/en/2.x/setup/src/internet/dhcp_page.jpg)
 
 
 
@@ -32,7 +32,7 @@ Static is required if you want your router have a fixed IP address given by your
 
 The current settings will be automatically filled. Change it according to your needs, then click `Submit`.
 
-![](src/internet/static.jpg)
+![static](https://static.gl-inet.com/docs/en/2.x/setup/src/internet/static.jpg)
 
 
 
@@ -42,7 +42,7 @@ PPPoE is required by many Internet service providers (ISP). Generally, your ISP 
 
 Enter your username and password then click `Submit`.
 
-![PPPoE](src/internet/pppoe_page.jpg)
+![PPPoE](https://static.gl-inet.com/docs/en/2.x/setup/src/internet/pppoe_page.jpg)
 
 
 
@@ -62,13 +62,13 @@ In the following diagram, your main router has an IP 192.168.1.1. Suppose its ne
 
 So all your devices connected to GL.iNet router will be protected by its firewall.
 
-![WISP1](src/internet/wisp1.png)
+![WISP1](https://static.gl-inet.com/docs/en/2.x/setup/src/internet/wisp1.png)
 
 
 
 To set up repeater in WISP mode, first Click `Repeater` tab in `Internet Settings`, the router will search for the available Wi-Fi networks automatically. Then, choose a SSID and enter its password. Choose `WISP` in mode and click `Submit`.
 
-![WISP1](src/internet/wisp2.jpg)
+![WISP1](https://static.gl-inet.com/docs/en/2.x/setup/src/internet/wisp2.jpg)
 
 
 
@@ -80,7 +80,7 @@ However, to use this mode, **your main router has to support WDS. Since WDS has 
 
 *Note: OpenVPN client function of the mini router will not work in bridge mode.*
 
-![WDS](src/internet/wds.png)
+![WDS](https://static.gl-inet.com/docs/en/2.x/setup/src/internet/wds.png)
 
 
 
@@ -96,7 +96,7 @@ If you are not sure, just keep the LAN IP blank so that it will get a IP address
 
 In case your main router doesn't support WDS, you can create a WISP connection first, then set up a relayd overlay.
 
-Here is the [detailed instructions](src/relayd.pdf).
+Here is the [detailed instructions](https://static.gl-inet.com/docs/en/2.x/setup/src/relayd.pdf).
 
 
 
@@ -106,7 +106,7 @@ You can connect to the Internet using 3G or 4G modem. Plug in your modem and cli
 
 To set up 3G/4G modem in **GL-MiFi**, you should follow the instructions in [Modem Manager](modem_manager.md).
 
-![modem](src/internet/mifi_connection.jpg)
+![modem](https://static.gl-inet.com/docs/en/2.x/setup/src/internet/mifi_connection.jpg)
 
 The router has pre-configured values. You can choose `Country/Region`,  `Service Provider` first. The values below will be filled automatically. But this is not necessary if you know the settings. If you found that the data is not updated, please [write to us](mailto:support@gl-inet.com).
 
@@ -124,7 +124,7 @@ To make the correct settings:
 
 ## Example (US Verizon)
 
-![modem](src/internet/verizon_apn.jpg)
+![modem](https://static.gl-inet.com/docs/en/2.x/setup/src/internet/verizon_apn.jpg)
 
 
 
@@ -169,7 +169,7 @@ For smartphone tethering, connect it to the USB port of GL.iNet router and click
 
 *Note: A newly-added phone of host-less modem will be named beginning with `eth `or `usb `. For example, `eht2`, `usb0`.*
 
-![tethering](src/internet/tethering.jpg)
+![tethering](https://static.gl-inet.com/docs/en/2.x/setup/src/internet/tethering.jpg)
 
 
 

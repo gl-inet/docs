@@ -27,7 +27,7 @@ It is mainly used to replace the wifi card of your PC or work as repeater. It is
 
 ## PCB Pinout
 
-![](src/GL-USB150-PINOUT-1.jpg) 
+![gl-usb150 pcb pinout](https://static.gl-inet.com/docs/en/2.x/hardware/usb150/src/GL-USB150-PINOUT-1.jpg)
 
    
 

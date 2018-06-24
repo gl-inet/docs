@@ -38,9 +38,9 @@ The Domino Dual Ethernet Tile connects as a West-side Tile.
 
 It is only compatible with the Domino Pi board, as the Domino Qi Mini does not feature I2S interface.
 
-![I2S board](src/i2s1.jpg)
-![I2S board](src/i2s2.jpg)
-![I2S board](src/i2s3.jpg)
+![I2S board](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/i2s1.jpg)
+![I2S board](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/i2s2.jpg)
+![I2S board](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/i2s3.jpg)
 
 Specifications
 --------------------
@@ -59,9 +59,9 @@ Specifications
 Pinout
 ----------------
 
-![I2S Pinout](src/i2s_pinout.jpg)
+![I2S Pinout](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/i2s_pinout.jpg)
 
-[Pinout in PDF](src/Domino-I2S-Pinout.pdf)
+[Pinout in PDF](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/Domino-I2S-Pinout.pdf)
 
 
 Playing Audio and Music Using I2S board

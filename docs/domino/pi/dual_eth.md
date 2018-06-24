@@ -23,9 +23,9 @@ The Domino Dual Ethernet Tile connects as a West-side Tile.
 
 It is only compatible with the Domino Pi board, as the Domino Qi Mini does not feature 2x Ethernet ports.
 
-![Dual Eth board ](src/dual_eth1.jpg)
-![Dual Eth board ](src/dual_eth2.jpg)
-![Dual Eth board ](src/dual_eth3.jpg)
+![Dual Eth board ](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/dual_eth1.jpg)
+![Dual Eth board ](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/dual_eth2.jpg)
+![Dual Eth board ](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/dual_eth3.jpg)
 
 ```
 Photo is not the newest. There is UART connector on the board now!
@@ -39,6 +39,6 @@ Dimensions	45.72 x 33.02 x 35 mm
 
 Pinout
 -------------
-![Dual Eth pinout ](src/dual_eth_pinout.jpg)
+![Dual Eth pinout ](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/dual_eth_pinout.jpg)
 
-[Pinout in PDF](src/Domino-Dual-Ethernet-Pinout.pdf)
+[Pinout in PDF](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/Domino-Dual-Ethernet-Pinout.pdf)

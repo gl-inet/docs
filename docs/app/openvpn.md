@@ -22,7 +22,7 @@ Click the OpenVPN icon on the toolbar. It will ask you to upload the configurati
 
 Be careful that some .ovpn files use separated ca, cert, crl files. These files must be zipped together with the .ovpn file before upload.
 
-![Basic UI](src/openvpn/11.jpg)
+![Basic UI](https://static.gl-inet.com/docs/en/2.x/app/src/openvpn/11.jpg)
 
 
 
@@ -30,19 +30,19 @@ Be careful that some .ovpn files use separated ca, cert, crl files. These files 
 
 Simply Drap and drop your file to the area indicated so that it will be uploaded to the router automatically. Next, the router will start to check the file. Refresh the page when you see the file has been successfully uploaded and the .ovpn file has been imported.
 
-![Basic UI](src/openvpn/12.jpg)
+![Basic UI](https://static.gl-inet.com/docs/en/2.x/app/src/openvpn/12.jpg)
 
 
 
 For zip/tar.gz file, the router will unzip the zip/tar.gz file  and check each .ovpn file inside.
 
-![Basic UI](src/openvpn/14.jpg)
+![Basic UI](https://static.gl-inet.com/docs/en/2.x/app/src/openvpn/14.jpg)
 
 
 
 In some cases, it will ask you to enter your username and password. This usually happen when your configuration file can be downloaded without login your personal account.
 
-![Basic UI](src/openvpn/15.jpg)
+![Basic UI](https://static.gl-inet.com/docs/en/2.x/app/src/openvpn/15.jpg)
 
 
 
@@ -50,7 +50,7 @@ In some cases, it will ask you to enter your username and password. This usually
 
 After refreshing the page, you will be able to configure the OpenVPN connection.
 
-![Basic UI](src/openvpn/16.jpg)
+![Basic UI](https://static.gl-inet.com/docs/en/2.x/app/src/openvpn/16.jpg)
 
 
 
@@ -63,7 +63,7 @@ Please create the VPN connection by following the steps below:
 
 The router will show the connection progress. Once it is connected, you will be able to see data sent and received.
 
-![Basic UI](src/openvpn/18.jpg)
+![Basic UI](https://static.gl-inet.com/docs/en/2.x/app/src/openvpn/18.jpg)
 
 
 
@@ -78,7 +78,7 @@ We would like to add more functions in the ovpn manager, you can send us a wish 
 * Delete, order and ranking servers. Now we don't have a algorithms to rank the servers, as you will not know the speed unless you try. We can record the speed if you have tried.
 * Manage multiple VPN services. While most people just use one service, we don't know if this is necessary.
 
-![ovpn manager](src/openvpn/7.jpg)
+![ovpn manager](https://static.gl-inet.com/docs/en/2.x/app/src/openvpn/7.jpg)
 
 
 
@@ -100,19 +100,19 @@ https://airvpn.org/?referred_by=402389
 
 1. Login your AirVPN acoount
 
-   ![ovpn manager](src/openvpn/AirVPN1.png)
+   ![ovpn manager](https://static.gl-inet.com/docs/en/2.x/app/src/openvpn/AirVPN1.png)
 
    ​
 
 2. Choose Config Generator on the left and then choose Linux as your operating system. Next, choose your preferred server.
 
-   ![ovpn manager](src/openvpn/AirVPN2.png)
+   ![ovpn manager](https://static.gl-inet.com/docs/en/2.x/app/src/openvpn/AirVPN2.png)
 
    ​
 
 3. You will be able to see the download page of the configuration file.
 
-   ![ovpn manager](src/openvpn/AirVPN3.png)
+   ![ovpn manager](https://static.gl-inet.com/docs/en/2.x/app/src/openvpn/AirVPN3.png)
 
    ​
 
@@ -128,9 +128,9 @@ https://airvpn.org/?referred_by=402389
 
 1. Generate and Download Astrill Openvpn configuration ZIP
 
-   ![ovpn manager](src/openvpn/Astrill1.png)
+   ![ovpn manager](https://static.gl-inet.com/docs/en/2.x/app/src/openvpn/Astrill1.png)
 
-   ![ovpn manager](src/openvpn/Astrill2.png)
+   ![ovpn manager](https://static.gl-inet.com/docs/en/2.x/app/src/openvpn/Astrill2.png)
 
    ​
 
@@ -140,13 +140,13 @@ https://airvpn.org/?referred_by=402389
 
 3. Click on ADD to my certificates button.
 
-   ![ovpn manager](src/openvpn/Astrill3.png)
+   ![ovpn manager](https://static.gl-inet.com/docs/en/2.x/app/src/openvpn/Astrill3.png)
 
    ​
 
 4. Once OpenVPN certificate is added, click on Download button.
 
-   ![ovpn manager](src/openvpn/Astrill4.png)
+   ![ovpn manager](https://static.gl-inet.com/docs/en/2.x/app/src/openvpn/Astrill4.png)
 
    ​
 
@@ -159,7 +159,7 @@ https://www.cactusvpn.com/
 
 Download directly from: https://www.cactusvpn.com/downloads/
 
-![ovpn manager](src/openvpn/CactusVPN1.jpg)
+![ovpn manager](https://static.gl-inet.com/docs/en/2.x/app/src/openvpn/CactusVPN1.jpg)
 
 
 
@@ -175,13 +175,13 @@ https://www.expressvpn.com/support/vpn-setup/manual-config-for-linux-with-openvp
 
 1. Log in to your account.
 
-   ![ovpn manager](src/openvpn/ExpressVPN1.jpg)
+   ![ovpn manager](https://static.gl-inet.com/docs/en/2.x/app/src/openvpn/ExpressVPN1.jpg)
 
    ​
 
 2. Once you’ve logged in to the website, click on Set Up ExpressVPN on the Active Subscriptions page. This will take you to the Downloads page.
 
-   ![ovpn manager](src/openvpn/ExpressVPN2.png)
+   ![ovpn manager](https://static.gl-inet.com/docs/en/2.x/app/src/openvpn/ExpressVPN2.png)
 
    ​
 
@@ -191,7 +191,7 @@ https://www.expressvpn.com/support/vpn-setup/manual-config-for-linux-with-openvp
 
    Note: Please have your username and password ready, as you will be asked to enter them later in the setup process.
 
-   ![ovpn manager](src/openvpn/ExpressVPN3.png)
+   ![ovpn manager](https://static.gl-inet.com/docs/en/2.x/app/src/openvpn/ExpressVPN3.png)
 
    ​
 
@@ -203,31 +203,31 @@ https://www.finchvpn.com/
 
 1. Login your FinchVPN account via https://www.finchvpn.com/login.
 
-   ![ovpn manager](src/openvpn/finchvpn1.jpg)
+   ![ovpn manager](https://static.gl-inet.com/docs/en/2.x/app/src/openvpn/finchvpn1.jpg)
 
    ​
 
 2. Go to the Download page and click Download under FinchVPN OpenVPN Config.
 
-   ![ovpn manager](src/openvpn/finchvpn2.jpg)
+   ![ovpn manager](https://static.gl-inet.com/docs/en/2.x/app/src/openvpn/finchvpn2.jpg)
 
    ​
 
 3. Choose Linux
 
-   ![ovpn manager](src/openvpn/finchvpn3.jpg)
+   ![ovpn manager](https://static.gl-inet.com/docs/en/2.x/app/src/openvpn/finchvpn3.jpg)
 
    ​
 
 4. Choose the protocol based on your preference. Generally, you can choose the first one “Port 8484 over UDP”
 
-   ![ovpn manager](src/openvpn/finchvpn4.jpg)
+   ![ovpn manager](https://static.gl-inet.com/docs/en/2.x/app/src/openvpn/finchvpn4.jpg)
 
    ​
 
 5. Remember to tick the box to include your username and password before download the file.
 
-   ![ovpn manager](src/openvpn/finchvpn5.jpg)
+   ![ovpn manager](https://static.gl-inet.com/docs/en/2.x/app/src/openvpn/finchvpn5.jpg)
 
    ​
 
@@ -313,12 +313,12 @@ https://secure.proxpn.com/?a_aid=5ac450e27df6f
 
    Extract the file. From the folder “MaxOSX”, find and open the folder “config” and then “ssl”. You will see 3 files and 1 folder. Copy these 3 files “ca.crt”, “client.crt”, “client.key” and paste them into the folder “config”.
 
-   ![ovpn manager](src/openvpn/ProXPN1.jpg)
+   ![ovpn manager](https://static.gl-inet.com/docs/en/2.x/app/src/openvpn/ProXPN1.jpg)
 
 
 2. Open “proxpn.ovpn” with text editor and delete the “#” in line 4.
 
-   ![ovpn manager](src/openvpn/ProXPN2.jpg)
+   ![ovpn manager](https://static.gl-inet.com/docs/en/2.x/app/src/openvpn/ProXPN2.jpg)
 
 
 
@@ -335,7 +335,7 @@ https://secure.proxpn.com/?a_aid=5ac450e27df6f
 
 3. Zip them into one file and upload to the router.
 
-   ![ovpn manager](src/openvpn/ProXPN3.jpg)
+   ![ovpn manager](https://static.gl-inet.com/docs/en/2.x/app/src/openvpn/ProXPN3.jpg)
 
 
 ---
@@ -357,7 +357,7 @@ https://safervpn.com/?a_aid=563
 Download directly from:
 https://www.safervpn.com/support/articles/214036025-What-are-SaferVPN-s-OpenVPN-configuration-files-for-manual-setup-
 
-![ovpn manager](src/openvpn/SaferVPN1.jpg)
+![ovpn manager](https://static.gl-inet.com/docs/en/2.x/app/src/openvpn/SaferVPN1.jpg)
 
 
 
@@ -369,31 +369,31 @@ https://www.safervpn.com/support/articles/214036025-What-are-SaferVPN-s-OpenVPN-
 
 1. Login with your StrongVPN account and then you will be able to see the summary of your VPN account. Click “Change Server”.
 
-   ![ovpn manager](src/openvpn/StrongVPN1.png)
+   ![ovpn manager](https://static.gl-inet.com/docs/en/2.x/app/src/openvpn/StrongVPN1.png)
 
    ​
 
 2. Filter the servers by clicking OPEN and choose one of the server from the list.
 
-   ![ovpn manager](src/openvpn/StrongVPN2.png)
+   ![ovpn manager](https://static.gl-inet.com/docs/en/2.x/app/src/openvpn/StrongVPN2.png)
 
    ​
 
    ​
 
-   ![ovpn manager](src/openvpn/StrongVPN3.png)
+   ![ovpn manager](https://static.gl-inet.com/docs/en/2.x/app/src/openvpn/StrongVPN3.png)
 
    ​
 
 3. Go back to accounts summary and click Account Setup Instructions.
 
-   ![ovpn manager](src/openvpn/StrongVPN4.png)
+   ![ovpn manager](https://static.gl-inet.com/docs/en/2.x/app/src/openvpn/StrongVPN4.png)
 
    ​
 
 4. Click Linux/Max config file.
 
-   ![ovpn manager](src/openvpn/StrongVPN5.png)
+   ![ovpn manager](https://static.gl-inet.com/docs/en/2.x/app/src/openvpn/StrongVPN5.png)
 
    ​
 
@@ -406,19 +406,19 @@ https://www.safervpn.com/support/articles/214036025-What-are-SaferVPN-s-OpenVPN-
 
 1. You can find different servers on their webpage: https://www.tcpvpn.com/home. Choose your preferred server.
 
-   ![ovpn manager](src/openvpn/TCPVPN1.jpg)
+   ![ovpn manager](https://static.gl-inet.com/docs/en/2.x/app/src/openvpn/TCPVPN1.jpg)
 
    ​
 
 2. Choose your preferred server location.
 
-   ![ovpn manager](src/openvpn/TCPVPN2.jpg)
+   ![ovpn manager](https://static.gl-inet.com/docs/en/2.x/app/src/openvpn/TCPVPN2.jpg)
 
    ​
 
 3. You will see the download page of the configuration file. Click Dowload Config (.ovpv).
 
-   ![ovpn manager](src/openvpn/TCPVPN3.jpg)
+   ![ovpn manager](https://static.gl-inet.com/docs/en/2.x/app/src/openvpn/TCPVPN3.jpg)
 
    ​
 
@@ -428,11 +428,11 @@ https://www.safervpn.com/support/articles/214036025-What-are-SaferVPN-s-OpenVPN-
 
 https://torguard.net/
 
-1. If you are using TorGuard, you need to login the control panel and generate the ovpn file from the "Tools" menu. Please select "All", using udp or tcp and select Cipher. Then press `Generate Config` and the zip file will be downloaded automatically.![Generate ovpn](src/torguard.jpg)
+1. If you are using TorGuard, you need to login the control panel and generate the ovpn file from the "Tools" menu. Please select "All", using udp or tcp and select Cipher. Then press `Generate Config` and the zip file will be downloaded automatically.![Generate ovpn](https://static.gl-inet.com/docs/en/2.x/app/src/torguard.jpg)
 
 
 
-2. The username and password for openvpn connection is different from your control panel login. You can change the service username and password in Security manual. You can generate a random login username and password.![Set password](src/torguard1.jpg)
+2. The username and password for openvpn connection is different from your control panel login. You can change the service username and password in Security manual. You can generate a random login username and password.![Set password](https://static.gl-inet.com/docs/en/2.x/app/src/torguard1.jpg)
 
 
 ---
@@ -453,7 +453,7 @@ https://vpn.ac/aff.php?aff=1424
 
 Download directly from: https://vpn.ac/ovpn/
 
-![ovpn manager](src/openvpn/VPNAC1.jpg)
+![ovpn manager](https://static.gl-inet.com/docs/en/2.x/app/src/openvpn/VPNAC1.jpg)
 
 
 
@@ -466,7 +466,7 @@ https://www.vpnbook.com/
 The OpenVPN configuration files are available on the website of VPNBook: https://www.vpnbook.com/. 
 The username and password are listed below the download link.
 
-![ovpn manager](src/openvpn/VPNBook1.jpg)
+![ovpn manager](https://static.gl-inet.com/docs/en/2.x/app/src/openvpn/VPNBook1.jpg)
 
 
 
@@ -481,13 +481,13 @@ according to the server location.
 
 1. Click OpenVPN Config file under the column “OpenVPN”.
 
-   ![ovpn manager](src/openvpn/VPNGate1.jpg)
+   ![ovpn manager](https://static.gl-inet.com/docs/en/2.x/app/src/openvpn/VPNGate1.jpg)
 
    ​
 
 2. You will see the download page.
 
-   ![ovpn manager](src/openvpn/VPNGate2.jpg)
+   ![ovpn manager](https://static.gl-inet.com/docs/en/2.x/app/src/openvpn/VPNGate2.jpg)
 
    ​
 
@@ -506,7 +506,7 @@ Start out by logging in to your User Office, press Manage for the VPN Unlimited 
 
    Pick a device from the list or create a new one. If you are out of free slots, delete an old device or buy extra slots.
 
-   ![ovpn manager](src/openvpn/KeepSolid1.png)
+   ![ovpn manager](https://static.gl-inet.com/docs/en/2.x/app/src/openvpn/KeepSolid1.png)
 
    ​
 
@@ -520,7 +520,7 @@ Start out by logging in to your User Office, press Manage for the VPN Unlimited 
 
    For the IKEv2 protocol, you will also need to specify your device’s platform.
 
-   ![ovpn manager](src/openvpn/KeepSolid2.png)
+   ![ovpn manager](https://static.gl-inet.com/docs/en/2.x/app/src/openvpn/KeepSolid2.png)
 
    ​
 
@@ -528,7 +528,7 @@ Start out by logging in to your User Office, press Manage for the VPN Unlimited 
 
    Press Generate and you will get all the data required to set up a VPN connection.
 
-   ![ovpn manager](src/openvpn/KeepSolid3.png)
+   ![ovpn manager](https://static.gl-inet.com/docs/en/2.x/src/openvpn/KeepSolid3.png)
 
 
 

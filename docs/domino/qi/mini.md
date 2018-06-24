@@ -10,9 +10,9 @@ Plug it onto the Domino Qi baseboard in order to be fully compatible with the ub
 
 Domino Qi Mini is a low-cost, compact OpenWRT-based 802.11 bgn WiFi board based on Qualcomm/Atheros AR9331 WiSoC and on the Atmel ATMega32U4 MCU. Communication between the 2 chips is achieved using an Arduino Yun<sup>TM</sup>-compatible Bridge hardware and software library.
 
-![Qi Mini](src/qi_mini1.jpg)
-![Qi Mini](src/qi_mini2.jpg)
-![Qi Mini](src/qi_mini3.jpg)
+![Qi Mini](https://static.gl-inet.com/docs/en/2.x/domino/qi/src/qi_mini1.jpg)
+![Qi Mini](https://static.gl-inet.com/docs/en/2.x/domino/qi/src/qi_mini2.jpg)
+![Qi Mini](https://static.gl-inet.com/docs/en/2.x/domino/qi/src/qi_mini3.jpg)
 
 The Domino Qi Mini board extends the Domino Core module by adding the following features:
 
@@ -61,6 +61,6 @@ User Interfaces |ATMega32U4 USB UART bridge, 32U4 RESET push button, WLAN RESET 
 Pinout
 ----------
 
-![Qi Mini Pinout](src/qi_mini_pinout.jpg)
+![Qi Mini Pinout](https://static.gl-inet.com/docs/en/2.x/domino/qi/src/qi_mini_pinout.jpg)
 
-[Qi Mini Pinout in PDF](src/Domino-Qi-Mini-Pinout.pdf)
+[Qi Mini Pinout in PDF](https://static.gl-inet.com/docs/en/2.x/domino/qi/src/Domino-Qi-Mini-Pinout.pdf)

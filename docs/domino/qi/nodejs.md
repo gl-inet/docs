@@ -77,20 +77,20 @@ LinioIO is a framework that let you interact your AVR from openwrt using NodeJS.
 ###Check uboot environment variables
 Before you use LininoIO, you need to check uboot environments first. In OpenWrt, do `fw_printenv`. If you see the following output, it means that uboot env is not saved. DON'T continue before you save uboot env.
 
-![CRC error](src/crc.jpg)
+![CRC error](https://static.gl-inet.com/docs/en/2.x/domino/qi/src/crc.jpg)
 
 Now enter uboot and save envirment vairables. You need to use do this using serial as intructed [here](serial.html).
 
-![Save env](src/saveenv.jpg)
+![Save env](https://static.gl-inet.com/docs/en/2.x/domino/qi/src/saveenv.jpg)
 
 ###Install LininoIO
 Then you can reset your board and boot the Linux system. Simply execute `lininoio start`.
 
 You can revert back and disable LininoIO by just executing `lininoio stop`.
 
-![LininoIO Stop](src/lininoio-stop.png)
+![LininoIO Stop](https://static.gl-inet.com/docs/en/2.x/domino/qi/src/lininoio-stop.png)
 
-![LininoIO Stop](src/lininoio-stop1.png)
+![LininoIO Stop](https://static.gl-inet.com/docs/en/2.x/domino/qi/src/lininoio-stop1.png)
 
 ##Install LininoIO - The comprehensive way
 
@@ -100,7 +100,7 @@ In order to let Linino IO start when system start, you need to set several envir
 
 If you got the following error message, it means that the uboot env variables are not stored to flash and you need to go to Step 1. - alternative.
 
-![CRC error](src/crc.jpg)
+![CRC error](https://static.gl-inet.com/docs/en/2.x/domino/qi/src/crc.jpg)
 
 
 If you saw correct output as shown below, now set the two variables.
@@ -170,6 +170,6 @@ If you cannot see them, try `/etc/init.d/mcuio enable` `/etc/init.d/mcuio start`
 
 ```
 
-![MCUIO](src/mcuio.png)
+![MCUIO](https://static.gl-inet.com/docs/en/2.x/domino/qi/src/mcuio.png)
 
 

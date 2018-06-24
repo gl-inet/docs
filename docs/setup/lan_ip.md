@@ -12,7 +12,7 @@ However, you can change the LAN IP address in the web admin page.Most of the rou
 
 Click the `wireless icon` and then `LAN IP` to change the LAN IP.
 
-![LAN IP](src/lan_ip/lan.jpg)
+![LAN IP](https://static.gl-inet.com/docs/en/2.x/setup/src/lan_ip/lan.jpg)
 
 
 

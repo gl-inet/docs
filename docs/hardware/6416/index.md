@@ -35,7 +35,7 @@ This model is discontinued and replaced by our most welcomed AR150 model.
 
 Note: The pin headers of GPIO is 2mm.
 
-![](src\6416-markings.jpg) 
+![gl-inet6416 pcb pinout](https://static.gl-inet.com/docs/en/2.x/hardware/6416/src/6416-markings.jpg)
 
    
 

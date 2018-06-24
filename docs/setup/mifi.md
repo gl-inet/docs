@@ -24,7 +24,7 @@ You can connect to the MiFi using an Ethernet cable or using WiFi. The default p
 
 Now using a browser, acess [http://192.168.8.1](http://192.168.8.1) to set the device up.
 
-![Lan IP](src/mifi_start.jpg)
+![Lan IP](https://static.gl-inet.com/docs/en/2.x/setup/src/mifi_start.jpg)
 
 ## First time setup 
 
@@ -71,7 +71,7 @@ For Huawei ME909s-821, the data port is `/dev/ttyUSB0`
 
 MiFi expose all the spare GPIOs of AR9331 so it is good for IoT projects. Please check the picture below for GPIO numbers.
 
-![Lan IP](src/mifi_pcb.jpg)
+![Lan IP](https://static.gl-inet.com/docs/en/2.x/setup/src/mifi_pcb.jpg)
 
 ## Setting up Internet
 
@@ -85,11 +85,11 @@ If you want to connect to the Internet using 3G/4G,
 7. If the gray field contains wrong information, e.g. wrong apn, please edit the field and report to us.
 8. Click "Submit" button
 
-![MiFi setup](src/mifi_connection.jpg)
+![MiFi setup](https://static.gl-inet.com/docs/en/2.x/setup/src/mifi_connection.jpg)
 
 For US Verizon settings, you can choose `internet` or `Ne01.vzwstatic` as the APN.
 
-![Verizon setup](src/verizon_apn.jpg)
+![Verizon setup](https://static.gl-inet.com/docs/en/2.x/setup/src/verizon_apn.jpg)
 
 In Internet status windows it will show the status of 3G/4G connection.
 
@@ -98,7 +98,7 @@ There are two buttons what you can use in case you have problems with the device
 * Reset: This will hard reset the modem, which means the modem (not the device) will power off and on again. This takes 40 seconds to 1 minutes. Be patient and wait for the modem to get connected. You need to reset the modem in case the modem encounter problems or your insert the SIM card after the device boot or change SIM card.
 * Disconnect: This will just disconnect the modem network, but it will not diconnect the modem power.
 
-![MiFi setup](src/mifi_connection_status.jpg)
+![MiFi setup](https://static.gl-inet.com/docs/en/2.x/setup/src/mifi_connection_status.jpg)
 
 
 ## AT commands

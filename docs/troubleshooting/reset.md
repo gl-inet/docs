@@ -11,30 +11,30 @@ Press and hold for **10 seconds** then release to reset the router to factory se
 
 ## Mini Routers
 
-   ![](src/factoryreset/mini_router.jpg)
+   ![](https://static.gl-inet.com/docs/en/2.x/troubleshooting/src/factoryreset/mini_router.jpg)
 
 
 
 ## GL-USB150 Microuter
 
-   ![](src/factoryreset/microuter.jpg)
+   ![](https://static.gl-inet.com/docs/en/2.x/troubleshooting/src/factoryreset/microuter.jpg)
 
 
 
 ##GL-MiFi 4G Smart Router
 
-   ![](src/factoryreset/mifi.jpg)
+   ![](https://static.gl-inet.com/docs/en/2.x/troubleshooting/src/factoryreset/mifi.jpg)
 
 
 
 ## GL-AR750 Travel AC Router
 
-   ![](src/factoryreset/ar750.jpg)
+   ![](https://static.gl-inet.com/docs/en/2.x/troubleshooting/src/factoryreset/ar750.jpg)
 
 
 
 ## GL-B1300 Home AC Router
 
-   ![](src/factoryreset/b1300.jpg)
+   ![](https://static.gl-inet.com/docs/en/2.x/troubleshooting/src/factoryreset/b1300.jpg)
 
 *Note: If factory reset is not working. You might need to follow the [Uboot tutorial](debrick.md) to debrick your router.*

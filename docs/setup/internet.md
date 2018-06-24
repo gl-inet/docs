@@ -12,7 +12,7 @@ The main UI shows the Internet status, mainly the IP address and protol in the s
 
 You can click the `Internet part` in the Settings bar, you will have tools to change Internet settings.
 
-![Connections](src/internet_status1.jpg)
+![Connections](https://static.gl-inet.com/docs/en/2.x/setup/src/internet_status1.jpg)
 
 You can now click "Setting" button or the Internet Icon to pop up Internet settings page.
 
@@ -24,7 +24,7 @@ Your main router or ISP should be able to provide such option.
 
 DHCP is the default and most common method to connect to the Internet. You just need to choose `DHCP` and click `Submit`.
 
-![Connections](src/dhcp1.png)
+![Connections](https://static.gl-inet.com/docs/en/2.x/setup/src/dhcp1.png)
 
 ## Static
 
@@ -34,7 +34,7 @@ DHCP is the default and most common method to connect to the Internet. You just 
 
 The current settings will be automactically filled in the filed. Change it according to your needs, then click `Submit`.
 
-![Connections](src/static.png)
+![Connections](https://static.gl-inet.com/docs/en/2.x/setup/src/static.png)
 
 ## PPPoE
 
@@ -42,7 +42,7 @@ The current settings will be automactically filled in the filed. Change it accor
 
 Fill your `username` and `password` then click `Submit`.
 
-![Connections](src/pppoe.png)
+![Connections](https://static.gl-inet.com/docs/en/2.x/setup/src/pppoe.png)
 
 ## Repeater (WISP)
 
@@ -66,11 +66,11 @@ In the following diagram, your main router has an IP 192.168.1.1. Suppose its ne
 
 So all your devices connected to the mini router will be protected by the firewall.
 
-![Connections](src/wisp1.png)
+![Connections](https://static.gl-inet.com/docs/en/2.x/setup/src/wisp1.png)
 
 First Click `Repeater` tab in `Internet Settings`, the router will search for the available SSIDs around automatically. Then choose the one your want to repeat and type your password. The `Mode` should be `WISP`, then click `Submit`.
 
-![Connections](src/wisp.png)
+![Connections](https://static.gl-inet.com/docs/en/2.x/setup/src/wisp.png)
 
 ## Repeater Bridge (WDS)
 
@@ -80,7 +80,7 @@ In WDS mode, the mini router only boost your main router's signal area, not crea
 
 **OpenVPN client function of the mini router will not work in bridge mode**.
 
-![Connections](src/wds.png)
+![Connections](https://static.gl-inet.com/docs/en/2.x/setup/src/wds.png)
 
 To use WDS repeater, **ensure your main router support WDS**, then choose `WDS` from mode list. You will have an option to input a static IP, which will be used to access this mini router.
 
@@ -88,13 +88,13 @@ If you know the subnet of your main router, for example in this case it is `192.
 
 If you are not sure, just keep the IP address blank so that it will get a IP address from your main router automatically. But you need to find out this IP in your main router's admin UI if you want to access this UI again.
 
-![Connections](src/wds1.png)
+![Connections](https://static.gl-inet.com/docs/en/2.x/setup/src/wds1.png)
 
 ## Repeater Bridge (relayd)
 
 In case you are having an old router and it doesn't support WDS, you can use WISP mode then setup a relayd overlay.
 
-Here is [detailed instructions](src/relayd.pdf) of how to do it.
+Here is [detailed instructions](https://static.gl-inet.com/docs/en/2.x/setup/src/relayd.pdf) of how to do it.
 
 **OpenVPN client function of the mini router will not work in bridge mode**
 
@@ -110,7 +110,7 @@ Clone MAC is used especially in hotels, hotspot etc when the server checks your 
 
 Clieck the `Clone Mac` button and you will have the following interface.
 
-![Connections](src/macclone.jpg)
+![Connections](https://static.gl-inet.com/docs/en/2.x/setup/src/macclone.jpg)
 
 Your current mac address will be displayed in `WAN MAC Address`. You can click `Clone` to copy your device's mac address or click `Restore` to restore the factory set mac.
 
@@ -126,6 +126,6 @@ Click `DNS` button you will be able to input custom dns. You can input max two d
 
 A separate article will be written about DNS.
 
-![Connections](src/dns.jpg)
+![Connections](https://static.gl-inet.com/docs/en/2.x/setup/src/dns.jpg)
 
 # Discussions

@@ -8,7 +8,7 @@ All GL.iNet routers are equipped with repeater manager. When you use GL.iNet rou
 
 All repeater stations (WISP/WDS) you connected to will be saved in the router. You can choose if they will be auto connected to or not.
 
-![Repeater Manager](src/repeater_manager/repeater_manager.jpg)
+![Repeater Manager](https://static.gl-inet.com/docs/en/2.x/setup/src/repeater_manager/repeater_manager.jpg)
 
 
 
@@ -16,7 +16,7 @@ All repeater stations (WISP/WDS) you connected to will be saved in the router. Y
 
 The router will search among all saved stations and try to connect a valid station. If none of the saved stations can be connected, the router will disable sta mode to ensure your AP is ON
 
-![Repeater Manager](src/repeater_manager/repeater_manager1.jpg)
+![Repeater Manager](https://static.gl-inet.com/docs/en/2.x/setup/src/repeater_manager/repeater_manager1.jpg)
 
 
 

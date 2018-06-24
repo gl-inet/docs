@@ -35,7 +35,7 @@ This model didn't has a external antenna version.
 
 MT300N has options to support PoE.
 
-![](src/mt300n-pcb-marking.jpg) 
+![gl-mt300n pcb pinout](https://static.gl-inet.com/docs/en/2.x/hardware/mt300n/src/mt300n-pcb-marking.jpg) 
 
   
 

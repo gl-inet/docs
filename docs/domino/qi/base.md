@@ -8,9 +8,9 @@ The Domino Qi Base Board is an adapter board for the Domino Mini Board.
 
 Plug the Domino Qi Mini Board onto this Domino Qi Base Board in order to be fully compatible with the ubiquitous ArduinoTM Shield form factor and benefit from hundreds of already existing shields for rapid prototyping.
 
-![Qi Baseboard](src/qi_base1.jpg)
-![Qi Baseboard](src/qi_base2.jpg)
-![Qi Baseboard](src/qi_base3.jpg)
+![Qi Baseboard](https://static.gl-inet.com/docs/en/2.x/domino/qi/src/qi_base1.jpg)
+![Qi Baseboard](https://static.gl-inet.com/docs/en/2.x/domino/qi/src/qi_base2.jpg)
+![Qi Baseboard](https://static.gl-inet.com/docs/en/2.x/domino/qi/src/qi_base3.jpg)
 
 The Domino Qi Base Board extends the Domino Qi Mini Board by adding the following features:
 
@@ -49,6 +49,6 @@ Available Interfaces | 3x USB host, 1 x Ethernet, ICSP, ATMega32U4 Digital pins 
 Pinout
 -------------
 
-![Qi Pinout](src/qi_pinout.jpg)
+![Qi Pinout](https://static.gl-inet.com/docs/en/2.x/domino/qi/src/qi_pinout.jpg)
 
-[Qi Pinout in PDF](src/Domino-Qi-Pinout.pdf)
+[Qi Pinout in PDF](https://static.gl-inet.com/docs/en/2.x/domino/qi/src/Domino-Qi-Pinout.pdf)

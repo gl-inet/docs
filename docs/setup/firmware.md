@@ -12,7 +12,7 @@ A ***new*** message will be shown when there is a new firmware available. Click 
 
 *Note: **Don't turn off** the power during upgrade. Otherwise, the router will be bricked*
 
-![firmware](src/firmware/firmware.jpg)
+![firmware](https://static.gl-inet.com/docs/en/2.x/setup/src/firmware/firmware.jpg)
 
 
 
@@ -24,7 +24,7 @@ You can also download firmware from the web admin page. Click `Download` to down
 
 *Note: It is suggested to uncheck the `Keep setting`. If you keep its settings and encounter problems after the upgrade, please reset the device.*
 
-![firmware](src/firmware/firmware1.jpg)
+![firmware](https://static.gl-inet.com/docs/en/2.x/setup/src/firmware/firmware1.jpg)
 
 ###Download from our official website manaully
 
@@ -35,7 +35,7 @@ You can download the firmware file from our [website](http://www.gl-inet.com/fir
 
 You can use the `Upload Firmware` button to upload the firmware file. Simply drag and drop your firmware file to the area indicated in the web admin page.
 
-![firmware](src/firmware/firmware2.jpg)
+![firmware](https://static.gl-inet.com/docs/en/2.x/setup/src/firmware/firmware2.jpg)
 
 
 

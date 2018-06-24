@@ -37,13 +37,13 @@ Please choose the correct 4G module for your region.
 
 ## PCB Pinout
 
-![](src/GL-MIFI-V2.5-PINOUT-1.jpg)
+![gl-mifi pcb pinout](https://static.gl-inet.com/docs/en/2.x/hardware/mifi/src/GL-MIFI-V2.5-PINOUT-1.jpg)
 
 
 
 ##  PCIe Modem Module List
 
-   ![](src/MiFi-PCIeModem_info.jpg)
+![gl-mifi PCIe Modem Module list](https://static.gl-inet.com/docs/en/2.x/hardware/mifi/src/MiFi-PCIeModem_info.jpg)
 
 ##  Modem Manager
 

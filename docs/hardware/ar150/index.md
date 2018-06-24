@@ -30,13 +30,13 @@ AR150 Series includes AR150, AR150-Ext, AR150-PoE and AR150-Ext-PoE.
 
 ##PCB Pinout
 
-![](src\AR150-V4.4-PINOUT.jpg)
+![gl-ar150 pcb pinout](https://static.gl-inet.com/docs/en/2.x/hardware/ar150/src/AR150-V4.4-PINOUT.jpg)
 
 ## RTC Setting
 
 You can use a RTC (Real-time control) module in GL-AR150 mini router.
 
-![](src\rtc_1200x1200.jpg)
+![gl-ar150 use RTC module](https://static.gl-inet.com/docs/en/2.x/hardware/ar150/src/rtc_1200x1200.jpg)
 
 ### Install kernel modules
 
@@ -101,7 +101,7 @@ PoE only works on the ***WAN Port only***
 
 
 
-![AR150 PoE Connection](src\AR150-PoE_setup.png)
+![AR150 PoE Connection](https://static.gl-inet.com/docs/en/2.x/hardware/ar150/src/AR150-PoE_setup.png)
 
 
 
@@ -111,7 +111,7 @@ The following PoE injector is widely availabe in the market and it is very affor
 
 ***For PoE Version Only***
 
-![](src\white_1000x1000_PoE_2.jpg) 
+![PoE switch and Ethernet cable](https://static.gl-inet.com/docs/en/2.x/hardware/ar150/src/white_1000x1000_PoE_2.jpg) 
 
 
 

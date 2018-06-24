@@ -21,9 +21,9 @@ The Domino Single Ethernet Tile also includes the equivalent of the Domino LED T
 
 It is compatible with the Domino Pi and Domino Qi Mini boards.
 
-![Single Eth board ](src/single_eth1.jpg)
-![Single Eth board ](src/single_eth2.jpg)
-![Single Eth board ](src/single_eth3.jpg)
+![Single Eth board ](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/single_eth1.jpg)
+![Single Eth board ](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/single_eth2.jpg)
+![Single Eth board ](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/single_eth3.jpg)
 
 ```
 **The picture is not the newest! The newest is with serial connectors**
@@ -38,6 +38,6 @@ Dimensions	45.72 x 33.02 x 25 mm
 Pinout
 ----------------
 
-![Pinout](src/single_eth_pinout.jpg)
+![Pinout](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/single_eth_pinout.jpg)
 
-[Pinout in PDF](src/Domino-Single-Ethernet-Pinout.pdf)
+[Pinout in PDF](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/Domino-Single-Ethernet-Pinout.pdf)

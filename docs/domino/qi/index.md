@@ -6,7 +6,7 @@ Qi Mini Interfaces
 
 The heart of Domino Qi is Qi Mini board, which integrates Domino Core and Atmega32U4 MCU. The functions of Qi Mini is compatible with Arduino Yun.
 
-![Qi Mini Top](src/qi_mini_top.jpg)
+![Qi Mini Top](https://static.gl-inet.com/docs/en/2.x/domino/qi/src/qi_mini_top.jpg)
 
 On Qi Mini, there are four LEDs:
 
@@ -15,7 +15,7 @@ On Qi Mini, there are four LEDs:
 - <font color=green>**Green LED for Power**</font>: it will always on when power is connected.
 - <font color=orange>**Yellow LED for WAN** </font>: it will light up when Ethernet cable is connected.
 
-![Qi Mini Top](src/qi_mini_back.jpg)
+![Qi Mini Top](https://static.gl-inet.com/docs/en/2.x/domino/qi/src/qi_mini_back.jpg)
 
 On Qi Mini, there are three buttons:
 
@@ -28,12 +28,12 @@ Qi Assembly
 
 The Qi Mini board use short headers. Put it onto Qi baseboard and press them firmly. On Qi baseboard, the MicroUSB is only for power and we didn't mount it by default. You can just power the kit up using the connector on Qi Mino.
 
-![Qi assembly ](src/qi-assembly.jpg)
+![Qi assembly ](https://static.gl-inet.com/docs/en/2.x/domino/qi/src/qi-assembly.jpg)
 
 
 To disassemble the kit, you need a little force, as the headers are too tight. Use a pencil or plastic pen, inser into the gap between Qi Mini and the baseboard, apply a little force to lever it up. Don't be too brutal to damage the boards. Don't use a metal tools. 
 
-![Qi assembly ](src/qi-disassembly.jpg)
+![Qi assembly ](https://static.gl-inet.com/docs/en/2.x/domino/qi/src/qi-disassembly.jpg)
 
 
 Using Qi
@@ -43,7 +43,7 @@ When using Domino Qi, you can connect the MicroUSB to you computer and connect C
 
 The default WiFi password is `goodlife`.
 
-![Qi connection](src/qi-connection.jpg)
+![Qi connection](https://static.gl-inet.com/docs/en/2.x/domino/qi/src/qi-connection.jpg)
 
 Connect to the Web UI
 ------------------
@@ -52,7 +52,7 @@ When your Domino is up, you will find it using `http://domino.local` in your bro
 
 If you cannot find domino.local in your windows, you need to install `Bounjor` from Apple. Download it from https://support.apple.com/kb/DL999?locale=en_US
 
-![Bonjour](src/bonjour.jpg)
+![Bonjour](https://static.gl-inet.com/docs/en/2.x/domino/qi/src/bonjour.jpg)
 
 
 First time settings
@@ -60,7 +60,7 @@ First time settings
 
 The first time you use your Domino, it will ask you to setup the name and a password. Then reboot your device.
 
-![Setup](src/firsttime.jpg)
+![Setup](https://static.gl-inet.com/docs/en/2.x/domino/qi/src/firsttime.jpg)
 
 ATTENTION: The password is only for the embedded Linux system, not your wifi. If you want to change your wifi password, logon the system and change it later.ATTENTION: If you change your boards name, for example to “myboard”, after reboot, you will need to use http://myboard.local to find it.
 
@@ -71,7 +71,7 @@ The homepage
 
 After login, you will have a clean homepage, displaying the status of network and USB devices. You have links on the left side to vairous pages of Domino WebUI.
 
-![Homepage](src/homepage.jpg)
+![Homepage](https://static.gl-inet.com/docs/en/2.x/domino/qi/src/homepage.jpg)
 
 You will also have pie chart displaying your flash usuage. On the bottom, you can upload your sketch to your AVR. 
 
@@ -81,7 +81,7 @@ Network settings
 
 **Connect to the Internet**
 
-![Network](src/network.jpg)
+![Network](https://static.gl-inet.com/docs/en/2.x/domino/qi/src/network.jpg)
 
 The default protocol for WAN is DHCP, but you can change it according to your needs. You have 5 choices, including DHCP, Static, PPPoE, 3G, Tethering and WiFi. The 3g protocol let you connect domino to the Internet via a USB 3g/4g modem. The Tethering protocol let you connect Domino to the Internet via an Android phone. The WiFi choice let you connect your Domino to an AP (e.g. router) wirelessly.
 
@@ -98,7 +98,7 @@ In the same page, you can also change WiFi and LAN settings. You can `enable/dis
 
 You can connect USB devices to Domino via the USB tiles. 
 
-![USB](src/usb-disk.jpg)
+![USB](https://static.gl-inet.com/docs/en/2.x/domino/qi/src/usb-disk.jpg)
 
 If you connect a USB disk, you will find a pie chart showing its storage usage. By clicking the pi chart, you will be able to list the content of storage.
 
@@ -109,7 +109,7 @@ Code editor
 
 By clicking the "Editor" link on or clicking directly the flash or USB devices on the homepage, you will be able to list the contents of flash or USB storage and edit the content of the file.
 
-![Code editor](src/editor.jpg)
+![Code editor](https://static.gl-inet.com/docs/en/2.x/domino/qi/src/editor.jpg)
 
 You can view or edit individual files directly. 
 
@@ -122,7 +122,7 @@ LUCI
 
 By clicking the Luci link on homepage, you will go to the LUCI webui, which is the default webui of openwrt. The webui is for advanced users and we will not explain in detail here.
 
-![LUCI](src/luci.jpg)
+![LUCI](https://static.gl-inet.com/docs/en/2.x/domino/qi/src/luci.jpg)
 
 At the right bottom corner of the LUCI webui, you will find a link "Domino Web Panel", click it and go back to the Domino UI.
 
@@ -140,10 +140,10 @@ Using Arduino
 
 Domino Qi uses code from Arduino, so it identify itself as Arduino Yun. When connected the MicroUSB to your computer, you will find the device in your system.
 
-![Qi device](src/qi-device.jpg)
+![Qi device](https://static.gl-inet.com/docs/en/2.x/domino/qi/src/qi-device.jpg)
 
 .
 
 When you use Arduino IDE, you can also find your Domino board automatically. You will find two devices, one is via USB, i.e. COM37. Another is via WiFi. You can select either one and download sketch to your Domino Directly.
 
-![Arduino IDE](src/arduino-ide.jpg)
+![Arduino IDE](https://static.gl-inet.com/docs/en/2.x/domino/qi/src/arduino-ide.jpg)
