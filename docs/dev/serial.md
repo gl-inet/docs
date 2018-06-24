@@ -54,7 +54,7 @@ When connecting the USB UART adapter to your computer, you may need to install d
 
 Now you will be able to find the serial COM port (in this example: `COM3`) in device manger.
 
-![Com](https://static.gl-inet.com/docs/en/2.x/dev/src/find-serial-port.png)
+![Com](https://static.gl-inet.com/docs/en/2.x/dev/src/find-serial-port.jpg)
 
 Install a terminal software. <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html">putty</a> is recommended. You need to set COM port `COM4`, speed `115200` and connection type `Serial`. Click "Open".
 
