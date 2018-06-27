@@ -3,7 +3,7 @@ repo_url: https://github.com/gl-inet/docs/
 site_description: This is the documentation site for GL.iNet OpenWrt Wi-Fi products
 site_favicon: favicon.png
 copyright: <a href='https://gl-inet.com/'> GL Technologies</a> 2018
-google_analytics: null
+google_analytics: ['UA-108265653-1', 'glinet.com']
 site_dir: '/var/www/newdocs'
 #site_dir: 'site'
 docs_dir: 'docs'
