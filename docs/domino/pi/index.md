@@ -43,4 +43,4 @@ Connect your Domino with an Ethernet cable to your router. Then connect power to
 
 When you see the LEDS (WAN, WLAN) light up, your Domino has booted up. Now using a browser (use Firefox or Chrome) to visit [http://domino.local/](http://domino.local/), you will be able to access the WebUi of Domino.
 
-Please visit [this page](using.html) to get more details on how to use the Domino Pi WebUi.
+Please visit [this page](using.md) to get more details on how to use the Domino Pi WebUi.
