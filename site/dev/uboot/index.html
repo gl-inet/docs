@@ -77,12 +77,6 @@
                         
                             
 <li >
-    <a href="../../quick/">Quick Links</a>
-</li>
-
-                        
-                            
-<li >
     <a href="../../service/">Services</a>
 </li>
 
@@ -380,6 +374,12 @@
                         
                             
 <li >
+    <a href="../../domino/pi/">Domino Pi</a>
+</li>
+
+                        
+                            
+<li >
     <a href="../../domino/pi/pi/">Domino Pi Baseboard</a>
 </li>
 
@@ -440,61 +440,61 @@
                         
                             
 <li >
-    <a href="../../domino/pi/using/">Pi: Using the firmware</a>
+    <a href="../../domino/pi/using/">Pi - Using the firmware</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../domino/pi/compile/">Pi: Compile firmware</a>
+    <a href="../../domino/pi/compile/">Pi - Compile firmware</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../domino/pi/flashing/">Pi: Flashing and debricking</a>
+    <a href="../../domino/pi/flashing/">Pi - Flashing and debricking</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../domino/pi/audio/">Pi: Playing Music</a>
+    <a href="../../domino/pi/audio/">Pi - Playing Music</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../domino/pi/serial/">Pi: Working with Serial</a>
+    <a href="../../domino/pi/serial/">Pi - Working with Serial</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../domino/pi/spi/">Pi: Debricking using SPI/JTAG board</a>
+    <a href="../../domino/pi/spi/">Pi - Debricking using SPI/JTAG board</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../domino/qi/">Qi: Getting Started</a>
+    <a href="../../domino/qi/">Qi - Getting Started</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../domino/qi/arduino-yun/">Qi: Using Arduino or Linino Firmware</a>
+    <a href="../../domino/qi/arduino-yun/">Qi - Using Arduino or Linino Firmware</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../domino/qi/nodejs/">Qi: Using NodeJS and LininoIO</a>
+    <a href="../../domino/qi/nodejs/">Qi - Using NodeJS and LininoIO</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../domino/qi/serial/">Qi: Using Serial</a>
+    <a href="../../domino/qi/serial/">Qi - Using Serial</a>
 </li>
 
                         
@@ -555,7 +555,7 @@
 <p>Familiarity with uboot is a skill that you should master in order to play with the routers.</p>
 <h2 id="about-uboot">About uboot</h2>
 <p>Uboot (universial bootloader) is the bootloader we used on our boards and routers to start OpenWrt Linux. The bootloader heavily depends on the hardware so almost every device requires a different bootloader.</p>
-<p>To use the bootloader, you have to <a href='http://www.gl-inet.com/docs/diy/serial/'>connect a UART serial connector</a> to your device.</p>
+<p>To use the bootloader, you have to <a href="../../dev/serial/">connect a UART serial connector</a> to your device.</p>
 <p>Taking our Atheros 9331 boards for example, when powered up, uboot will output the following text:</p>
 <pre><code>*********************************************
 *   U-Boot 1.1.4  (Sep  9 2014, 09:20:16)   *
@@ -734,13 +734,13 @@ reset
 <h3 id="uboot-web-ui">Uboot Web UI</h3>
 <p>Uboot has a webUI so that you can save your device without entering uboot console.</p>
 <p><img alt="Uboot Web UI" src="https://static.gl-inet.com/docs/en/2.x/dev/src/uboot_failsafe.png" /></p>
-<p>Check <a href="../../mini/firmware/#debricking-using-uboot">this section</a>  for how to enter uboot web UI using the reset button.</p>
+<p>Check <a href="../../troubleshooting/debrick/">this section</a>  for how to enter uboot web UI using the reset button.</p>
 <p>If you are in uboot console, you can start the WebUI the following command. This only works for AR series, not MT series.</p>
 <pre><code>httpd
 </code></pre>
 
 <h3 id="ar300m-specific">AR300M Specific</h3>
-<p>AR300M uses dual flash so in uboot there are a lot of things to deal with dual flash. Please refer to <a href="../../mini/ar300m/">AR300M</a> for more details.</p>
+<p>AR300M uses dual flash so in uboot there are a lot of things to deal with dual flash. Please refer to <a href="../../hardware/ar300m/">AR300M</a> for more details.</p>
 <h2 id="discussions">Discussions</h2>
 <div id="disqus_thread"></div>
 <script>

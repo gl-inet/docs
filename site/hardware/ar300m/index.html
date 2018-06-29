@@ -77,12 +77,6 @@
                         
                             
 <li >
-    <a href="../../quick/">Quick Links</a>
-</li>
-
-                        
-                            
-<li >
     <a href="../../service/">Services</a>
 </li>
 
@@ -380,6 +374,12 @@
                         
                             
 <li >
+    <a href="../../domino/pi/">Domino Pi</a>
+</li>
+
+                        
+                            
+<li >
     <a href="../../domino/pi/pi/">Domino Pi Baseboard</a>
 </li>
 
@@ -440,61 +440,61 @@
                         
                             
 <li >
-    <a href="../../domino/pi/using/">Pi: Using the firmware</a>
+    <a href="../../domino/pi/using/">Pi - Using the firmware</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../domino/pi/compile/">Pi: Compile firmware</a>
+    <a href="../../domino/pi/compile/">Pi - Compile firmware</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../domino/pi/flashing/">Pi: Flashing and debricking</a>
+    <a href="../../domino/pi/flashing/">Pi - Flashing and debricking</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../domino/pi/audio/">Pi: Playing Music</a>
+    <a href="../../domino/pi/audio/">Pi - Playing Music</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../domino/pi/serial/">Pi: Working with Serial</a>
+    <a href="../../domino/pi/serial/">Pi - Working with Serial</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../domino/pi/spi/">Pi: Debricking using SPI/JTAG board</a>
+    <a href="../../domino/pi/spi/">Pi - Debricking using SPI/JTAG board</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../domino/qi/">Qi: Getting Started</a>
+    <a href="../../domino/qi/">Qi - Getting Started</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../domino/qi/arduino-yun/">Qi: Using Arduino or Linino Firmware</a>
+    <a href="../../domino/qi/arduino-yun/">Qi - Using Arduino or Linino Firmware</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../domino/qi/nodejs/">Qi: Using NodeJS and LininoIO</a>
+    <a href="../../domino/qi/nodejs/">Qi - Using NodeJS and LininoIO</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../domino/qi/serial/">Qi: Using Serial</a>
+    <a href="../../domino/qi/serial/">Qi - Using Serial</a>
 </li>
 
                         
@@ -773,11 +773,11 @@ $ reboot
 <h2 id="debrick">Debrick</h2>
 <p>If you brick your router and it cannot boot, you can try to save it using uboot.</p>
 <h3 id="using-uboot-web-ui">Using uboot web UI</h3>
-<p>Follow <a href="http://www.gl-inet.com/docs/mini/firmware/#using-the-reset-button-to-revert">this guide</a> for a general instruction to get access of uboot web UI.</p>
+<p>Follow <a href="../../troubleshooting/reset/">this guide</a> for a general instruction to get access of uboot web UI.</p>
 <p>Here is a video guide for entering AR300M uboot failsafe. 
 <iframe width="480" height="270" src="https://www.youtube.com/embed/-x0RllKkzIc" frameborder="0" allowfullscreen></iframe></p>
 <p>In some early version of AR300M, the uboot boot very slowly. So be patient when you press and hold the reset button. The LEDs will start to flash around 5 seconds.</p>
-<p>There is a bug in AR300M uboot and in some computers the connection will always reset when you upload firmware. Check <a href="https://www.gl-inet.com/forums/topic/bricked-ar300m-how-to-restore/">this post</a> to find the discussion. You can either try chaning the MTU or just try another computer.</p>
+<p>There is a bug in AR300M uboot and in some computers the connection will always reset when you upload firmware. Check <a href="https://forum.gl-inet.com/t/bricked-ar300m-how-to-restore/">this post</a> to find the discussion. You can either try chaning the MTU or just try another computer.</p>
 <p><strong>Note</strong>: If you have an older version of uboot, the webUI will only be able to flash NAND flash. This is fixed in newer versions.</p>
 <p><strong>Note</strong>: When flash NAND firmware, only use the firmware with <code>.img</code> in the name, not the one with <code>.rar</code> in the name.</p>
 <p>The following figure is the web ui of the <code>new</code> uboot.</p>
