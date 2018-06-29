@@ -41,7 +41,7 @@ User Firefox or Chrome to visit **http://192.168.1.1.** Then you will enter Uboo
 
 
 ## 7. Update
-Click **Choose File** to find the firmware. Then click **Update firmware**. You can download the firmware here: <http://www.gl-inet.com/firmware>
+Click **Choose File** to find the firmware. Then click **Update firmware**. You can download the firmware here: <http://download.gl-inet.com/firmware/>
 
 
 ## 8. Upgrading

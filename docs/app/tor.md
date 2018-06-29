@@ -53,21 +53,21 @@ If you have questions about versions, please ask here or in the forum.
 
 ##Download and Flashing the firmware to the device
 
-All the firmwares is available at [http://www.gl-inet.com/firmware](http://www.gl-inet.com/firmware)
+All the firmwares is available at [http://download.gl-inet.com/firmware/](http://download.gl-inet.com/firmware/)
 Find your device name and then "tor" folder. Download the newest firmware.
 
 You need to refer to [https://www.gl-inet.com/docs/mini/firmware/](https://www.gl-inet.com/docs/mini/firmware/) for instructions to flash the firmware to the router. 
 
 | Model       | Tor firmware path                        | Newest Version | Note                                     |
 | ----------- | ---------------------------------------- | -------------- | ---------------------------------------- |
-| GL.iNet6416 | [http://www.gl-inet.com/firmware/6416/tor/](http://www.gl-inet.com/firmware/6416/tor/) | 1.3            |                                          |
-| AR150       | [http://www.gl-inet.com/firmware/ar150/tor/](http://www.gl-inet.com/firmware/ar150/tor/) | 2.264          |                                          |
-| AR300M      | [http://www.gl-inet.com/firmware/ar300m/nand/tor/](http://www.gl-inet.com/firmware/ar300m/nand/tor) | 2.264          | .rar is for web upgrade .img is for uboot upgrade |
-| AR300M-Nor  | [http://www.gl-inet.com/firmware/ar300m/tor/](http://www.gl-inet.com/firmware/ar300m/tor/) | 2.264          |                                          |
-| MT300N      | [http://www.gl-inet.com/firmware/mt300n/tor/](http://www.gl-inet.com/firmware/mt300n/tor/) | 2.264          |                                          |
-| MT300A      | [http://www.gl-inet.com/firmware/mt300a/tor/](http://www.gl-inet.com/firmware/mt300a/tor/) | 2.264          |                                          |
-| GL-MiFi     | [http://www.gl-inet.com/firmware/ar150/tor/](http://www.gl-inet.com/firmware/ar150/tor/) | 1.3            | MiFi don't have a Tor firmware itself. Use AR150 1.3 instead |
-| GL-AR300    | [http://www.gl-inet.com/firmware/ar300/tor/](http://www.gl-inet.com/firmware/ar300/tor/) | 1.3            |                                          |
+| GL.iNet6416 | [http://download.gl-inet.com/firmware/6416/tor/](http://download.gl-inet.com/firmware/6416/tor/) | 1.3            |                                          |
+| AR150       | [http://download.gl-inet.com/firmware/ar150/tor/](http://download.gl-inet.com/firmware/ar150/tor/) | 2.264          |                                          |
+| AR300M      | [http://download.gl-inet.com/firmware/ar300m/nand/tor/](http://download.gl-inet.com/firmware/ar300m/nand/tor) | 2.264          | .rar is for web upgrade .img is for uboot upgrade |
+| AR300M-Nor  | [http://download.gl-inet.com/firmware/ar300m/tor/](http://download.gl-inet.com/firmware/ar300m/tor/) | 2.264          |                                          |
+| MT300N      | [http://download.gl-inet.com/firmware/mt300n/tor/](http://download.gl-inet.com/firmware/mt300n/tor/) | 2.264          |                                          |
+| MT300A      | [http://download.gl-inet.com/firmware/mt300a/tor/](http://download.gl-inet.com/firmware/mt300a/tor/) | 2.264          |                                          |
+| GL-MiFi     | [http://download.gl-inet.com/firmware/ar150/tor/](http://download.gl-inet.com/firmware/ar150/tor/) | 1.3            | MiFi don't have a Tor firmware itself. Use AR150 1.3 instead |
+| GL-AR300    | [http://download.gl-inet.com/firmware/ar300/tor/](http://download.gl-inet.com/firmware/ar300/tor/) | 1.3            |                                          |
 | GL-MT750    | Not supported yet                        |                |                                          |
 | AR750       | Not supported yet                        |                |                                          |
 

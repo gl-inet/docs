@@ -6,9 +6,9 @@ This docs is only related to OpenVPN client.
 
 OpenVPN client is pre-installed in GL.iNet routers GL-AR150, GL-AR300M, GL-MT300N, GL-MT300A, GL-USB150, GL-AR750, GL-B1300 from firmware v2.19.
 
-Download the firmware for each devices: http://www.gl-inet.com/firmware/
+Download the firmware for each devices: http://download.gl-inet.com/firmware/
 
-The newest firmware maybe put in testing folder: http://www.gl-inet.com/firmware/testing/
+The newest firmware maybe put in testing folder: http://download.gl-inet.com/firmware/testing/
 
 
 Note: You need to subscribe your own VPN service and get an OpenVPN configuration file (.ovpn) from your service provider. If you have subscribed but don't know how to download the configuration file, please read the section "How to get the configuration file".

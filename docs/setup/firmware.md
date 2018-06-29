@@ -28,7 +28,7 @@ You can also download firmware from the web admin page. Click `Download` to down
 
 ###Download from our official website manaully
 
-You can download the firmware file from our [website](http://www.gl-inet.com/firmware/). Moreover, we will upload testing firmware files to the [testing](http://www.gl-inet.com/firmware/testing/) folder before official release.
+You can download the firmware file from our [website](http://download.gl-inet.com/firmware/). Moreover, we will upload testing firmware files to the [testing](http://download.gl-inet.com/firmware/testing/) folder before official release.
 
 
 ## Upload Firmware
