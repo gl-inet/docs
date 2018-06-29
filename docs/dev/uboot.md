@@ -7,7 +7,7 @@ About uboot
 -----------
 Uboot (universial bootloader) is the bootloader we used on our boards and routers to start OpenWrt Linux. The bootloader heavily depends on the hardware so almost every device requires a different bootloader.
 
-To use the bootloader, you have to <a href='http://www.gl-inet.com/docs/diy/serial/'>connect a UART serial connector</a> to your device.
+To use the bootloader, you have to [connect a UART serial connector](/dev/serial/) to your device.
 
 Taking our Atheros 9331 boards for example, when powered up, uboot will output the following text:
 ```
@@ -229,7 +229,7 @@ Uboot has a webUI so that you can save your device without entering uboot consol
 
 ![Uboot Web UI](https://static.gl-inet.com/docs/en/2.x/dev/src/uboot_failsafe.png)
 
-Check [this section](../mini/firmware/#debricking-using-uboot)  for how to enter uboot web UI using the reset button.
+Check [this section](/troubleshooting/debrick.md)  for how to enter uboot web UI using the reset button.
 
 If you are in uboot console, you can start the WebUI the following command. This only works for AR series, not MT series.
 ```
@@ -237,6 +237,6 @@ httpd
 ```
 
 ### AR300M Specific
-AR300M uses dual flash so in uboot there are a lot of things to deal with dual flash. Please refer to [AR300M](../mini/ar300m/) for more details.
+AR300M uses dual flash so in uboot there are a lot of things to deal with dual flash. Please refer to [AR300M](/hardware/ar300m/) for more details.
 
 ## Discussions

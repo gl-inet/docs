@@ -2,7 +2,7 @@
 This page is listing the videos related to customer review. We thanks for all the nice reviews from our users. We only select some of them to show here, because the limitation of space.  We will update contents to our official  [YouTube](https://www.youtube.com/channel/UCBfNEzurltlIeFFCbUgHQyg?view_as=subscriber) Channel time to time.
 
 ##Hidden Router Review: The Best VPN Router?
-By Stefan Zanev | Product Mentioned:[GL-B1300](https://www.gl-inet.comb1300/)
+By Stefan Zanev | Product Mentioned:[GL-B1300](https://www.gl-inet.com/b1300/)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VXrSmh1OfTU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
