@@ -10,8 +10,8 @@ Free Tor firmware for all
 
 To use the Tor firmware:
 
-1. Download the correct firmware for your router
-2. Flash it to the router according to http://www.gl-inet.com/docs/mini/firmware/ DO NOT reserve settings
+1. Download the correct firmware for your router.
+2. Flash it to the router according to [this guide](/setup/firmware.md), DO NOT reserve settings.
 
 If you brick your router after flashing the wrong firmware or wrong way, please use uboot failsafe to debrick the router. 
 
@@ -56,7 +56,7 @@ If you have questions about versions, please ask here or in the forum.
 All the firmwares is available at [http://download.gl-inet.com/firmware/](http://download.gl-inet.com/firmware/)
 Find your device name and then "tor" folder. Download the newest firmware.
 
-You need to refer to [https://www.gl-inet.com/docs/mini/firmware/](https://www.gl-inet.com/docs/mini/firmware/) for instructions to flash the firmware to the router. 
+You need to refer to [this guide](/setup/firmware.md) for instructions to flash the firmware to the router. 
 
 | Model       | Tor firmware path                        | Newest Version | Note                                     |
 | ----------- | ---------------------------------------- | -------------- | ---------------------------------------- |
@@ -121,7 +121,7 @@ If the firmware on our website is newer, you can click `Download` and follow the
 
 ###Network Settings
 
-Click the `NETWORK` button on the left sidebarr to view and change the network settings, including:
+Click the `NETWORK` button on the left sidebar to view and change the network settings, including:
 
 1. Internet protocol: `dhcp`, `static`, `pppoe`, `3g`, `tethering` or `repeater`. Tethering only works in Android phones.
 2. Wireless parameters: `ssid`, `encryption` and `passsword`

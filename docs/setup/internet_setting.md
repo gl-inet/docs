@@ -155,7 +155,7 @@ This modem supports tethering mode, please set up by using tethering but not 3/4
 | Verizon U620L (Verizon)                | 4G    | Yes    |                 | hostles  |
 |                                        |       |        |                 |          |
 
-You can also refer to [http://ofmodemsandmen.com/supported.html](http://ofmodemsandmen.com/supported.html) for a well supported modem list.
+You can also refer to [http://ofmodemsandmen.com/modems.html](http://ofmodemsandmen.com/modems.html) for a well supported modem list.
 
 
 

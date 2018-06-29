@@ -24,15 +24,15 @@ GL.iNet Team
 
 ## Wikidevi
 
-GL-B1300 Gigabit AC Router: https://wikidevi.com/wiki/GL.iNet_GL-B1300
+GL-B1300 Gigabit AC Router: [https://wikidevi.com/wiki/GL.iNet_GL-B1300](https://wikidevi.com/wiki/GL.iNet_GL-B1300)
 
-GL-AR750 Travel AC Router: https://wikidevi.com/wiki/GL.iNet_GL-AR750
+GL-AR750 Travel AC Router: [https://wikidevi.com/wiki/GL.iNet_GL-AR750](https://wikidevi.com/wiki/GL.iNet_GL-AR750)
 
-GL-USB150 Microuter: https://wikidevi.com/wiki/GL.iNet_GL-USB150
+GL-USB150 Microuter: [https://wikidevi.com/wiki/GL.iNet_GL-USB150](https://wikidevi.com/wiki/GL.iNet_GL-USB150)
 
-GL-AR300M Mini Smart Router: https://wikidevi.com/wiki/GL.iNet_GL-AR300M
+GL-AR300M Mini Smart Router: [https://wikidevi.com/wiki/GL.iNet_GL-AR300M](https://wikidevi.com/wiki/GL.iNet_GL-AR300M)
 
-GL-AR150 Mini Smart Router: https://wikidevi.com/wiki/GL.iNet_GL-AR150
+GL-AR150 Mini Smart Router: [https://wikidevi.com/wiki/GL.iNet_GL-AR150](https://wikidevi.com/wiki/GL.iNet_GL-AR150)
 
 GL-MiFi 4G Smart Router: TBA
 
