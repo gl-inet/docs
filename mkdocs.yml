@@ -4,8 +4,7 @@ site_description: This is the documentation site for GL.iNet OpenWrt Wi-Fi produ
 site_favicon: favicon.png
 copyright: <a href='https://gl-inet.com/'> GL Technologies</a> 2018
 google_analytics: ['UA-108265653-1', 'glinet.com']
-#site_dir: '/var/www/newdocs'
-#site_dir: 'site'
+site_dir: '/home/ubuntu/docs-build/en/2/'
 docs_dir: 'docs'
 theme_dir: 'gl_theme2'
 #theme: 'mkdocs'
