@@ -26,7 +26,7 @@ It has several sub-models:
 |                         Model | GL-AR300M Series                         |
 | ----------------------------: | :--------------------------------------- |
 |                           CPU | QCA9531 650MHz                           |
-|                        Memory | DDRII 128Mb                              |
+|                        Memory | DDRII 128MB                              |
 |                       Storage | 16MB Nor, 128 Mb Nand (Optional)         |
 |                    Interfaces | 1 WAN, 1 LAN, 1 USB2.0, 1 Micro USB (power), 1 Reset Button, PCIe, UART |
 |                     Frequency | 2.4GHz                                   |

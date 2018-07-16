@@ -13,8 +13,8 @@ This model is discontinued and replaced by our most welcomed AR150 model.
 |                         Model | GL-iNet6416                              |
 | ----------------------------: | :--------------------------------------- |
 |                           CPU | Qualcomm Atheros 9331, @400MHz           |
-|                        Memory | DDRI 64Mb                                |
-|                       Storage | 16Mb Nor Flash                           |
+|                        Memory | DDRI 64MB                                |
+|                       Storage | 16MB Nor Flash                           |
 |                    Interfaces | 1 WAN, 1LAN 1 USB2.0, 1 Micro USB (power), 1 Reset Button |
 |                     Frequency | 2.4GHz                                   |
 |             Transmission Rate | 150Mbps                                  |
