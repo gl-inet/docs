@@ -27,7 +27,7 @@ It has several sub-models:
 | ----------------------------: | :--------------------------------------- |
 |                           CPU | QCA9531 650MHz                           |
 |                        Memory | DDRII 128MB                              |
-|                       Storage | 16MB Nor, 128 Mb Nand (Optional)         |
+|                       Storage | 16MB Nor, 128 MB Nand (Optional)         |
 |                    Interfaces | 1 WAN, 1 LAN, 1 USB2.0, 1 Micro USB (power), 1 Reset Button, PCIe, UART |
 |                     Frequency | 2.4GHz                                   |
 |             Transmission Rate | 300Mbps                                  |

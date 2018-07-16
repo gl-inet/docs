@@ -17,7 +17,7 @@ Due to is high cost we discontinued this model. Firmware is not updated anymore.
 |                           CPU | Atheros 9344 560MHz                      |
 |                        Memory | DDRII 128MB                              |
 |                       Storage | 16MB Nor Flash                           |
-|                    Interfaces | 1 WAN, 4 LANs 2 USB2.0, 1 Micro SD Slot (128Gb Max.), 1 Reset Button |
+|                    Interfaces | 1 WAN, 4 LANs 2 USB2.0, 1 Micro SD Slot (128GB Max.), 1 Reset Button |
 |                     Frequency | 2.4GHz                                   |
 |             Transmission Rate | 300Mbps                                  |
 |                 Max. Tx Power | 21dBm                                    |
