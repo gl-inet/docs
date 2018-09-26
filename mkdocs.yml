@@ -1,5 +1,5 @@
 site_name: GL.iNet Docs
-repo_url: https://github.com/gl-inet/docs/
+#repo_url: https://github.com/gl-inet/docs/
 site_description: This is the documentation site for GL.iNet OpenWrt Wi-Fi products
 site_favicon: favicon.png
 copyright: <a href='https://www.gl-inet.com/'> GL Technologies</a> 2018
