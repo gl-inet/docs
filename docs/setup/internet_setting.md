@@ -144,7 +144,7 @@ This modem supports tethering mode, please set up by using tethering but not 3/4
 | Quectel UC20-E                         | 3G    | Yes    | GL.iNet         |          |
 | ZTE ME909s-821                         | 4G    | Yes    | GL.iNet         |          |
 | Huawei E1550                           | 3G    | Yes    | GL.iNet         |          |
-| Huanwei E3276                          | 4G    | Yes    | GL.iNet         |          |
+| Huawei E3276                          | 4G    | Yes    | GL.iNet         |          |
 | TP-Link MA260                          | 3G    | Yes    | GL.iNet         |          |
 | ZTE M823                               | 4G    | Yes    | Arnas Risqianto |          |
 | ZTE MF190                              | 3G    | Yes    | Arnas Risqianto |          |
