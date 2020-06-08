@@ -56,6 +56,7 @@ pages:
     - LED Indicator: 'troubleshooting/led.md'
     - Repair or Reset: 'troubleshooting/reset.md'
     - Debrick via Uboot: 'troubleshooting/debrick.md'
+    - Stop Supporting: 'troubleshooting/stop_supporting.md'
 - Domino Kit:
     - Getting Started: 'domino/index.md'
     - Domore Core: 'domino/hardware/core.md'
