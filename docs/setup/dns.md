@@ -15,7 +15,3 @@ If you are connecting to a network which requires authentication in Captive Port
 *Note: You may need to reconnect the network in order to activate your DNS settings.*
 
 ![LAN IP](https://static.gl-inet.com/docs/en/2.x/setup/src/dns/dns.jpg)
-
-
-
-#Discussions

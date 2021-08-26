@@ -26,7 +26,7 @@ You can also download firmware from the web admin page. Click `Download` to down
 
 ![firmware](https://static.gl-inet.com/docs/en/2.x/setup/src/firmware/firmware1.jpg)
 
-###Download from our official website manaully
+### Download from our official website manaully
 
 You can download the firmware file from our [website](http://download.gl-inet.com/firmware/). Moreover, we will upload testing firmware files to the [testing](http://download.gl-inet.com/firmware/testing/) folder before official release.
 
@@ -39,12 +39,8 @@ You can use the `Upload Firmware` button to upload the firmware file. Simply dra
 
 
 
-##Compile Firmware
+## Compile Firmware
 
 You can compile your own firmware or use third-party firmware and upload it to the router. 
 
 *Note: If you uploaded a wrong firmware and bricked the router, please use Uboot to re-install the correct firmware.*
-
-
-
-#Discussions

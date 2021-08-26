@@ -9,7 +9,3 @@ Clieck the `Clone Mac` button and you will have the following interface.
 Your current mac address will be displayed in `WAN MAC Address`. You can click `Clone` to copy your device's mac address or click `Restore` to restore the factory set mac.
 
 Don't forget clicking `Apply` and wait some seconds for it to take effect.
-
-
-
-# Discussions

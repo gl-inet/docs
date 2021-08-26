@@ -66,7 +66,3 @@ You have to set your own password for this web admin page and click `Finish`. Th
 You will be directed to the index of the web admin page.
 
 ![Welcome](https://static.gl-inet.com/docs/en/2.x/setup/src/first-time_setup/main_ui.jpg)
-
-
-
-# Discussions

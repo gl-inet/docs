@@ -115,6 +115,3 @@ First you need to read this documentation. We will try our best to make the docu
 Second, we will have our own forum open later, when you will be ask questions there.
 
 Third, go the existing community of [OpenWrt](http://www.openwrt.org) if you want to explore the embedded Linux system, and go to [Arduino](http://arduino.cc) if you want to explore the features related to Arduino.
-
-
-# Discussions

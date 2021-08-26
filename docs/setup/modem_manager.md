@@ -161,7 +161,3 @@ AT+COPS? ERROR
 
 
 There are other AT commands that you can input manually, please refer to Quectel_EC25&EC21_AT_Commands_Manual_V1.0.
-
-
-
-#Discussions

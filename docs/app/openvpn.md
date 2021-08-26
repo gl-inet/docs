@@ -563,8 +563,3 @@ __Note: For service issues, please contact the service provider directly.__
 20. CactusVpn, https://www.cactusvpn.com/
 21. SaferVPN, [https://safervpn.com](https://safervpn.com/?a_aid=563)
 22. Ivacy, [https://billing.ivacy.com](https://billing.ivacy.com/page/22852)
-
-
-
-
-# Discussions

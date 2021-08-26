@@ -37,7 +37,3 @@ Click the `Setting` button, you can change the wireless settings:
 **Password**: If you keep the password value empty, it will use the old password. It must be at least 8 characters. We suggest you to change the Wi-Fi password when you get the router.
 
 ![wifi switch](https://static.gl-inet.com/docs/en/2.x/setup/src/wifi/setting.jpg)
-
-
-
-#Discussions

@@ -1,20 +1,36 @@
-site_name: GL.iNet Docs
-#repo_url: https://github.com/gl-inet/docs/
-site_description: This is the documentation site for GL.iNet OpenWrt Wi-Fi products
-site_favicon: favicon.png
-copyright: <a href='https://www.gl-inet.com/'> GL Technologies</a> 2019
-google_analytics: ['UA-108265653-5', 'docs.glinet.com']
-site_dir: '/home/ubuntu/docs-build/en/2/'
-docs_dir: 'docs'
-theme_dir: 'gl_theme2'
-#theme: 'mkdocs'
-include_next_prev: false
+# Repository
+repo_name: gl-inet/docs2.x
+repo_url: https://github.com/gl-inet/docs
+edit_uri: ""
 
-pages:
-- Home:
+site_name: GL.iNet Docs
+site_description: Documentation for GL.iNet Productions
+site_dir: '/home/ubuntu/docs-build/en/2/'
+copyright: Copyright &copy; 2021 GL Technologies & Microuter Technologies
+
+theme: 
+  name: material
+  custom_dir: overrides
+  features:
+    - navigation.tabs
+    - navigation.top
+  favicon: images/favicon.png
+
+extra:
+  analytics:
+    provider: google
+    property: UA-108265653-5
+  version:
+    provider: mike
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home:
     - Home: 'index.md'
     - Services: 'service.md'
-- Hardware:
+  - Hardware:
     - GL-AR150 Series: 'hardware/ar150/index.md'
     - GL-AR300M Series: 'hardware/ar300m/index.md'
     - GL-MT300A: 'hardware/mt300a/index.md'
@@ -26,7 +42,7 @@ pages:
     - GL-B1300: 'hardware/b1300/index.md'
     - GL.iNet6416: 'hardware/6416/index.md'
     - GL-AR300: 'hardware/ar300/index.md'
-- Setup:
+  - Setup:
     - First-time Setup: 'setup/first-time_setup.md'
     - Internet Settings: 'setup/internet_setting.md'
     - MAC Clone: 'setup/mac_clone.md'
@@ -37,27 +53,27 @@ pages:
     - Firmware Upgrading: 'setup/firmware.md'
     - Momdem Manager: 'setup/modem_manager.md'
     - RTC Setting: 'setup/rtc_setting.md'
-- Development:
+  - Development:
     - UART Serial: 'dev/serial.md'
     - Advanced Uboot: 'dev/uboot.md'   
     - Domino Kit: 'domino/index.md'  
-- Application:
+  - Application:
     - SSH to the router: 'app/ssh.md'
     - OpenVPN Client: 'app/openvpn.md'
     - Tor: 'app/tor.md'
     - EasyTether: 'app/tether.md'
     - Shadowsocks: 'app/ss.md'
     - WireGuard: 'app/wireguard.md'
-- Video:
+  - Video:
     - Product Intro: 'video/product_intro.md'
     - Tutorial: 'video/tutor.md'  
     - Customer Review: 'video/review.md'
-- Troubleshooting:
+  - Troubleshooting:
     - LED Indicator: 'troubleshooting/led.md'
     - Repair or Reset: 'troubleshooting/reset.md'
     - Debrick via Uboot: 'troubleshooting/debrick.md'
     - Stop Supporting: 'troubleshooting/stop_supporting.md'
-- Domino Kit:
+  - Domino Kit:
     - Getting Started: 'domino/index.md'
     - Domore Core: 'domino/hardware/core.md'
     - Domino Pi: 'domino/pi/index.md'
@@ -81,5 +97,3 @@ pages:
     - Qi - Using Arduino or Linino Firmware: 'domino/qi/arduino-yun.md'
     - Qi - Using NodeJS and LininoIO: 'domino/qi/nodejs.md'
     - Qi - Using Serial: 'domino/qi/serial.md'
-
-

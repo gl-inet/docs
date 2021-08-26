@@ -238,5 +238,3 @@ httpd
 
 ### AR300M Specific
 AR300M uses dual flash so in uboot there are a lot of things to deal with dual flash. Please refer to [AR300M](/hardware/ar300m/) for more details.
-
-## Discussions

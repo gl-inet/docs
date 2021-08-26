@@ -178,7 +178,3 @@ For smartphone tethering, connect it to the USB port of GL.iNet router and click
 Some carriers prohibit the sharing of the data and you may not able to use tethering. However, you can try [easytethering](/app/tether.md). 
 
 *Note: Easytether is not a free service and we have no affiliate with them.*
-
-
-
-#Discussions
