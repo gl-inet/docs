@@ -14,8 +14,6 @@ A ***new*** message will be shown when there is a new firmware available. Click 
 
 ![firmware](https://static.gl-inet.com/docs/en/2.x/setup/src/firmware/firmware.jpg)
 
-
-
 ## Download Firmware
 
 ### Download firmware automatically
@@ -28,16 +26,13 @@ You can also download firmware from the web admin page. Click `Download` to down
 
 ### Download from our official website manaully
 
-You can download the firmware file from our [website](http://download.gl-inet.com/firmware/). Moreover, we will upload testing firmware files to the [testing](http://download.gl-inet.com/firmware/testing/) folder before official release.
-
+You can download the firmware file from our [website](https://dl.gl-inet.com).
 
 ## Upload Firmware
 
 You can use the `Upload Firmware` button to upload the firmware file. Simply drag and drop your firmware file to the area indicated in the web admin page.
 
 ![firmware](https://static.gl-inet.com/docs/en/2.x/setup/src/firmware/firmware2.jpg)
-
-
 
 ## Compile Firmware
 

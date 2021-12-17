@@ -1,8 +1,6 @@
-#  GL-AR300M Series
+# GL-AR300M Series
 
 Best Mini Router Ever
-
-
 
 AR300M is the our best mini router. It is small and powerful.
 
@@ -18,8 +16,6 @@ It has several sub-models:
 | AR300MD*     | 16MB      | 128MB      | Internal | Yes     | Yes               |
 
 *AR300MD 5Gwifi is suggested only to work at monitoring mode because of power consumption. 
-
-
 
 ##  Hardware Specification
 
@@ -43,8 +39,6 @@ It has several sub-models:
 |             Dimension, Weight | 58mmX58mmX25mm, 39g                      |
 |                  PCIe headers | Yes                                      |
 
-
-
 ## PCB Pinout
 
 ![gl-ar300m pcb pinout](https://static.gl-inet.com/docs/en/2.x/hardware/ar300m/src/GL-AR300M-PINOUT-1.jpg)
@@ -56,7 +50,6 @@ By using 128MB Nand flash, space is not a problem and the writing speed is impro
 
 By adding PCIe interface, a 5G 802.11a/ac addon module can be connected and you can enjoy the wifi speed on a mini router.
 
-
 ## Performance
 
 By adding a fast Nand flash, you can feel how the performance is improved compared to a Nor flash router.
@@ -66,7 +59,6 @@ The performance comparision between AR300M (nand) with AR150 is below:
 ![performance comparison gl-ar300m vs gl-ar150](https://static.gl-inet.com/docs/en/2.x/hardware/ar300m/src/ar300m-performance.jpg)
 
 It only takes 6 seconds to upload and process 250 ovpn files. When installing packages to the router, it takes no more than 20% for the time spent than using nor flash, including the time to download resource from the Internet. So everything just happends in seconds.
-
 
 ## Building Firmware
 
@@ -159,7 +151,7 @@ If you brick your router and it cannot boot, you can try to save it using uboot.
 
 ### Using uboot web UI
 
-Follow [this guide](/troubleshooting/reset.md) for a general instruction to get access of uboot web UI.
+Follow [this guide](/troubleshooting/reset/) for a general instruction to get access of uboot web UI.
 
 Here is a video guide for entering AR300M uboot failsafe. 
 <iframe width="480" height="270" src="https://www.youtube.com/embed/-x0RllKkzIc" frameborder="0" allowfullscreen></iframe>

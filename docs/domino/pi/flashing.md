@@ -1,7 +1,7 @@
 flashing and debricking
 ==============================
 
-Domino Pi is designed for you to play with OpenWrt and embedded systems. Before you continue to change your firmware, read the [Working with serial](serial.html) section first.
+Domino Pi is designed for you to play with OpenWrt and embedded systems. Before you continue to change your firmware, read the [Working with serial](../serial/) section first.
 
 
 Firmware compatibilities
@@ -54,7 +54,7 @@ Now choose your firmware and click "Update firmware". Wait about 3 minutes to al
 Flashing using uboot console
 ------------------------------
 
-If your firmware still cannot boot up, try this advanced option. To use uboot console, please refer to [Working with serial](serial.html) first. 
+If your firmware still cannot boot up, try this advanced option. To use uboot console, please refer to [Working with serial](../serial/) first. 
 
 **ATTENTION**: It is better to use a separate USB-UART adapter to use the uboot console. uboot boots very quickly, so you might not have time to enter the uboot console if you are using an integrated USB-UART bridge. Some systems, especially Windows, are slow to load the correct driver for you.
 

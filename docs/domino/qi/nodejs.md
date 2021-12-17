@@ -79,7 +79,7 @@ Before you use LininoIO, you need to check uboot environments first. In OpenWrt,
 
 ![CRC error](https://static.gl-inet.com/docs/en/2.x/domino/qi/src/crc.jpg)
 
-Now enter uboot and save envirment vairables. You need to use do this using serial as intructed [here](serial.html).
+Now enter uboot and save envirment vairables. You need to use do this using serial as intructed [here](../serial/).
 
 ![Save env](https://static.gl-inet.com/docs/en/2.x/domino/qi/src/saveenv.jpg)
 

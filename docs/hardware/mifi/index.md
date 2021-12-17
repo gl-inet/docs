@@ -1,6 +1,4 @@
-# 	GL-MiFi
-
-
+# GL-MiFi
 
 GL-MiFi is an innovative 4G LTE router which separate based band and CPU. By doing this  the carrier cannot issue command and control your devices. When using vpn it secures all your devices while travelling. 
 
@@ -9,8 +7,6 @@ It has 5000mAh Li-Pol battery inside which works up to 10 hours in 4G mode.
 It has 20+ GPIO exposed and it is a great IoT box. 
 
 Please choose the correct 4G module for your region.
-
-
 
 ##  Hardware Specification
 
@@ -33,13 +29,9 @@ Please choose the correct 4G module for your region.
 |             Power Consumption | <3W                                      |
 |             Dimension, Weight | 105mmX72mmX27mm, 170g                    |
 
-
-
 ## PCB Pinout
 
 ![gl-mifi pcb pinout](https://static.gl-inet.com/docs/en/2.x/hardware/mifi/src/GL-MIFI-V2.5-PINOUT-1.jpg)
-
-
 
 ##  PCIe Modem Module List
 
@@ -54,7 +46,7 @@ From firmware v2.27, GL-MiFi has a modem manager in its UI. The functions includ
 * Read and Send SMS
 * Issue AT command and get the result
 
-Please refer to [modem manager page](/setup/modem_manager.md) 
+Please refer to [modem manager page](/setup/modem_manager/)
 
 
 

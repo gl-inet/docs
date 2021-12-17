@@ -12,7 +12,7 @@ By LeverageLifestyle | Product Mentioned: [GL-AR750](https://www.gl-inet.com/ar7
 
 
 ##How to Use and Setup a Mini VPN Router
-By Best10VPN | Product Mentioned: [GL-AR300M](http://www.gl-inet.com/ar300m/)
+By Best10VPN | Product Mentioned: [GL-AR300M](https://www.gl-inet.com/ar300m/)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iMzFVCRj7dw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
@@ -22,7 +22,7 @@ By Artemus714 | Product Mentioned: [GL-AR150](https://www.gl-inet.com/ar150/)
 
 
 ## How-To Setup the GLi GL-MT300N Mini VPN Router and Review
-By Jabber Tech | Product Mentioned: [GL-MT300N](http://www.gl-inet.com/mt300n/)
+By Jabber Tech | Product Mentioned: [GL-MT300N](https://www.gl-inet.com/mt300n/)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pfHZ-iP0rXA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 

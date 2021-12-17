@@ -1,4 +1,5 @@
 Using Arduino Yun Firmware
+
 ===========================
 
 You can use the original Arduino Yun firmware or use Linino Yun firmware. Be sure to flash the Serial hex to your AVR first.
@@ -10,11 +11,12 @@ The original Arduino Yun firmware is here: https://www.arduino.cc/en/Main/Softwa
 The original Linino Yun firmware is here: http://download.linino.org/linino_distro/lininoIO/latest/ 
 
 Using Arduino Yun Firmware
+
 --------------------------
 
 ###Method 1: Doing this in uboot console
 
-Connect to the serial according to [these steps](serial.html).
+Connect to the serial according to [these steps](../serial/).
 
 Press the "Reset" button to reset the OpenWrt system. Then quickly type `gl` to enter the uboot console.
 
