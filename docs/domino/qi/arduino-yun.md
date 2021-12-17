@@ -93,7 +93,7 @@ For LininoIO branch, download from http://download.linino.org/linino_distro/lini
 	
 ###Method 1: Doing this in uboot console
 
-Connect to the serial according to [these steps](serial.html).
+Connect to the serial according to [these steps](../serial/).
 
 Press the "Reset" button to reset the OpenWrt system. Then quickly type `gl` to enter the uboot console.
 
