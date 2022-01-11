@@ -34,8 +34,6 @@ The current settings will be automatically filled. Change it according to your n
 
 ![static](https://static.gl-inet.com/docs/en/2.x/setup/src/internet/static.jpg)
 
-
-
 ## PPPoE
 
 PPPoE is required by many Internet service providers (ISP). Generally, your ISP will give you a modem and provide you a username and password that you are required to enter so as to access the Internet.
@@ -43,8 +41,6 @@ PPPoE is required by many Internet service providers (ISP). Generally, your ISP 
 Enter your username and password then click `Submit`.
 
 ![PPPoE](https://static.gl-inet.com/docs/en/2.x/setup/src/internet/pppoe_page.jpg)
-
-
 
 # Repeater
 
@@ -64,15 +60,11 @@ So all your devices connected to GL.iNet router will be protected by its firewal
 
 ![WISP1](https://static.gl-inet.com/docs/en/2.x/setup/src/internet/wisp1.png)
 
-
-
 To set up repeater in WISP mode, first Click `Repeater` tab in `Internet Settings`, the router will search for the available Wi-Fi networks automatically. Then, choose a SSID and enter its password. Choose `WISP` in mode and click `Submit`.
 
 ![WISP1](https://static.gl-inet.com/docs/en/2.x/setup/src/internet/wisp2.jpg)
 
-
-
-##WDS 
+## WDS 
 
 In WDS (Wireless Distribution System), you can connect to an existing wireless network without creating a new subnet. Therefore, the router only act as a device to extend the wireless signal coverage of your main router. There is no firewall between the mini router and the main router.
 
@@ -82,15 +74,11 @@ However, to use this mode, **your main router has to support WDS. Since WDS has 
 
 ![WDS](https://static.gl-inet.com/docs/en/2.x/setup/src/internet/wds.png)
 
-
-
 To set up repeater in WDS mode, first, **ensure your main router supports WDS.** Click `Repeater` tab in `Internet Settings`, the router will search for the available Wi-Fi networks automatically. Then, choose a SSID and enter its password. Choose `WDS` in mode and you can enter the LAN IP which will be used to access this router.
 
 This LAN IP should be within the subnet of your main router, but it cannot conflict with any other devices's IP within the same subnet.
 
 If you are not sure, just keep the LAN IP blank so that it will get a IP address from your main router automatically. However, you need to find out this IP in the admin UI of your main router if you want to access the web UI of GL.iNet router again.
-
-
 
 **Relayd**
 
@@ -98,13 +86,11 @@ In case your main router doesn't support WDS, you can create a WISP connection f
 
 Here is the [detailed instructions](https://static.gl-inet.com/docs/en/2.x/setup/src/relayd.pdf).
 
-
-
 # 3G/4G Modem
 
 You can connect to the Internet using 3G or 4G modem. Plug in your modem and click the `3G/4G` tab in `Internet Settings` to enter the 3G/4G setting page. 
 
-To set up 3G/4G modem in **GL-MiFi**, you should follow the instructions in [Modem Manager](modem_manager.md).
+To set up 3G/4G modem in **GL-MiFi**, you should follow the instructions in [Modem Manager](../modem_manager/).
 
 ![modem](https://static.gl-inet.com/docs/en/2.x/setup/src/internet/mifi_connection.jpg)
 
