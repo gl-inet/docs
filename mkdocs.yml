@@ -19,7 +19,7 @@ theme:
 extra:
   analytics:
     provider: google
-    property: UA-108265653-5
+    property: G-CB08JFHVHT
   version:
     provider: mike
 
