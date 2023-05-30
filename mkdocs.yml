@@ -5,8 +5,8 @@ edit_uri: ""
 
 site_name: GL.iNet Docs
 site_description: Documentation for GL.iNet Productions
-site_dir: '/home/ubuntu/docs-build/en/2/'
-copyright: Copyright &copy; 2021 GL Technologies & Microuter Technologies
+site_dir: '/home/ubuntu/docs-build/router/en/2/'
+copyright: Copyright &copy; 2023 GL Technologies & Microuter Technologies
 
 theme: 
   name: material
