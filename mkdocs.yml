@@ -3,9 +3,9 @@ repo_name: gl-inet/docs2.x
 repo_url: https://github.com/gl-inet/docs
 edit_uri: ""
 
-site_name: GL.iNet Docs
+site_name: GL.iNet Router Docs 2
 site_description: Documentation for GL.iNet Productions
-site_dir: '/home/ubuntu/docs-build/router/en/2/'
+site_dir: /root/docs-build/router/en/2/
 copyright: Copyright &copy; 2023 GL Technologies & Microuter Technologies
 
 theme: 
