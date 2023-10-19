@@ -26,9 +26,9 @@ The Domino Single USB Tile connects as an East-side Tile.
 It is compatible with the Domino Pi and Domino Qi Mini boards.
 
 
-![Single USB board ](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/single_usb1.jpg)
-![Single USB board ](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/single_usb2.jpg)
-![Single USB board ](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/single_usb3.jpg)
+![Single USB board ](https://static.gl-inet.com/docs/router/en/2/domino/pi/src/single_usb1.jpg)
+![Single USB board ](https://static.gl-inet.com/docs/router/en/2/domino/pi/src/single_usb2.jpg)
+![Single USB board ](https://static.gl-inet.com/docs/router/en/2/domino/pi/src/single_usb3.jpg)
 
 
 Specifications

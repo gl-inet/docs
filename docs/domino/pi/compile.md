@@ -74,7 +74,7 @@ Now you need to configure OpenWrt by choosing the correct target.
 make menuconfig
 ```
 
-![Menuconfig](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/menuconfig.png)
+![Menuconfig](https://static.gl-inet.com/docs/router/en/2/domino/pi/src/menuconfig.png)
 
 Select "Domino Wifi for things" in the "Target Profile". Exit and save the config file. Now you are ready to build the firmware.
 ```
@@ -112,18 +112,18 @@ mkdir files
 cp -a ../domino-firmware/domino-pi//root-files/* files
 ```
 
-![Domino packages](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/packages.png)
+![Domino packages](https://static.gl-inet.com/docs/router/en/2/domino/pi/src/packages.png)
 
 Move the files in "root-files" to the "files" folder of openwrt. This is a quick and easy way to compile your default config to openwrt.
 
-![Domino root files](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/rootfiles.png)
+![Domino root files](https://static.gl-inet.com/docs/router/en/2/domino/pi/src/rootfiles.png)
 
 ###Make menuconfig
 
 Type `make menuconfig`, select 'domino' on the main menu (midway down), then select the Domino specific packages. These must be selected as compiled-in (*), not modules (M).
 
 
-![Domino packages](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/menuconfig-domino.png)
+![Domino packages](https://static.gl-inet.com/docs/router/en/2/domino/pi/src/menuconfig-domino.png)
 
 
 Select the packages by pressing the space key until it shows a '*' before the package name.

@@ -40,7 +40,7 @@ Search for the SSID of the router in your device and input the default password:
 Open a browser (we recommend Chrome, firefox) and visit [http://192.168.8.1](http://192.168.8.1) You will see the welcome page. 
 
 ### 1) Language Setting
-You need to select your language. Currently, the web admin page of all our routers only provide **Chinese** and **English**.![Welcome](https://static.gl-inet.com/docs/en/2.x/setup/src/first-time_setup/welcome.jpg)
+You need to select your language. Currently, the web admin page of all our routers only provide **Chinese** and **English**.![Welcome](https://static.gl-inet.com/docs/router/en/2/setup/src/first-time_setup/welcome.jpg)
 
   *Note: If your browser always redirect to Luci (http://192.168.8.1/cgi-bin/luci), you can visit: [http://192.168.8.1/index.html](http://192.168.8.1/index.html)*
 
@@ -49,14 +49,14 @@ You need to select your language. Currently, the web admin page of all our route
 ### 2) Timezone Setting
 You need to select your region. You can click on the map or select from the drop-down menu.
 
-![Welcome](https://static.gl-inet.com/docs/en/2.x/setup/src/first-time_setup/region.jpg)
+![Welcome](https://static.gl-inet.com/docs/router/en/2/setup/src/first-time_setup/region.jpg)
 
   
 
 ### 3) Admin Password Setting
 You have to set your own password for this web admin page and click `Finish`. There is no default password. The password should not less than 8 characters.
 
-![Welcome](https://static.gl-inet.com/docs/en/2.x/setup/src/first-time_setup/password.jpg)
+![Welcome](https://static.gl-inet.com/docs/router/en/2/setup/src/first-time_setup/password.jpg)
 
 *Note: This password is for this web admin page and the embedded Linux system. It doesn't change your Wi-Fi password.*
 
@@ -65,4 +65,4 @@ You have to set your own password for this web admin page and click `Finish`. Th
 ### 3) Access Admin Page
 You will be directed to the index of the web admin page.
 
-![Welcome](https://static.gl-inet.com/docs/en/2.x/setup/src/first-time_setup/main_ui.jpg)
+![Welcome](https://static.gl-inet.com/docs/router/en/2/setup/src/first-time_setup/main_ui.jpg)

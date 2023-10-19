@@ -46,7 +46,7 @@ Domino is a high-performance 802.11 bgn WiFi hardware platform, with a modular d
 
 Domino is designed using `Atheros AR9331 WiSoC` which is widely used in mini routers and IoT projects.
 
-![Domono family](https://static.gl-inet.com/docs/en/2.x/domino/src/tree.jpg)
+![Domono family](https://static.gl-inet.com/docs/router/en/2/domino/src/tree.jpg)
 
 The Domino Family has now 11 boards and more extensions will be developed. The tree structure of the boards is as illustrated.
 
@@ -58,7 +58,7 @@ Domino Core
 
 Domino Core is the heart of Domino.IO. It is designed for makers to easily build their own products based on it. It is compact, `only 1.6 square inches with 60 castellated pins (2mm pitch), 3xEthernet, USB2.0, serial port, SPI, I2S, SLIC, SPDIF, JTAG, 9xLEDs and 29 GPIOs`. Check the the beautiful pinout diagram below for details.
 
-![Domino Core](https://static.gl-inet.com/docs/en/2.x/domino/src/core.png)
+![Domino Core](https://static.gl-inet.com/docs/router/en/2/domino/src/core.png)
 
 Go to the [Domino Core hardware](#!domino/hardware/core.md) for more details of the hardware.
 
@@ -74,7 +74,7 @@ Domino Pi is designed both as a Domino Core development board and as an extensio
 
 Domino Pi is with newest `OpenWrt` BB1407 and CC1505 firmware.
 
-![Domino Pi](https://static.gl-inet.com/docs/en/2.x/domino/src/domino-pi.png)
+![Domino Pi](https://static.gl-inet.com/docs/router/en/2/domino/src/domino-pi.png)
 
 For more details on how to use the Pi, please check the below sections:
 -  [Domino Pi Baseboard Section](pi/pi.md) 
@@ -96,7 +96,7 @@ Domino Qi
 Domino Qi Mini is a small board that is a fully compatible derivative of the original `Arduino Yùn`, crammed into a tiny form factor. It is a low-cost, compact OpenWRT-based 802.11 bgn WiFi board based on Qualcomm/Atheros AR9331 WiSoC and on the Atmel `ATMega32U4 MCU`. Communication between the two chips is achieved using Arduino Yùn-compatible Bridge hardware and software library.
 Plug the Domino Qi Mini board onto the Domino Qi baseboard to turn it into a board `fully compatible with the ubiquitous Arduino Shield form factor` and benefit from hundreds of already existing shields for rapid prototyping.
 
-![Domino Pi](https://static.gl-inet.com/docs/en/2.x/domino/src/domino-qi.png)
+![Domino Pi](https://static.gl-inet.com/docs/router/en/2/domino/src/domino-qi.png)
 
 For more details on how to use the Qi, please check the below sections:
 -  [Domino Qi section](#!domino/qi/index.md) 

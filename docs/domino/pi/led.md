@@ -16,8 +16,8 @@ When connected to the Domino Pi board, the Domino LED Tile adds the following LE
 
 It is only compatible with the Domino Pi board, as the Domino Qi Mini does not feature LED GPIOs, but instead integrates the standard Arduino Yun<sup>TM</sup> LEDs.
 
-![LED board](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/led1.jpg)
-![LED board](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/led2.jpg)
+![LED board](https://static.gl-inet.com/docs/router/en/2/domino/pi/src/led1.jpg)
+![LED board](https://static.gl-inet.com/docs/router/en/2/domino/pi/src/led2.jpg)
 
 Specifications
 -----------------
@@ -29,6 +29,6 @@ Dimensions	27.94 x 7.62 x 12 mm
 Pinout
 --------------
 
-![LED board](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/led_pinout.jpg)
+![LED board](https://static.gl-inet.com/docs/router/en/2/domino/pi/src/led_pinout.jpg)
 
-[Pinout in PDF](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/Domino-LED-Pinout.pdf)
+[Pinout in PDF](https://static.gl-inet.com/docs/router/en/2/domino/pi/src/Domino-LED-Pinout.pdf)

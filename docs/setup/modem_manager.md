@@ -8,7 +8,7 @@ Modem manager is the UI to control the modem on MiFi from firmware v2.27. The mo
 
 Please insert Micro SIM card before you turn on the device.
 
-![SIM](https://static.gl-inet.com/docs/en/2.x/setup/src/modem_manager/insert.jpg)
+![SIM](https://static.gl-inet.com/docs/router/en/2/setup/src/modem_manager/insert.jpg)
 
 
 
@@ -22,7 +22,7 @@ You can find the following information in `Modem Connection`:
 
 **Carrier**: The service provider of your SIM card.
 
-![Modem Connection](https://static.gl-inet.com/docs/en/2.x/setup/src/modem_manager/modem_connection.jpg)
+![Modem Connection](https://static.gl-inet.com/docs/router/en/2/setup/src/modem_manager/modem_connection.jpg)
 
 
 
@@ -30,7 +30,7 @@ You can find the following information in `Modem Connection`:
 
 We have developed a modem tools for you to configure your 3G/4G modem in GL-MiFi easily. Please click `Modem Tools`.
 
-![Modem Tools](https://static.gl-inet.com/docs/en/2.x/setup/src/modem_manager/modem_connection.jpg)
+![Modem Tools](https://static.gl-inet.com/docs/router/en/2/setup/src/modem_manager/modem_connection.jpg)
 
 
 
@@ -46,7 +46,7 @@ Input the correct information in order to activate the 3/4G modem.
 - **Dial Number**: Generally, it is a default value and you don't need to set it by yourself. However, if you have this info, please input it.
 - **Pin, Username and Password:** Generally, these informations are not necessary for a unlocked SIM card. However, if you have a locked SIM card, please find these informations from your carrier.
 
-![Modem Tools](https://static.gl-inet.com/docs/en/2.x/setup/src/modem_manager/modem_tool1.jpg)
+![Modem Tools](https://static.gl-inet.com/docs/router/en/2/setup/src/modem_manager/modem_tool1.jpg)
 
 
 
@@ -56,7 +56,7 @@ You will be able to use the SIM card in GL-MiFi to send message to others.
 
 **Note: only support English at this moment. ** 
 
-![Modem Tools](https://static.gl-inet.com/docs/en/2.x/setup/src/modem_manager/send_message.jpg)
+![Modem Tools](https://static.gl-inet.com/docs/router/en/2/setup/src/modem_manager/send_message.jpg)
 
 
 
@@ -64,7 +64,7 @@ You will be able to use the SIM card in GL-MiFi to send message to others.
 
 You will be able to use the SIM card in GL-MiFi. Therefore, if someone send a message to the phone number of your SIM card, you can read it in `Read SMS`.
 
-![Modem Tools](https://static.gl-inet.com/docs/en/2.x/setup/src/modem_manager/read_message.jpg)
+![Modem Tools](https://static.gl-inet.com/docs/router/en/2/setup/src/modem_manager/read_message.jpg)
 
 
 
@@ -72,7 +72,7 @@ You will be able to use the SIM card in GL-MiFi. Therefore, if someone send a me
 
 You can configure the 3G/4G modem by sending AT command to the router via `AT Tools`. You have to use the port **/dev/ttyUSB2** for all 3G/4G modules. We have pre-configured several AT commands that you can use directly in `Shortcut`.
 
-![Modem Tools](https://static.gl-inet.com/docs/en/2.x/setup/src/modem_manager/at.jpg)
+![Modem Tools](https://static.gl-inet.com/docs/router/en/2/setup/src/modem_manager/at.jpg)
 
 
 

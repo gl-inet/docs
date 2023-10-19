@@ -35,7 +35,7 @@ Due to is high cost we discontinued this model. Firmware is not updated anymore.
 
 ## PCB Pinout
 
-![gl-ar300 pcb pinout](https://static.gl-inet.com/docs/en/2.x/hardware/ar300/src/ar300_marks-01_1000x1000.jpg) 
+![gl-ar300 pcb pinout](https://static.gl-inet.com/docs/router/en/2/hardware/ar300/src/ar300_marks-01_1000x1000.jpg) 
 
    
 

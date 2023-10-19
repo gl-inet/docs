@@ -25,9 +25,9 @@ The Domino 3x USB / MicroSD Combo Tile connects as an East-side Tile.
 
 It is compatible with the Domino Pi and Domino Qi Mini boards.
 
-![USB combo ](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/usb_combo1.jpg)
-![USB combo ](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/usb_combo2.jpg)
-![USB combo ](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/usb_combo3.jpg)
+![USB combo ](https://static.gl-inet.com/docs/router/en/2/domino/pi/src/usb_combo1.jpg)
+![USB combo ](https://static.gl-inet.com/docs/router/en/2/domino/pi/src/usb_combo2.jpg)
+![USB combo ](https://static.gl-inet.com/docs/router/en/2/domino/pi/src/usb_combo3.jpg)
 
 
 Specifications

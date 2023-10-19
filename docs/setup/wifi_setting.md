@@ -4,7 +4,7 @@
 
 You can turn on or off the radio from the wen admin page by the switch beside the wireless icon.
 
-![wifi switch](https://static.gl-inet.com/docs/en/2.x/setup/src/wifi/wifi_switch.jpg)
+![wifi switch](https://static.gl-inet.com/docs/router/en/2/setup/src/wifi/wifi_switch.jpg)
 
 
 
@@ -18,7 +18,7 @@ A single router may have one or more radio and one device can have multiple Virt
 
 In this example, the channel is **6** and tx power is **20**. We have one AP interface with SSID **GL-MT300M-164**.
 
-![wifi switch](https://static.gl-inet.com/docs/en/2.x/setup/src/wifi/status.jpg)
+![wifi switch](https://static.gl-inet.com/docs/router/en/2/setup/src/wifi/status.jpg)
 
 
 
@@ -36,4 +36,4 @@ Click the `Setting` button, you can change the wireless settings:
 
 **Password**: If you keep the password value empty, it will use the old password. It must be at least 8 characters. We suggest you to change the Wi-Fi password when you get the router.
 
-![wifi switch](https://static.gl-inet.com/docs/en/2.x/setup/src/wifi/setting.jpg)
+![wifi switch](https://static.gl-inet.com/docs/router/en/2/setup/src/wifi/setting.jpg)

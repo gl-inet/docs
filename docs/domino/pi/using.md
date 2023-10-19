@@ -6,7 +6,7 @@ LED and buttons
 
 Domino Pi board has two LEDs. The <font color='red'>red LED</font> is for Power, which should be always on when powered. The <font color='blue'>blue LED</font> is for wireless (or WLAN), which will indicate the status of the wireless connection by default, but it can be configured to indicate any other status of the system. 
 
-![LED & Buttons](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/pi-led-button.jpg)
+![LED & Buttons](https://static.gl-inet.com/docs/router/en/2/domino/pi/src/pi-led-button.jpg)
 
 Beside the WLAN LED, there is a button which connects to `GPIO 11`. This button can be reconfigured by scripts, but the default action is: 
 
@@ -15,7 +15,7 @@ Beside the WLAN LED, there is a button which connects to `GPIO 11`. This button 
 
 The ethernet boards have more LEDs. For example, as shown in the photo below, the WAN led and WLAN LED is on.
 
-![LED & Buttons](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/pi-powerup.jpg)
+![LED & Buttons](https://static.gl-inet.com/docs/router/en/2/domino/pi/src/pi-powerup.jpg)
 
 First time use
 ---------------
@@ -26,13 +26,13 @@ The default WiFi password is: `goodlife`.
 
 The first time you use Domino, it is suggested that you connect to it directly using WiFi or connect it directly to your router. Then using a browser (firefox or chrome) to visit `http://domino.local` to get access to it.
 
-![Bonjour](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/bonjour.jpg)
+![Bonjour](https://static.gl-inet.com/docs/router/en/2/domino/pi/src/bonjour.jpg)
 
 If you are using Windows and cannot find `domino.local`, you may need to install `Bounjor` from Apple. Download it from https://support.apple.com/kb/DL999?locale=en_US 
 
 The first time you use your Domino, it will ask you to setup the name and a password. Then reboot your device.
 
-![Setup](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/first_time.jpg)
+![Setup](https://static.gl-inet.com/docs/router/en/2/domino/pi/src/first_time.jpg)
 
 **ATTENTION**: The password is only for the embedded Linux system, not your WiFi. If you want to change your wifi password, you can logon to the system and change it later.
 
@@ -47,7 +47,7 @@ After login, you will have a clean homepage, displaying the status of network an
 
 You will also have pie chart displaying your flash usuage.
 
-![Homepage](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/homepage.jpg)
+![Homepage](https://static.gl-inet.com/docs/router/en/2/domino/pi/src/homepage.jpg)
 
 Network settings
 ----------------
@@ -56,7 +56,7 @@ Network settings
 
 The default protocol for WAN is `DHCP`, but you can change it according to your needs. You have 5 choices, including `DHCP, Static, PPPoE, 3G, Tethering and WiFi`. The `3g` protocol lets you connect Domino to the internet via a USB 3g/4g modem. The `Tethering` protocol lets you connect Domino to the internet via an Android phone. The `WiFi` choice lets you connect your Domino to an AP (e.g. router) wirelessly.
 
-![Network](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/network.jpg)
+![Network](https://static.gl-inet.com/docs/router/en/2/domino/pi/src/network.jpg)
 
 ###Change Wifi and LAN settings
 
@@ -72,7 +72,7 @@ Working with USB devices
 
 You can connect USB devices to Domino with the USB tiles. 
 
-![USB](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/usb-disk.jpg)
+![USB](https://static.gl-inet.com/docs/router/en/2/domino/pi/src/usb-disk.jpg)
 
 If you connect a USB disk, you will find a pie chart showing its storage usage. By clicking the pi chart, you will be able to list the contents of the storage device.
 
@@ -83,7 +83,7 @@ Code editor
 
 By clicking the "Editor" link on the homepage or clicking directly on the flash or USB devices on the homepage, you will be able to list the contents of flash or USB storage and edit the contents of their files.
 
-![Code editor](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/editor.jpg)
+![Code editor](https://static.gl-inet.com/docs/router/en/2/domino/pi/src/editor.jpg)
 
 You can view or edit individual files directly. 
 
@@ -96,7 +96,7 @@ LUCI
 
 By clicking the Luci link on homepage, you will go to the LUCI webui, which is the default webui of openwrt. The webui is for advanced users and we will not explain in detail here.
 
-![LUCI](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/luci.jpg)
+![LUCI](https://static.gl-inet.com/docs/router/en/2/domino/pi/src/luci.jpg)
 
 At the bottom right corner of the LUCI webui, you will find a link "Domino Web Panel". Click it to go back to the Domino UI.
 

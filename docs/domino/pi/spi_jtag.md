@@ -15,8 +15,8 @@ When connected to the Domino Pi board, the Domino SPI/JTAG Tile adds several int
 
 It is compatible with the Domino Pi board only.
 
-![SPI JTAG board](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/spi_jtag1.jpg)
-![SPI JTAG board](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/spi_jtag2.jpg)
+![SPI JTAG board](https://static.gl-inet.com/docs/router/en/2/domino/pi/src/spi_jtag1.jpg)
+![SPI JTAG board](https://static.gl-inet.com/docs/router/en/2/domino/pi/src/spi_jtag2.jpg)
 
 Specifications
 -------------------

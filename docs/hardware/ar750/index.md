@@ -35,7 +35,7 @@ The 2.4G antenna is on the PCB and don't have a uFL connector. While the 5G ante
 
 ## PCB Pinout
 
-![gl-ar750 pcb pinout](https://static.gl-inet.com/docs/en/2.x/hardware/ar750/src/AR750-V1.0-PINOUT-1.jpg) 
+![gl-ar750 pcb pinout](https://static.gl-inet.com/docs/router/en/2/hardware/ar750/src/AR750-V1.0-PINOUT-1.jpg) 
 
 
 

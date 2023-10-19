@@ -16,7 +16,7 @@ Input the following command to edit the configuration file "**shadowsocks-server
 
 Then the following file content will display. 
 
-![](https://static.gl-inet.com/docs/en/2.x/app/src/ss/1522238777867.png)
+![](https://static.gl-inet.com/docs/router/en/2/app/src/ss/1522238777867.png)
 
 switch to edit mode by press `i` on your keyboard, then you can change parameter in the configuration file: 
 
@@ -27,7 +27,7 @@ switch to edit mode by press `i` on your keyboard, then you can change parameter
 
 when you finish all above modification, you can click `Esc` to exit edit mode, then click `:`, type`wq` to `write` the modification into the configuration files and `quit`. 
 
-![](https://static.gl-inet.com/docs/en/2.x/app/src/ss/ssh-wq.png) 
+![](https://static.gl-inet.com/docs/router/en/2/app/src/ss/ssh-wq.png) 
 
  
 
@@ -35,11 +35,11 @@ when you finish all above modification, you can click `Esc` to exit edit mode, t
 
 Type `vi /etc/init.d/ss-server` in the command line
 
-![](https://static.gl-inet.com/docs/en/2.x/app/src/ss/ss-server-config.png) 
+![](https://static.gl-inet.com/docs/router/en/2/app/src/ss/ss-server-config.png) 
 
 When you open ss-server configure file, you can see the following configuration
 
-![](https://static.gl-inet.com/docs/en/2.x/app/src/ss/VI-ss-verver.png) 
+![](https://static.gl-inet.com/docs/router/en/2/app/src/ss/VI-ss-verver.png) 
 
 Press `i` to switch to edit mode, remove the "**#**" before `/usr/bin/ss-server - C /etc/shadowsocks-server.json -u &`, then click "**Esc**", to exit edit mode, and type `:`, type`wq` to ***write*** and ***quit*** the configuration file.
 
@@ -47,7 +47,7 @@ Press `i` to switch to edit mode, remove the "**#**" before `/usr/bin/ss-server 
 
 Input `/etc/init.d/ss-server start` , then the ss-serer services start on your router. 
 
-![](https://static.gl-inet.com/docs/en/2.x/app/src/ss/1523029479389.png) 
+![](https://static.gl-inet.com/docs/router/en/2/app/src/ss/1523029479389.png) 
 
 After you start ss-server, the above information will display. 
 
@@ -57,28 +57,28 @@ You can also restart the router so that the server is started automatically.
 
 The port is not opened automatically so you can do this manually.
 
-![](https://static.gl-inet.com/docs/en/2.x/app/src/ss/1522915321961.png)  
+![](https://static.gl-inet.com/docs/router/en/2/app/src/ss/1522915321961.png)  
 
-![](https://static.gl-inet.com/docs/en/2.x/app/src/ss/Advance-Root-Login.png)
+![](https://static.gl-inet.com/docs/router/en/2/app/src/ss/Advance-Root-Login.png)
 
 A window will pop-up warning you to separately login as a root user into advanced setting. 
 
 Click "***OK***"
 
-![](https://static.gl-inet.com/docs/en/2.x/app/src/ss/1522224457420.png)  
+![](https://static.gl-inet.com/docs/router/en/2/app/src/ss/1522224457420.png)  
 Login with your password as a root user.
 
-![](https://static.gl-inet.com/docs/en/2.x/app/src/ss/1522224501240.png)  
+![](https://static.gl-inet.com/docs/router/en/2/app/src/ss/1522224501240.png)  
 
 Advance Setting Page Review
 
-![](https://static.gl-inet.com/docs/en/2.x/app/src/ss/1522916277644.png)  
+![](https://static.gl-inet.com/docs/router/en/2/app/src/ss/1522916277644.png)  
 
 
 
 Click "**Traffic Rules**" Tab to active external port forwarding in your network. 
 
-![](https://static.gl-inet.com/docs/en/2.x/app/src/ss/1522916496892.png)  
+![](https://static.gl-inet.com/docs/router/en/2/app/src/ss/1522916496892.png)  
 
 Scroll down to the "**Open ports on router**" and input information as following: 
 
@@ -151,13 +151,13 @@ You can test or check whether it's workable by open a web browser on your smartp
 
 ## 1. Setup SS-Server in Luci
 
-![](https://static.gl-inet.com/docs/en/2.x/app/src/ss/1522905053283.png)  
+![](https://static.gl-inet.com/docs/router/en/2/app/src/ss/1522905053283.png)  
 
 Select "**Shadowsocks**" in the services pull-down menu. 
 
 Click "**Servers Manage**" tab to setup SS-Client for GL-AR750 Router
 
-![](https://static.gl-inet.com/docs/en/2.x/app/src/ss/1523031035400.png)  
+![](https://static.gl-inet.com/docs/router/en/2/app/src/ss/1523031035400.png)  
 
 Click "**Add**", fill the following information: 
 
@@ -175,27 +175,27 @@ Click "**Save&Supply**",
 
 
 
-![](https://static.gl-inet.com/docs/en/2.x/app/src/ss/1523031103769.png)
+![](https://static.gl-inet.com/docs/router/en/2/app/src/ss/1523031103769.png)
 
 
 
 The following window will displayed, then click "***Save & Apply***"
 
-![](https://static.gl-inet.com/docs/en/2.x/app/src/ss/1523609971201.png) 
+![](https://static.gl-inet.com/docs/router/en/2/app/src/ss/1523609971201.png) 
 
 ## 2. Active SS-Server Client in GL-Router
 
 Then switch to General Settings tab, select "**You defined Alias**" as **Main Server** in the Transparent Proxy 
 
-![](https://static.gl-inet.com/docs/en/2.x/app/src/ss/1523610924344.png)
+![](https://static.gl-inet.com/docs/router/en/2/app/src/ss/1523610924344.png)
 
-![](https://static.gl-inet.com/docs/en/2.x/app/src/ss/1523611202926.png) 
+![](https://static.gl-inet.com/docs/router/en/2/app/src/ss/1523611202926.png) 
 
 After select the right Main Server, then click "**Save & Apply**" at bottom of the General Setting Page
 
-![](https://static.gl-inet.com/docs/en/2.x/app/src/ss/1523611322023.png)
+![](https://static.gl-inet.com/docs/router/en/2/app/src/ss/1523611322023.png)
 
-![](https://static.gl-inet.com/docs/en/2.x/app/src/ss/1523611350634.png) 
+![](https://static.gl-inet.com/docs/router/en/2/app/src/ss/1523611350634.png) 
 
 After All Settings completed, the Transparent Status shall be "**RUNNING**" , enjoy your SS client. 
 

@@ -14,11 +14,11 @@ Flashing firmware using the WebUI
 ------------------------------
 
 We encourage you to flash your firmware using the WebUI provided. When viewing in "System" page, you will see the UI for you to upgrade/flash your firmware. 
-![System](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/system.jpg)
+![System](https://static.gl-inet.com/docs/router/en/2/domino/pi/src/system.jpg)
 
 If you want to upload your firmware in your disk, just click "Choose File" and upload the firmware. After upload you will be prompted with an option to "keep settings" or not. Then click "UPGRADE" to upgrade your firmware. You can also upgrade your firmware by clicking the "Download" button next to "Newest version". 
 
-![System](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/upgrade.jpg)
+![System](https://static.gl-inet.com/docs/router/en/2/domino/pi/src/upgrade.jpg)
 
 **ATTENTION**: In firmware version 1.0 and 1.1, there is a bug for Chrome. Please use Firefox or IE for upgrading your firmware.
 
@@ -32,7 +32,7 @@ In case you accediently brick your Domino firmware, you can debrick using uboot.
 
 Connect an Ethernet cable from your computer to Domino directly. Set your computer's IP address to `192.168.1.2` manually. If you are using a Dual-Ethernet tile board, **only connect one Ethernet cable to your Domino kit**. 
 
-![uboot](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/pi-powerup.jpg)
+![uboot](https://static.gl-inet.com/docs/router/en/2/domino/pi/src/pi-powerup.jpg)
 
 ###Step 2: Activate the uboot WebUI
 
@@ -42,7 +42,7 @@ Press and hold the reset button while powering on your Domino. You will see the 
 
 Now use a web broser and go to http://192.168.1.1. You will then have the uboot WebUI as below.
 
-![uboot](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/uboot.jpg)
+![uboot](https://static.gl-inet.com/docs/router/en/2/domino/pi/src/uboot.jpg)
 
 Now choose your firmware and click "Update firmware". Wait about 3 minutes to allow your board to reset and boot.
 
@@ -62,13 +62,13 @@ If your firmware still cannot boot up, try this advanced option. To use uboot co
 
 In your serial term, press `anykey` when uboot boot and stop it in its console. Some version of uboot will ask your to type `gl` to enter the console.
 
-![uboot](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/uboot_console.jpg)
+![uboot](https://static.gl-inet.com/docs/router/en/2/domino/pi/src/uboot_console.jpg)
 
 ###Uboot environment variables
 
 Type `printenv` to display the environment variables. Don't modify these variables if you are not sure what you are doing.
 
-![environment variables](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/environments.jpg)
+![environment variables](https://static.gl-inet.com/docs/router/en/2/domino/pi/src/environments.jpg)
 
 ###Set up a tftp server
 

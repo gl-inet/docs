@@ -41,7 +41,7 @@ It has several sub-models:
 
 ## PCB Pinout
 
-![gl-ar300m pcb pinout](https://static.gl-inet.com/docs/en/2.x/hardware/ar300m/src/GL-AR300M-PINOUT-1.jpg)
+![gl-ar300m pcb pinout](https://static.gl-inet.com/docs/router/en/2/hardware/ar300m/src/GL-AR300M-PINOUT-1.jpg)
 
 
 **Note: I2C is not working in some early version of the router.**
@@ -56,7 +56,7 @@ By adding a fast Nand flash, you can feel how the performance is improved compar
 
 The performance comparision between AR300M (nand) with AR150 is below:
 
-![performance comparison gl-ar300m vs gl-ar150](https://static.gl-inet.com/docs/en/2.x/hardware/ar300m/src/ar300m-performance.jpg)
+![performance comparison gl-ar300m vs gl-ar150](https://static.gl-inet.com/docs/router/en/2/hardware/ar300m/src/ar300m-performance.jpg)
 
 It only takes 6 seconds to upload and process 250 ovpn files. When installing packages to the router, it takes no more than 20% for the time spent than using nor flash, including the time to download resource from the Internet. So everything just happends in seconds.
 
@@ -86,13 +86,13 @@ $ make
 
 If you want to build the firmware for nor flash, choose `GL-AR300M` as the target.
 
-![AR300M generic](https://static.gl-inet.com/docs/en/2.x/hardware/ar300m/src/meunconfig-ar300m.jpg)
+![AR300M generic](https://static.gl-inet.com/docs/router/en/2/hardware/ar300m/src/meunconfig-ar300m.jpg)
 
 ### Build the nand firmware for nand flash
 
 If you want to build the firmware for nand flash, first choose subtarget `Generic devices with NAND flash` then choose `GL-AR300M Nand` as the target.
 
-![AR300M nand](https://static.gl-inet.com/docs/en/2.x/hardware/ar300m/src/meunconfig-ar300m-nand.jpg)
+![AR300M nand](https://static.gl-inet.com/docs/router/en/2/hardware/ar300m/src/meunconfig-ar300m-nand.jpg)
 
 The make process will takes around 1 hour for the first time because it needs to download a lot of data from t he Internet. After compiling finished, you will find the following firmware files in `bin/ar71xx/`
 
@@ -166,7 +166,7 @@ There is a bug in AR300M uboot and in some computers the connection will always 
 
 The following figure is the web ui of the `new` uboot.
 
-![AR300M uboot webui](https://static.gl-inet.com/docs/en/2.x/hardware/ar300m/src/uboot-ar300m.png)
+![AR300M uboot webui](https://static.gl-inet.com/docs/router/en/2/hardware/ar300m/src/uboot-ar300m.png)
 
 ### Using uboot console
 

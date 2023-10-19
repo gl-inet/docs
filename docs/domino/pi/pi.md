@@ -6,7 +6,7 @@ Overview
 
 Domino Pi is a low-cost, compact OpenWRT-based 802.11 bgn WiFi development board based on Qualcomm/Atheros AR9331 WiSoC.
 
-![Domino Pi](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/pi.png)
+![Domino Pi](https://static.gl-inet.com/docs/router/en/2/domino/pi/src/pi.png)
 
 The Domino Pi board extends the Domino Core module by adding the following features:
 
@@ -49,8 +49,8 @@ Specifications
 
 Pinout Diagram
 ------------------
-![Domino Pi](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/pi_pinout.jpg)
+![Domino Pi](https://static.gl-inet.com/docs/router/en/2/domino/pi/src/pi_pinout.jpg)
 
 Get in PDF format.
 
-[Domino Pi Pinout](https://static.gl-inet.com/docs/en/2.x/domino/pi/src/Domino-Pi-Pinout.pdf)
+[Domino Pi Pinout](https://static.gl-inet.com/docs/router/en/2/domino/pi/src/Domino-Pi-Pinout.pdf)
