@@ -190,13 +190,6 @@ Download by right click the links below and save as.
 US Server: http://freevpnsoftware.net/downloads/US.freevpnsoftware.net.ovpn
 UK Server: http://freevpnsoftware.net/downloads/UK.freevpnsoftware.net.ovpn
 
----
-
-### HideMyAss
-
-https://www.hidemyass.com/
-
-Download directly from: http://hidemyass.com/vpn-config/vpn-configs.zip
 
 ---
 ##I - P
@@ -452,13 +445,12 @@ __Note: For service issues, please contact the service provider directly.__
 10. PureVPN, https://www.purevpn.com/
 11. TotalVPN, https://www.totalvpn.com
 12. Strong VPN, http://strongvpn.com/
-13. HideMyAss, https://www.hidemyass.com
-14. Proxy.sh, [https://proxy.sh](https://proxy.sh/panel/aff.php?aff=1458)
-15. TCPVPN, https://www.tcpvpn.com
-16. Vpn.AC, [https://vpn.ac](https://vpn.ac/aff.php?aff=1424)
-17. Proxpn, [https://secure.proxpn.com](https://secure.proxpn.com/?a_aid=5ac450e27df6f)
-18. ExpressVPN, https://www.expressvpn.com/
-19. Airvpn, [https://airvpn.org](https://airvpn.org/?referred_by=402389)
-20. CactusVpn, https://www.cactusvpn.com/
-21. SaferVPN, [https://safervpn.com](https://safervpn.com/?a_aid=563)
-22. Ivacy, [https://billing.ivacy.com](https://billing.ivacy.com/page/22852)
+13. Proxy.sh, [https://proxy.sh](https://proxy.sh/panel/aff.php?aff=1458)
+14. TCPVPN, https://www.tcpvpn.com
+15. Vpn.AC, [https://vpn.ac](https://vpn.ac/aff.php?aff=1424)
+16. Proxpn, [https://secure.proxpn.com](https://secure.proxpn.com/?a_aid=5ac450e27df6f)
+17. ExpressVPN, https://www.expressvpn.com/
+18. Airvpn, [https://airvpn.org](https://airvpn.org/?referred_by=402389)
+19. CactusVpn, https://www.cactusvpn.com/
+20. SaferVPN, [https://safervpn.com](https://safervpn.com/?a_aid=563)
+21. Ivacy, [https://billing.ivacy.com](https://billing.ivacy.com/page/22852)
