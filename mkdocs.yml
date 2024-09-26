@@ -17,15 +17,18 @@ theme:
   favicon: images/favicon.png
 
 extra:
-  analytics:
-    provider: google
-    property: G-CB08JFHVHT
+  # analytics:
+  #   provider: google
+  #   property: G-34T6Q5NL0V
   version:
     provider: mike
 
 extra_css:
   - stylesheets/extra.css
-
+  - https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.css
+extra_javascript:
+  - https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.umd.js
+  - https://www.gl-inet.com/js/cookieconsent.js
 nav:
   - Home:
     - Home: 'index.md'
