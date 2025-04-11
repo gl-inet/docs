@@ -28,6 +28,7 @@ extra_css:
   - https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.css
 extra_javascript:
   - https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.umd.js
+  - javascripts/analytics.js
   - https://www.gl-inet.com/js/cookieconsent.js
 nav:
   - Home:
