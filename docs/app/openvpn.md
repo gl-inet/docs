@@ -326,16 +326,6 @@ https://www.safervpn.com/support/articles/214036025-What-are-SaferVPN-s-OpenVPN-
 
    ![ovpn manager](https://static.gl-inet.com/docs/router/en/2/app/src/openvpn/TCPVPN3.jpg)
 
----
-
-### TorGuard
-
-https://torguard.net/
-
-1. If you are using TorGuard, you need to login the control panel and generate the ovpn file from the "Tools" menu. Please select "All", using udp or tcp and select Cipher. Then press `Generate Config` and the zip file will be downloaded automatically.![Generate ovpn](https://static.gl-inet.com/docs/router/en/2/app/src/torguard.jpg)
-
-2. The username and password for openvpn connection is different from your control panel login. You can change the service username and password in Security manual. You can generate a random login username and password.![Set password](https://static.gl-inet.com/docs/router/en/2/app/src/torguard1.jpg)
-
 
 ---
 
