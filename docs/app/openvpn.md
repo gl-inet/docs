@@ -423,24 +423,23 @@ Here is a list of compatible services (v2.20).
 
 __Note: For service issues, please contact the service provider directly.__
 
-1. TorGuard,[https://torguard.net/](https://torguard.net/aff.php?aff=3040)
-2. Astrill, https://www.astrill.com
-3. FinchVPN, https://www.finchvpn.com/
-4. Free Vpn Software, http://freevpnsoftware.net/
-5. VPNBook, http://www.vpnbook.com/
-6. VPNGate, http://www.vpngate.net/
-7. VPN Area, https://vpnarea.com
-8. NordVPN, [https://go.nordvpn.net](https://go.nordvpn.net/aff_c?offer_id=15&aff_id=12016&url_id=902)
-9. PIA, [https://www.privateinternetaccess.com](https://www.privateinternetaccess.com/pages/buy-vpn/glinet)
-10. PureVPN, https://www.purevpn.com/
-11. TotalVPN, https://www.totalvpn.com
-12. Strong VPN, http://strongvpn.com/
-13. Proxy.sh, [https://proxy.sh](https://proxy.sh/panel/aff.php?aff=1458)
-14. TCPVPN, https://www.tcpvpn.com
-15. Vpn.AC, [https://vpn.ac](https://vpn.ac/aff.php?aff=1424)
-16. Proxpn, [https://secure.proxpn.com](https://secure.proxpn.com/?a_aid=5ac450e27df6f)
-17. ExpressVPN, https://www.expressvpn.com/
-18. Airvpn, [https://airvpn.org](https://airvpn.org/?referred_by=402389)
-19. CactusVpn, https://www.cactusvpn.com/
-20. SaferVPN, [https://safervpn.com](https://safervpn.com/?a_aid=563)
-21. Ivacy, [https://billing.ivacy.com](https://billing.ivacy.com/page/22852)
+1. Astrill, https://www.astrill.com
+2. FinchVPN, https://www.finchvpn.com/
+3. Free Vpn Software, http://freevpnsoftware.net/
+4. VPNBook, http://www.vpnbook.com/
+5. VPNGate, http://www.vpngate.net/
+6. VPN Area, https://vpnarea.com
+7. NordVPN, [https://go.nordvpn.net](https://go.nordvpn.net/aff_c?offer_id=15&aff_id=12016&url_id=902)
+8. PIA, [https://www.privateinternetaccess.com](https://www.privateinternetaccess.com/pages/buy-vpn/glinet)
+9. PureVPN, https://www.purevpn.com/
+10. TotalVPN, https://www.totalvpn.com
+11. Strong VPN, http://strongvpn.com/
+12. Proxy.sh, [https://proxy.sh](https://proxy.sh/panel/aff.php?aff=1458)
+13. TCPVPN, https://www.tcpvpn.com
+14. Vpn.AC, [https://vpn.ac](https://vpn.ac/aff.php?aff=1424)
+15. Proxpn, [https://secure.proxpn.com](https://secure.proxpn.com/?a_aid=5ac450e27df6f)
+16. ExpressVPN, https://www.expressvpn.com/
+17. Airvpn, [https://airvpn.org](https://airvpn.org/?referred_by=402389)
+18. CactusVpn, https://www.cactusvpn.com/
+19. SaferVPN, [https://safervpn.com](https://safervpn.com/?a_aid=563)
+20. Ivacy, [https://billing.ivacy.com](https://billing.ivacy.com/page/22852)
